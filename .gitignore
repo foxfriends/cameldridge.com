@@ -1,0 +1,4 @@
+/cookiealyst/
+/inventory/
+.terraform
+*.tfstate*
