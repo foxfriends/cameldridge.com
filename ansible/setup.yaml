@@ -1,0 +1,55 @@
+- name: Setup
+  hosts: cameldridge
+  tasks:
+    - name: Install dependencies
+      become: true
+      ansible.builtin.apt:
+        update_cache: true
+        name:
+          - git
+          - gnupg
+          - software-properties-common
+          - ca-certificates
+          - curl
+    - name: Install Hashicorp GPG key
+      become: true
+      ansible.builtin.shell: |
+        wget -O - https://apt.releases.hashicorp.com/gpg | gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+        echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | \
+          tee /etc/apt/sources.list.d/hashicorp.list > /dev/null
+      args:
+        creates: /etc/apt/sources.list.d/hashicorp.list
+    - name: Install Docker GPG key
+      become: true
+      ansible.builtin.shell: |
+        install -m 0755 -d /etc/apt/keyrings
+        curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+        chmod a+r /etc/apt/keyrings/docker.asc
+        echo \
+          "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+          $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
+          tee /etc/apt/sources.list.d/docker.list > /dev/null
+      args:
+        creates: /etc/apt/sources.list.d/docker.list
+    - name: Install Terraform and Docker
+      become: true
+      ansible.builtin.apt:
+        update_cache: true
+        name:
+          - terraform
+          - docker-ce
+          - docker-ce-cli
+          - containerd.io
+          - docker-buildx-plugin
+          - docker-compose-plugin
+        autoremove: true
+    - name: Clone repo
+      ansible.builtin.git:
+        repo: https://github.com/foxfriends/cameldridge.com.git
+        dest: "cameldridge.com"
+    - name: Terraform init
+      community.general.terraform:
+        project_path: "./cameldridge.com"
+        state: planned
+        plan_file: init.tfplan
+        force_init: true

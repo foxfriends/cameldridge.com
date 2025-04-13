@@ -1,0 +1,11 @@
+- name: Setup
+  hosts: cameldridge
+  tasks:
+    - name: Pull repo
+      ansible.builtin.git:
+        repo: https://github.com/foxfriends/cameldridge.com.git
+        dest: .
+        clone: false
+    - name: Terraform apply
+      community.general.terraform:
+        project_path: "./cameldridge.com"

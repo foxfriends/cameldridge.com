@@ -2,3 +2,4 @@
 /inventory/
 .terraform
 *.tfstate*
+*.tfplan*
