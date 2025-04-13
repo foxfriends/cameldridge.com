@@ -9,3 +9,6 @@
     - name: Terraform apply
       community.general.terraform:
         project_path: "./cameldridge.com"
+        variables:
+          digitalocean_token: "{{ lookup('ansible.builtin.env', 'DIGITALOCEAN_TOKEN') }}"
+          acme_server_url: "https://acme-v02.api.letsencrypt.org/directory"

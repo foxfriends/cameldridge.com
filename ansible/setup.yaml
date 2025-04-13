@@ -58,3 +58,6 @@
         state: planned
         plan_file: init.tfplan
         force_init: true
+        variables:
+          digitalocean_token: "{{ lookup('ansible.builtin.env', 'DIGITALOCEAN_TOKEN') }}"
+          acme_server_url: "https://acme-v02.api.letsencrypt.org/directory"

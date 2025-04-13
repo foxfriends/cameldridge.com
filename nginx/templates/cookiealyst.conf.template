@@ -14,6 +14,7 @@ server {
     listen 443 ssl;
     listen [::]:443 ssl;
 
-    include /ssl/cookiealyst/*.conf;
+    ssl_certificate /ssl/cookiealyst.com/fullchain.pem;
+    ssl_certificate_key /ssl/cookiealyst.com/privkey.pem;
     add_header Strict-Transport-Security "max-age=63072000" always;
 }
