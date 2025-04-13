@@ -43,6 +43,11 @@
           - docker-buildx-plugin
           - docker-compose-plugin
         autoremove: true
+    - name: Enable Docker service
+      ansible.builtin.systemd_service:
+        name: docker
+        state: started
+        enabled: true
     - name: Clone repo
       ansible.builtin.git:
         repo: https://github.com/foxfriends/cameldridge.com.git
