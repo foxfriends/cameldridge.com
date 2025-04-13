@@ -14,6 +14,7 @@ server {
     listen 443 ssl;
     listen [::]:443 ssl;
 
-    include /ssl/cameldridge/*.conf;
+    ssl_certificate /ssl/cameldridge.com/fullchain.pem;
+    ssl_certificate_key /ssl/cameldridge.com/privkey.pem;
     add_header Strict-Transport-Security "max-age=63072000" always;
 }
