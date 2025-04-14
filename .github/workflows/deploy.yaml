@@ -46,3 +46,5 @@ jobs:
         run: |
           ansible-playbook -i inventory.yaml update.yaml
         working-directory: ansible
+        env:
+          ANSIBLE_HOST_KEY_CHECKING: False
