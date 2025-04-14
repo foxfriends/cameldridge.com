@@ -20,7 +20,7 @@ jobs:
         run: |
           uv tool install ansible
           uv tool install ansible-core
-          ansible-galaxy install community.general
+          ansible-galaxy collection install community.general
       - name: Install SSH key
         run: |
           mkdir ~/.ssh
