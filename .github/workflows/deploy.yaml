@@ -44,7 +44,7 @@ jobs:
           EOF
       - name: Run update playbook
         run: |
-          ansible-playbook -i inventory.yaml update.yaml
+          ansible-playbook -i inventory.yaml update.yaml --private-key ~/.ssh/github_actions
         working-directory: ansible
         env:
           ANSIBLE_HOST_KEY_CHECKING: False
