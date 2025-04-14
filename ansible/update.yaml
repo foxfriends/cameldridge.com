@@ -11,4 +11,13 @@
         project_path: "./cameldridge.com"
         variables:
           digitalocean_token: "{{ lookup('ansible.builtin.env', 'DIGITALOCEAN_TOKEN') }}"
+          gacha_discord_application_id: "{{ lookup('ansible.builtin.env', 'GACHA_DISCORD_APPLICATION_ID') }}"
+          gacha_discord_token: "{{ lookup('ansible.builtin.env', 'GACHA_DISCORD_TOKEN') }}"
+          gacha_sheets_client_id: "{{ lookup('ansible.builtin.env', 'GACHA_SHEETS_CLIENT_ID') }}"
+          gacha_sheets_redirect_uri: "{{ lookup('ansible.builtin.env', 'GACHA_SHEETS_REDIRECT_URI') }}"
+          gacha_sheets_client_secret: "{{ lookup('ansible.builtin.env', 'GACHA_SHEETS_CLIENT_SECRET') }}"
+          gacha_sheets_access_token: "{{ lookup('ansible.builtin.env', 'GACHA_SHEETS_ACCESS_TOKEN') }}"
+          gacha_sheets_refresh_token: "{{ lookup('ansible.builtin.env', 'GACHA_SHEETS_REFRESH_TOKEN') }}"
+          gacha_shopify_shop: "{{ lookup('ansible.builtin.env', 'GACHA_SHOPIFY_SHOP') }}"
+          gacha_shopify_token: "{{ lookup('ansible.builtin.env', 'GACHA_SHOPIFY_TOKEN') }}"
           acme_server_url: "https://acme-v02.api.letsencrypt.org/directory"

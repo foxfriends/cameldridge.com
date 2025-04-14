@@ -59,5 +59,14 @@
         plan_file: init.tfplan
         force_init: true
         variables:
-          digitalocean_token: "{{ lookup('ansible.builtin.env', 'DIGITALOCEAN_TOKEN') }}"
+          digitalocean_token: "{{ digitalocean_token }}"
+          gacha_discord_application_id: "{{ gacha_discord_application_id }}"
+          gacha_discord_token: "{{ gacha_discord_token }}"
+          gacha_sheets_sheet_id: "{{ gacha_sheets_sheet_id }}"
+          gacha_sheets_client_id: "{{ gacha_sheets_client_id }}"
+          gacha_sheets_redirect_uri: "{{ gacha_sheets_redirect_uri }}"
+          gacha_sheets_client_secret: "{{ gacha_sheets_client_secret }}"
+          gacha_sheets_refresh_token: "{{ gacha_sheets_refresh_token }}"
+          gacha_shopify_shop: "{{ gacha_shopify_shop }}"
+          gacha_shopify_token: "{{ gacha_shopify_token }}"
           acme_server_url: "https://acme-v02.api.letsencrypt.org/directory"

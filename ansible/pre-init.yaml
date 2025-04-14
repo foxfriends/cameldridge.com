@@ -6,7 +6,7 @@
       ansible.builtin.user:
         name: cam
         groups: sudo
-        password: "{{ lookup('ansible.builtin.env', 'PASSWORD') }}"
+        password: "{{ password }}"
     - name: Install authorized SSH key
       ansible.posix.authorized_key:
         key: "{{ lookup('file', '~/.ssh/id_ed25519.pub') }}"

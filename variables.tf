@@ -7,28 +7,42 @@ variable "acme_server_url" {
   default = "https://acme-staging-v02.api.letsencrypt.org/directory"
 }
 
-variable "discord_token" {
+variable "gacha_discord_application_id" {
+  type = string
+}
+
+variable "gacha_discord_token" {
   type      = string
   sensitive = true
 }
 
-variable "sheets_client_secret" {
+variable "gacha_sheets_sheet_id" {
+  type = string
+}
+
+variable "gacha_sheets_client_id" {
+  type = string
+}
+
+variable "gacha_sheets_client_secret" {
   type      = string
   sensitive = true
 }
 
-variable "sheets_access_token" {
+variable "gacha_sheets_refresh_token" {
   type      = string
   sensitive = true
 }
 
-variable "sheets_refresh_token" {
+variable "gacha_sheets_redirect_uri" {
+  type = string
+}
+
+variable "gacha_shopify_shop" {
+  type = string
+}
+
+variable "gacha_shopify_token" {
   type      = string
   sensitive = true
 }
-
-variable "shopify_token" {
-  type      = string
-  sensitive = true
-}
-

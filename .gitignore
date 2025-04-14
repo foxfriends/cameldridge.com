@@ -6,3 +6,5 @@
 *.tfplan*
 *.tfvars
 .env
+/ansible/host_vars
+/ansible/group_vars
