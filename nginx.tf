@@ -2,6 +2,10 @@ resource "docker_image" "nginx" {
   name = "nginx"
 }
 
+data "docker_network" "bridge" {
+  name = "bridge"
+}
+
 resource "docker_container" "nginx" {
   image   = docker_image.nginx.image_id
   name    = "cameldridge.com"
@@ -18,6 +22,10 @@ resource "docker_container" "nginx" {
   }
 
   network_mode = "bridge"
+
+  networks_advanced {
+    name = data.docker_network.bridge.name
+  }
 
   volumes {
     container_path = "/etc/nginx/templates"
