@@ -11,4 +11,35 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Run Ansible Setup
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Install ansible via UV
+        run: |
+          uv tool install ansible-core
+          ansible-galaxy install community.general
+      - name: Install SSH key
+        run: |
+          mkdir ~/.ssh
+          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/github_actions
+          chmod 600 ~/.ssh/id_rsa
+      - name: Create variables file
+        run: |
+          mkdir -p ./ansible/group_vars/
+          echo > ./ansible/group_vars/cameldridge.yml <<EOF
+          ---
+          digitalocean_token: ${{ secrets.DIGITALOCEAN_TOKEN }}
+          gacha_discord_application_id: ${{ vars.GACHA_DISCORD_APPLICATION_ID }}
+          gacha_discord_token: ${{ secrets.GACHA_DISCORD_TOKEN }}
+          gacha_sheets_sheet_id: ${{ vars.GACHA_SHEETS_SHEET_ID }}
+          gacha_sheets_client_id: ${{ vars.GACHA_SHEETS_CLIENT_ID }}
+          gacha_sheets_client_secret: ${{ secrets.GACHA_SHEETS_CLIENT_SECRET }}
+          gacha_sheets_refresh_token: ${{ secrets.GACHA_SHEETS_REFRESH_TOKEN }}
+          gacha_sheets_redirect_uri: ${{ vars.GACHA_SHEETS_REDIRECT_URI }}
+          gacha_shopify_shop: ${{ vars.GACHA_SHOPIFY_SHOP }}
+          gacha_shopify_token: ${{ secrets.GACHA_SHOPIFY_TOKEN }}
+          EOF
+      - name: Run update playbook
+        run: |
+          ansible-playbook -i inventory.yaml update.yaml
