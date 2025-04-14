@@ -1,6 +1,6 @@
 - name: Pre-init
-  remote_user: root
   hosts: cameldridge
+  remote_user: root
   tasks:
     - name: Create cam user
       ansible.builtin.user:

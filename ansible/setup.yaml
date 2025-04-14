@@ -1,5 +1,6 @@
 - name: Setup
   hosts: cameldridge
+  remote_user: cam
   tasks:
     - name: Install dependencies
       become: true
