@@ -5,7 +5,7 @@
     - name: Create cam user
       ansible.builtin.user:
         name: cam
-        groups: sudo
+        groups: sudo,docker
         password: "{{ password }}"
         generate_ssh_key: true
     - name: Install authorized SSH key
