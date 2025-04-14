@@ -50,13 +50,15 @@
         enabled: true
     - name: Clone repo
       ansible.builtin.git:
-        repo: https://github.com/foxfriends/cameldridge.com.git
+        repo: git@github.com:foxfriends/cameldridge.com.git
+        accept_newhostkey: true
         dest: "cameldridge.com"
     - name: Terraform init
       community.general.terraform:
         project_path: "./cameldridge.com"
         state: planned
         plan_file: init.tfplan
+        provider_upgrade: true
         force_init: true
         variables:
           digitalocean_token: "{{ digitalocean_token }}"

@@ -7,6 +7,7 @@
         name: cam
         groups: sudo
         password: "{{ password }}"
+        generate_ssh_key: true
     - name: Install authorized SSH key
       ansible.posix.authorized_key:
         key: "{{ lookup('file', '~/.ssh/id_ed25519.pub') }}"
