@@ -6,8 +6,9 @@ on:
     types: [deploy]
 
 jobs:
-  release:
+  deploy:
     runs-on: ubuntu-latest
+    environment: cameldridge.com
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -17,6 +18,7 @@ jobs:
           enable-cache: true
       - name: Install ansible via UV
         run: |
+          uv tool install ansible
           uv tool install ansible-core
           ansible-galaxy install community.general
       - name: Install SSH key
