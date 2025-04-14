@@ -45,3 +45,4 @@ jobs:
       - name: Run update playbook
         run: |
           ansible-playbook -i inventory.yaml update.yaml
+        working-directory: ansible
