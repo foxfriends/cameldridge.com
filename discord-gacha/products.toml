@@ -1,0 +1,169 @@
+[[ticket]]
+sku = "GACHA1"
+singles = 1
+
+[[ticket]]
+sku = "GACHA5"
+bulks = 1
+
+[[product]]
+name = "Robin (M)"
+sku = "EPfea1A"
+pool = "Blue"
+rarity = 3.88
+
+[[product]]
+name = "Robin (F)"
+sku = "EPfea2A"
+pool = "Green"
+rarity = 3.88
+
+[[product]]
+name = "Chrom"
+sku = "EPfea3A"
+pool = "Red"
+rarity = 3.88
+
+[[product]]
+name = "Lucina"
+sku = "EPfea4A"
+pool = "Red"
+rarity = 3.88
+
+[[product]]
+name = "Tharja"
+sku = "EPfea5A"
+pool = "Red"
+rarity = 3.88
+
+[[product]]
+name = "Gaius"
+sku = "EPfea6A"
+pool = "White"
+rarity = 3.88
+
+[[product]]
+name = "Olivia"
+sku = "EPfea7A"
+pool = "Red"
+rarity = 3.88
+
+[[product]]
+name = "Lon'qu"
+sku = "EPfea8A"
+pool = "Red"
+rarity = 3.88
+
+[[product]]
+name = "Cordelia"
+sku = "EPfea9A"
+pool = "Blue"
+rarity = 3.88
+
+[[product]]
+name = "Henry"
+sku = "EPfea10A"
+pool = "Red"
+rarity = 3.88
+
+[[product]]
+name = "Lissa"
+sku = "EPfea11A"
+pool = "White"
+rarity = 3.88
+
+[[product]]
+name = "Frederick"
+sku = "EPfea12A"
+pool = "Green"
+rarity = 3.88
+
+[[product]]
+name = "Nowi"
+sku = "EPfea13A"
+pool = "Blue"
+rarity = 3.88
+
+[[product]]
+name = "Dimitri"
+sku = "EPfe3h1A"
+pool = "Blue"
+rarity = 3.88
+
+[[product]]
+name = "Edelgard"
+sku = "EPfe3h2A"
+pool = "Green"
+rarity = 3.88
+
+[[product]]
+name = "Claude"
+sku = "EPfe3h3A"
+pool = "White"
+rarity = 3.88
+
+[[product]]
+name = "Ephraim"
+sku = "EPfess1A"
+pool = "Blue"
+rarity = 3.88
+
+[[product]]
+name = "Eirika"
+sku = "EPfess2A"
+pool = "Red"
+rarity = 3.88
+
+[[product]]
+name = "Lyon"
+sku = "EPfess3A"
+pool = "Red"
+rarity = 3.88
+
+[[product]]
+name = "Sigurd"
+sku = "EPfeghw1A"
+pool = "Red"
+rarity = 3.88
+
+[[product]]
+name = "Deirdre"
+sku = "EPfeghw2A"
+pool = "Green"
+rarity = 3.88
+
+[[product]]
+name = "Arvis"
+sku = "EPfeghw3A"
+pool = "Red"
+rarity = 3.88
+
+[[product]]
+name = "Young Ike"
+sku = "EPpor1A"
+pool = "Red"
+rarity = 3.88
+
+[[product]]
+name = "Soren"
+sku = "EPpor2A"
+pool = "Green"
+rarity = 3.88
+
+[[product]]
+name = "Black Knight"
+sku = "EPpor3A"
+pool = "Red"
+rarity = 3.88
+
+[[product]]
+name = "Ike"
+sku = "EPikeA"
+pool = "Red"
+rarity = 1.5
+
+[[product]]
+name = "Micaiah & Sothe"
+sku = "EPmicasotheA"
+pool = "White"
+rarity = 1.5
