@@ -17,14 +17,18 @@ resource "docker_container" "nginx" {
     external = 443
   }
 
+  network_mode = "bridge"
+
   volumes {
     container_path = "/etc/nginx/templates"
     host_path      = abspath("${path.module}/nginx/templates")
+    read_only      = true
   }
 
   volumes {
     container_path = "/ssl/"
     host_path      = abspath("${path.module}/nginx/ssl")
+    read_only      = true
   }
 
   env = [

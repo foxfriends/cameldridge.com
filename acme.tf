@@ -51,9 +51,19 @@ resource "local_sensitive_file" "cookiealyst_privkey" {
   filename = abspath("${path.module}/nginx/ssl/cookiealyst.com/privkey.pem")
 }
 
+resource "local_file" "cookiealyst_chain" {
+  content  = acme_certificate.cookiealyst.issuer_pem
+  filename = abspath("${path.module}/nginx/ssl/cookiealyst.com/chain.pem")
+}
+
 resource "local_file" "cameldridge_fullchain" {
   content  = "${acme_certificate.cameldridge.certificate_pem}${acme_certificate.cameldridge.issuer_pem}"
   filename = abspath("${path.module}/nginx/ssl/cameldridge.com/fullchain.pem")
+}
+
+resource "local_file" "cameldridge_chain" {
+  content  = acme_certificate.cameldridge.issuer_pem
+  filename = abspath("${path.module}/nginx/ssl/cameldridge.com/chain.pem")
 }
 
 resource "local_sensitive_file" "cameldridge_privkey" {
@@ -69,4 +79,9 @@ resource "local_file" "conartist_fullchain" {
 resource "local_sensitive_file" "conartist_privkey" {
   content  = acme_certificate.conartist.private_key_pem
   filename = abspath("${path.module}/nginx/ssl/conartist.app/privkey.pem")
+}
+
+resource "local_file" "conartist_chain" {
+  content  = acme_certificate.conartist.issuer_pem
+  filename = abspath("${path.module}/nginx/ssl/conartist.app/chain.pem")
 }

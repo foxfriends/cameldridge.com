@@ -16,5 +16,6 @@ server {
 
     ssl_certificate /ssl/cameldridge.com/fullchain.pem;
     ssl_certificate_key /ssl/cameldridge.com/privkey.pem;
+    ssl_trusted_certificate /ssl/cameldridge.com/chain.pem;
     add_header Strict-Transport-Security "max-age=63072000" always;
 }

@@ -13,5 +13,4 @@ ssl_dhparam "/ssl/dhparam";
 # OCSP stapling
 ssl_stapling on;
 ssl_stapling_verify on;
-ssl_trusted_certificate /ssl/ca-certs.pem;
 resolver 8.8.8.8 8.8.4.4;

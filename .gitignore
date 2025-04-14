@@ -1,6 +1,6 @@
-/cookiealyst/
 /inventory/
-/nginx/ssl/
+/nginx/ssl/*
+!/nginx/ssl/dhparam
 .terraform
 *.tfstate*
 *.tfplan*
