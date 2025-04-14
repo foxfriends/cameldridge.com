@@ -25,7 +25,7 @@ jobs:
         run: |
           mkdir ~/.ssh
           echo "${{ secrets.SSH_KEY }}" > ~/.ssh/github_actions
-          chmod 600 ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/github_actions
       - name: Create variables file
         run: |
           mkdir -p ./ansible/group_vars/
