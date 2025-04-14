@@ -3,8 +3,8 @@
   tasks:
     - name: Pull repo
       ansible.builtin.git:
-        repo: https://github.com/foxfriends/cameldridge.com.git
-        dest: .
+        repo: git@github.com:foxfriends/cameldridge.com.git
+        dest: "cameldridge.com"
         clone: false
     - name: Terraform apply
       community.general.terraform:
