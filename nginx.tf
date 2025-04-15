@@ -21,7 +21,7 @@ resource "docker_container" "nginx" {
     external = 443
   }
 
-  network_mode = "bridge"
+  network_mode = "host"
 
   networks_advanced {
     name = data.docker_network.bridge.name
