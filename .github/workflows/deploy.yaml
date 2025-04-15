@@ -25,7 +25,7 @@ jobs:
       - name: Install SSH key
         run: |
           mkdir ~/.ssh
-          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/github_actions
+          echo '${{ secrets.SSH_KEY }}' > ~/.ssh/github_actions
           chmod 600 ~/.ssh/github_actions
       - name: Create variables file
         run: |
@@ -42,6 +42,9 @@ jobs:
           gacha_sheets_redirect_uri: '${{ vars.GACHA_SHEETS_REDIRECT_URI }}'
           gacha_shopify_shop: '${{ vars.GACHA_SHOPIFY_SHOP }}'
           gacha_shopify_token: '${{ secrets.GACHA_SHOPIFY_TOKEN }}'
+          conartist_mailgun_username: '${{ vars.CONARTIST_MAILGUN_USERNAME }}'
+          conartist_mailgun_password: '${{ secrets.CONARTIST_MAILGUN_PASSWORD }}'
+          conartist_mailgun_api_key: '${{ secrets.CONARTIST_MAILGUN_API_KEY }}'
           EOF
       - name: Run update playbook
         run: |
