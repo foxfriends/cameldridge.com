@@ -1,5 +1,5 @@
 module "discord-gacha" {
-  source = "git@github.com:foxfriends/discord-gacha//terraform/modules/docker"
+  source = "github.com/foxfriends/discord-gacha//terraform/modules/docker"
 
   name = "discord-gacha"
 
