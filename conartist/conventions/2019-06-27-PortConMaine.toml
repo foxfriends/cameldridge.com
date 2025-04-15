@@ -1,0 +1,20 @@
+id = 373
+title = "PortConMaine"
+start_date = 2019-06-27
+end_date = 2019-06-30
+
+[website]
+title = "portconmaine.com"
+url = "http://portconmaine.com/"
+
+[address]
+address = """
+DoubleTree by Hilton Hotel Portland, ME
+South Portland, ME, USA
+04106-3214"""
+city = "South Portland, ME"
+country = "United States"
+
+[address.coordinates]
+lat = 43.63509750366211
+lon = -70.3384017944336

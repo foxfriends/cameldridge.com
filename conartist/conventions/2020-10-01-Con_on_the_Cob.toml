@@ -1,0 +1,21 @@
+id = 730
+title = "Con on the Cob"
+start_date = 2020-10-01
+end_date = 2020-10-04
+tags = []
+
+[website]
+title = "cononthecob.com"
+url = "https://cononthecob.com/"
+
+[address]
+address = """
+Days Inn & Suites Richfield
+Richfield, OH
+USA"""
+city = "Richfield, OH"
+country = "USA"
+
+[address.coordinates]
+lat = 41.26362609863281
+lon = -81.63121032714844

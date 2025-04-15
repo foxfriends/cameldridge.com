@@ -1,0 +1,20 @@
+id = 460
+title = "Wizard World Comic Con Chicago"
+start_date = 2019-08-22
+end_date = 2019-08-25
+
+[website]
+title = "wizardworld.com"
+url = "https://wizardworld.com/comiccon/chicago"
+
+[address]
+address = """
+Donald E. Stephens Convention Center
+Rosemont, IL, USA
+60018-5201"""
+city = "Rosemont, IL"
+country = "United States"
+
+[address.coordinates]
+lat = 41.97926330566406
+lon = -87.86070251464844

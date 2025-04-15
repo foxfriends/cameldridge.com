@@ -1,0 +1,20 @@
+id = 449
+title = "Vette City Con"
+start_date = 2019-01-25
+end_date = 2019-01-26
+
+[website]
+title = "vettecitycon.com"
+url = "https://vettecitycon.com/"
+
+[address]
+address = """
+National Corvette Museum
+Bowling Green, KY, USA
+42101"""
+city = "Bowling Green, KY"
+country = "United States"
+
+[address.coordinates]
+lat = 37.00423049926758
+lon = -86.37454986572266

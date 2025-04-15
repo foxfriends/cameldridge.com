@@ -1,0 +1,21 @@
+id = 617
+title = "Kitchener Comic Con"
+start_date = 2020-02-29
+end_date = 2020-03-01
+tags = []
+
+[website]
+title = "kcc519.wixsite.com"
+url = "https://kcc519.wixsite.com/kcc2020"
+
+[address]
+address = """
+Kitchener City Hall
+Kitchener, ON
+Canada"""
+city = "Kitchener, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.45168685913086
+lon = -80.4925308227539

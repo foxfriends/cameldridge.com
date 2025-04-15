@@ -1,0 +1,20 @@
+id = 286
+title = "Jaycon"
+start_date = 2019-02-23
+end_date = 2019-02-24
+
+[website]
+title = "jaycon.weebly.com"
+url = "http://jaycon.weebly.com/"
+
+[address]
+address = """
+Elizabethtown College
+Elizabethtown, PA, USA
+17022"""
+city = "Elizabethtown, PA"
+country = "United States"
+
+[address.coordinates]
+lat = 40.150028228759766
+lon = -76.59078979492188

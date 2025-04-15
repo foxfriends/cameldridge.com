@@ -1,0 +1,21 @@
+id = 845
+title = "PAX South"
+start_date = 2020-01-17
+end_date = 2020-01-19
+tags = []
+
+[website]
+title = "south.paxsite.com"
+url = "https://south.paxsite.com/"
+
+[address]
+address = """
+Henry B. Gonzalez Convention Center
+San Antonio, TX
+USA"""
+city = "San Antonio, TX"
+country = "USA"
+
+[address.coordinates]
+lat = 29.42129135131836
+lon = -98.48555755615234

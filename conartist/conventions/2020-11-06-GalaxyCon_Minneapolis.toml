@@ -1,0 +1,21 @@
+id = 773
+title = "GalaxyCon Minneapolis"
+start_date = 2020-11-06
+end_date = 2020-11-08
+tags = []
+
+[website]
+title = "minneapolis.galaxycon.com"
+url = "https://minneapolis.galaxycon.com/"
+
+[address]
+address = """
+Minneapolis Convention Center
+Minneapolis, MN
+USA"""
+city = "Minneapolis, MN"
+country = "USA"
+
+[address.coordinates]
+lat = 44.96883010864258
+lon = -93.27408599853516

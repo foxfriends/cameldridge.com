@@ -1,0 +1,20 @@
+id = 471
+title = "Zolocon"
+start_date = 2019-02-10
+end_date = 2019-02-10
+
+[website]
+title = "zolocon.com"
+url = "https://zolocon.com/"
+
+[address]
+address = """
+The Fuge
+Warminster, PA, USA
+18974"""
+city = "Warminster, PA"
+country = "United States"
+
+[address.coordinates]
+lat = 40.202144622802734
+lon = -75.0814208984375

@@ -1,0 +1,21 @@
+id = 803
+title = "KotoriCon"
+start_date = 2020-01-10
+end_date = 2020-01-11
+tags = []
+
+[website]
+title = "kotoricon.org"
+url = "http://kotoricon.org/"
+
+[address]
+address = """
+Rowan College at Gloucester County
+Sewell, NJ
+USA"""
+city = "Sewell, NJ"
+country = "USA"
+
+[address.coordinates]
+lat = 39.780818939208984
+lon = -75.1212387084961

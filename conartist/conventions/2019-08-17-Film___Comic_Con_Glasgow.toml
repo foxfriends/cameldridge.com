@@ -1,0 +1,20 @@
+id = 502
+title = "Film & Comic Con Glasgow"
+start_date = 2019-08-17
+end_date = 2019-08-18
+tags = []
+
+[website]
+title = "www.filmandcomicconglasgow.com"
+url = "http://www.filmandcomicconglasgow.com/"
+
+[address]
+address = """
+Braehead Arena
+Glasgow, UK"""
+city = "Glasgow"
+country = "United Kingdom"
+
+[address.coordinates]
+lat = 55.87668991088867
+lon = -4.365136623382568

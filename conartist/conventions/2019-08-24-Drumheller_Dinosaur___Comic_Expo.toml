@@ -1,0 +1,20 @@
+id = 24
+title = "Drumheller Dinosaur & Comic Expo"
+start_date = 2019-08-24
+end_date = 2019-08-25
+
+[website]
+title = "www.drumhellerdinoexpo.com"
+url = "https://www.drumhellerdinoexpo.com/"
+
+[address]
+address = """
+Badlands Community Facility
+Drumheller, AB, Canada
+T0J 0Y2"""
+city = "Drumheller, AB"
+country = "Canada"
+
+[address.coordinates]
+lat = 51.46717071533203
+lon = -112.70608520507813

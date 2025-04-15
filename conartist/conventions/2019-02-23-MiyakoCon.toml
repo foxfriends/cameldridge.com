@@ -1,0 +1,20 @@
+id = 329
+title = "MiyakoCon"
+start_date = 2019-02-23
+end_date = 2019-02-24
+
+[website]
+title = "www.miyakocon.com"
+url = "http://www.miyakocon.com/"
+
+[address]
+address = """
+Quality Suites
+Keizer, OR, USA
+97303"""
+city = "Keizer, OR"
+country = "United States"
+
+[address.coordinates]
+lat = 45.000221252441406
+lon = -123.02518463134766

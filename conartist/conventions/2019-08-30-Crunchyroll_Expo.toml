@@ -1,0 +1,20 @@
+id = 211
+title = "Crunchyroll Expo"
+start_date = 2019-08-30
+end_date = 2019-09-01
+
+[website]
+title = "crunchyrollexpo.com"
+url = "https://crunchyrollexpo.com/"
+
+[address]
+address = """
+San Jose McEnery Convention Center
+San Jose, CA, USA
+95113"""
+city = "San Jose, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 37.32916259765625
+lon = -121.88870239257813

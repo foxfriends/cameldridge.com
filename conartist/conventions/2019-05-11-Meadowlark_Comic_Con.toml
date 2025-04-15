@@ -1,0 +1,20 @@
+id = 314
+title = "Meadowlark Comic Con"
+start_date = 2019-05-11
+end_date = 2019-05-11
+
+[website]
+title = "www.meadowlarkcomiccon.com"
+url = "https://www.meadowlarkcomiccon.com/"
+
+[address]
+address = """
+Ramada Medford Hotel and Conference Center
+Medford, OR, USA
+97504"""
+city = "Medford, OR"
+country = "United States"
+
+[address.coordinates]
+lat = 42.35019302368164
+lon = -122.8718032836914

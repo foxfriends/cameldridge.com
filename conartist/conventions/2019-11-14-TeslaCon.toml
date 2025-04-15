@@ -1,0 +1,20 @@
+id = 429
+title = "TeslaCon"
+start_date = 2019-11-14
+end_date = 2019-11-17
+
+[website]
+title = "www.teslacon.com"
+url = "https://www.teslacon.com/"
+
+[address]
+address = """
+Madison Marriott West
+Middleton, WI, USA
+53562"""
+city = "Middleton, WI"
+country = "United States"
+
+[address.coordinates]
+lat = 43.08751678466797
+lon = -89.5229721069336

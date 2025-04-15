@@ -1,0 +1,21 @@
+id = 607
+title = "Forest City Comicon"
+start_date = 2020-06-27
+end_date = 2020-06-27
+tags = []
+
+[website]
+title = "forestcitycomicon.ca"
+url = "http://forestcitycomicon.ca/"
+
+[address]
+address = """
+Centennial Hall
+London, ON
+Canada"""
+city = "London, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 42.989234924316406
+lon = -81.24662780761719

@@ -1,0 +1,20 @@
+id = 278
+title = "Huntsville Comic & Pop Culture Expo"
+start_date = 2019-03-09
+end_date = 2019-03-10
+
+[website]
+title = "www.hsvexpo.com"
+url = "http://www.hsvexpo.com/"
+
+[address]
+address = """
+Von Braun Center, North Hall
+Huntsville, AL, USA
+35801"""
+city = "Huntsville, AL"
+country = "United States"
+
+[address.coordinates]
+lat = 34.7275276184082
+lon = -86.59150695800781

@@ -1,0 +1,20 @@
+id = 221
+title = "Drala-Con"
+start_date = 2019-07-12
+end_date = 2019-07-14
+
+[website]
+title = "dralacon.thenerdasylum.com"
+url = "https://dralacon.thenerdasylum.com/"
+
+[address]
+address = """
+Grand Wayne Center
+Fort Wayne, IN, USA
+46802"""
+city = "Fort Wayne, IN"
+country = "United States"
+
+[address.coordinates]
+lat = 41.07637405395508
+lon = -85.14051818847656

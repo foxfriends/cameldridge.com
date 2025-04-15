@@ -1,0 +1,21 @@
+id = 85
+title = "Vancouver Comic Arts Festival (VanCAF)"
+start_date = 2019-05-18
+end_date = 2019-05-19
+
+[website]
+title = "vancaf.com"
+url = "http://vancaf.com/"
+
+[address]
+address = """
+Roundhouse Community Arts & Recreation Centre
+181 Roundhouse Mews
+Vancouver, BC
+"""
+city = "Vancouver, BC"
+country = "Canada"
+
+[address.coordinates]
+lat = 49.27333450317383
+lon = -123.12403869628906

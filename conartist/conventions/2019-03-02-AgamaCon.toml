@@ -1,0 +1,20 @@
+id = 91
+title = "AgamaCon"
+start_date = 2019-03-02
+end_date = 2019-03-03
+
+[website]
+title = "agamacon.com"
+url = "http://agamacon.com/"
+
+[address]
+address = """
+H.O. Weeks Activities Center
+Aiken, SC, USA
+29803"""
+city = "Aiken, SC"
+country = "United States"
+
+[address.coordinates]
+lat = 33.52821350097656
+lon = -81.72091674804688

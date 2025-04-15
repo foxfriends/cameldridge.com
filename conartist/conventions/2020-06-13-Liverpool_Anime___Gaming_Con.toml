@@ -1,0 +1,20 @@
+id = 950
+title = "Liverpool Anime & Gaming Con"
+start_date = 2020-06-13
+end_date = 2020-06-14
+tags = []
+
+[website]
+title = "www.liverpoolanimecon.com"
+url = "https://www.liverpoolanimecon.com/"
+
+[address]
+address = """
+Adelphi Hotel
+Liverpool, UK"""
+city = "Liverpool"
+country = "UK"
+
+[address.coordinates]
+lat = 53.40549850463867
+lon = -2.9773852825164795

@@ -1,0 +1,20 @@
+id = 366
+title = "Philcon"
+start_date = 2019-11-08
+end_date = 2019-11-10
+
+[website]
+title = "philcon.org"
+url = "https://philcon.org/"
+
+[address]
+address = """
+Crowne Plaza Philadelphia-Cherry Hill
+Cherry Hill, NJ, USA
+08002"""
+city = "Cherry Hill, NJ"
+country = "United States"
+
+[address.coordinates]
+lat = 39.92629623413086
+lon = -75.05368041992188

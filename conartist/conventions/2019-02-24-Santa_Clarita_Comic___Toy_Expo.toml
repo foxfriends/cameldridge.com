@@ -1,0 +1,20 @@
+id = 399
+title = "Santa Clarita Comic & Toy Expo"
+start_date = 2019-02-24
+end_date = 2019-02-24
+
+[website]
+title = "santaclaritacomictoyexpo.com"
+url = "http://santaclaritacomictoyexpo.com/"
+
+[address]
+address = """
+College of the Canyons, EPEK Building
+Valencia, CA, USA
+91355"""
+city = "Valencia, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 34.40559768676758
+lon = -118.56907653808594

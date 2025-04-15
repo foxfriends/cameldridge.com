@@ -1,0 +1,21 @@
+id = 923
+title = "Wizard World Portland"
+start_date = 2020-01-24
+end_date = 2020-01-26
+tags = []
+
+[website]
+title = "wizardworld.com"
+url = "https://wizardworld.com/comiccon/portland"
+
+[address]
+address = """
+Oregon Convention Center
+Portland, OR
+USA"""
+city = "Portland, OR"
+country = "USA"
+
+[address.coordinates]
+lat = 45.528343200683594
+lon = -122.663330078125

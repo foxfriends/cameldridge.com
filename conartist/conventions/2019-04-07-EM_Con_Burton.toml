@@ -1,0 +1,20 @@
+id = 491
+title = "EM-Con Burton"
+start_date = 2019-04-07
+end_date = 2019-04-07
+tags = []
+
+[website]
+title = "www.emcon-burton.com"
+url = "http://www.emcon-burton.com/"
+
+[address]
+address = """
+Burton Market Hall
+Burton-on-Trent, UK"""
+city = "Burton-on-Trent"
+country = "United Kingdom"
+
+[address.coordinates]
+lat = 52.80109405517578
+lon = -1.6298713684082031

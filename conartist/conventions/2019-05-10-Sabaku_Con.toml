@@ -1,0 +1,20 @@
+id = 393
+title = "Sabaku Con"
+start_date = 2019-05-10
+end_date = 2019-05-12
+
+[website]
+title = "www.sabakucon.com"
+url = "http://www.sabakucon.com/"
+
+[address]
+address = """
+Albuquerque Marriott Pyramid North
+Albuquerque, NM, USA
+87109"""
+city = "Albuquerque, NM"
+country = "United States"
+
+[address.coordinates]
+lat = 35.16791915893555
+lon = -106.58882904052734

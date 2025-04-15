@@ -1,0 +1,20 @@
+id = 44
+title = "RubikCon"
+start_date = 2019-03-02
+end_date = 2019-03-03
+
+[website]
+title = "rubikcon.ca"
+url = "http://rubikcon.ca/"
+
+[address]
+address = """
+Cégep de Drummondville
+Drummondville, QC, Canada
+J2C 6A2"""
+city = "Drummondville, QC"
+country = "Canada"
+
+[address.coordinates]
+lat = 45.87396240234375
+lon = -72.50531768798828

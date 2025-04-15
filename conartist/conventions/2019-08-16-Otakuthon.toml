@@ -1,0 +1,20 @@
+id = 39
+title = "Otakuthon"
+start_date = 2019-08-16
+end_date = 2019-08-18
+
+[website]
+title = "www.otakuthon.com"
+url = "http://www.otakuthon.com/"
+
+[address]
+address = """
+Palais des congrès de Montréal
+Montréal, QC, Canada
+H2Z 1H5"""
+city = "Montréal, QC"
+country = "Canada"
+
+[address.coordinates]
+lat = 45.50484848022461
+lon = -73.5599594116211

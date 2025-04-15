@@ -1,0 +1,21 @@
+id = 556
+title = "Komikon Indieket 2019"
+start_date = 2019-08-03
+end_date = 2019-08-03
+
+[website]
+title = "facebook.com/events/362145697933528"
+url = "https://www.facebook.com/events/362145697933528/"
+
+[address]
+address = """
+Bayanihan Center, UNILAB
+Pioneer St.
+Pasig, Metro Manila, Philippines
+"""
+city = "Pasig, Metro Manila"
+country = "Philippines"
+
+[address.coordinates]
+lat = 11.634727478027344
+lon = 103.37065887451172

@@ -1,0 +1,20 @@
+id = 398
+title = "San Japan"
+start_date = 2019-08-30
+end_date = 2019-09-01
+
+[website]
+title = "san-japan.org"
+url = "https://san-japan.org/"
+
+[address]
+address = """
+Henry B. Gonzalez Convention Center / San Antonio Grand Hyatt Hotel
+San Antonio, TX, USA
+78205"""
+city = "San Antonio, TX"
+country = "United States"
+
+[address.coordinates]
+lat = 29.421483993530273
+lon = -98.4863510131836

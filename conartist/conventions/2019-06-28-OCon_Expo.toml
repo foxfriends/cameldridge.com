@@ -1,0 +1,22 @@
+id = 472
+title = "OCon Expo"
+start_date = 2019-06-28
+end_date = 2019-06-30
+
+[website]
+title = "oconexpo.com"
+url = "https://oconexpo.com/"
+
+[address]
+address = """
+Mid-America Center
+1 Arena Way
+Council Bluffs, IA, 51501
+USA
+"""
+city = "Council Bluffs, IA"
+country = "United States"
+
+[address.coordinates]
+lat = 41.23741912841797
+lon = -95.89015197753906

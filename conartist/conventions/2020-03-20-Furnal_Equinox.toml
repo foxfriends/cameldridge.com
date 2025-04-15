@@ -1,0 +1,21 @@
+id = 609
+title = "Furnal Equinox"
+start_date = 2020-03-20
+end_date = 2020-03-22
+tags = []
+
+[website]
+title = "www.furnalequinox.com"
+url = "https://www.furnalequinox.com/"
+
+[address]
+address = """
+The Westin Harbour Castle, Toronto
+Toronto, ON
+Canada"""
+city = "Toronto, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.64092254638672
+lon = -79.37567901611328

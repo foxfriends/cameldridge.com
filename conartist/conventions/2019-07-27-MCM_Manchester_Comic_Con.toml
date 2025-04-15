@@ -1,0 +1,20 @@
+id = 521
+title = "MCM Manchester Comic Con"
+start_date = 2019-07-27
+end_date = 2019-07-28
+tags = []
+
+[website]
+title = "www.mcmcomiccon.com"
+url = "https://www.mcmcomiccon.com/manchester/"
+
+[address]
+address = """
+Manchester Central
+Manchester, UK"""
+city = "Manchester"
+country = "United Kingdom"
+
+[address.coordinates]
+lat = 53.47630310058594
+lon = -2.246983051300049

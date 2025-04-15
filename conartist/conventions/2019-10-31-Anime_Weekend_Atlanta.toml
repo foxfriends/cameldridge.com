@@ -1,0 +1,20 @@
+id = 126
+title = "Anime Weekend Atlanta"
+start_date = 2019-10-31
+end_date = 2019-11-03
+
+[website]
+title = "awa-con.com"
+url = "https://awa-con.com/"
+
+[address]
+address = """
+Renaissance Atlanta Waverly Hotel & Convention Center / Cobb Galleria Centre
+Atlanta, GA, USA
+30339"""
+city = "Atlanta, GA"
+country = "United States"
+
+[address.coordinates]
+lat = 33.88425827026367
+lon = -84.46580505371094

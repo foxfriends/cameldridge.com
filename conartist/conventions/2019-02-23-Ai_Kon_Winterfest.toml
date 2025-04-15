@@ -1,0 +1,20 @@
+id = 1
+title = "Ai-Kon Winterfest"
+start_date = 2019-02-23
+end_date = 2019-02-23
+
+[website]
+title = "ai-kon.org"
+url = "https://ai-kon.org/"
+
+[address]
+address = """
+RBC Convention Centre
+Winnipeg, MB, Canada
+R3C 3J3"""
+city = "Winnipeg, MB"
+country = "Canada"
+
+[address.coordinates]
+lat = 49.88920593261719
+lon = -97.14482116699219

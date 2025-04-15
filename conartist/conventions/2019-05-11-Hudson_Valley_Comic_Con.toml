@@ -1,0 +1,21 @@
+id = 571
+title = "Hudson Valley Comic Con"
+start_date = 2019-05-11
+end_date = 2019-05-12
+
+[website]
+title = "hvcomiccon.com"
+url = "https://www.hvcomiccon.com/"
+
+[address]
+address = """
+Gold's Gym and Exhibition Center
+258 Titusville Rd
+Poughkeepsie, NY, USA
+"""
+city = "Poughkeepsie, NY"
+country = "United States"
+
+[address.coordinates]
+lat = 41.657405853271484
+lon = -73.85811614990234

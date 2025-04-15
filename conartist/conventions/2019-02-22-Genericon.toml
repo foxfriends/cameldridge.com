@@ -1,0 +1,20 @@
+id = 263
+title = "Genericon"
+start_date = 2019-02-22
+end_date = 2019-02-24
+
+[website]
+title = "genericon.org"
+url = "http://genericon.org/"
+
+[address]
+address = """
+Rensselaer Polytechnic Institute
+Troy, NY, USA
+12180"""
+city = "Troy, NY"
+country = "United States"
+
+[address.coordinates]
+lat = 42.72918701171875
+lon = -73.67927551269531

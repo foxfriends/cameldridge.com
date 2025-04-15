@@ -1,0 +1,20 @@
+id = 929
+title = "AmeChibi"
+start_date = 2020-08-07
+end_date = 2020-08-09
+tags = []
+
+[website]
+title = "amecon.org"
+url = "https://amecon.org/"
+
+[address]
+address = """
+Park In Hotel
+Northampton, UK"""
+city = "Northampton"
+country = "UK"
+
+[address.coordinates]
+lat = 52.23871994018555
+lon = 0.8996099829673767

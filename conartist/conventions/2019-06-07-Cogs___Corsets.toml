@@ -1,0 +1,20 @@
+id = 185
+title = "Cogs & Corsets"
+start_date = 2019-06-07
+end_date = 2019-06-09
+
+[website]
+title = "www.cogsandcorsetsil.com"
+url = "http://www.cogsandcorsetsil.com/"
+
+[address]
+address = """
+Downtown
+Bloomington, IL, USA
+61701"""
+city = "Bloomington, IL"
+country = "United States"
+
+[address.coordinates]
+lat = 40.48127746582031
+lon = -88.99423217773438

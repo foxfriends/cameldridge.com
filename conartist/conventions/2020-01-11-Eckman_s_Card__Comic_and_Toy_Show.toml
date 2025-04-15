@@ -1,0 +1,21 @@
+id = 747
+title = "Eckman's Card, Comic and Toy Show"
+start_date = 2020-01-11
+end_date = 2020-01-11
+tags = []
+
+[website]
+title = "www.eckmanstoyshow.com"
+url = "http://www.eckmanstoyshow.com/"
+
+[address]
+address = """
+Rolling Oaks Mall
+San Antonio, TX
+USA"""
+city = "San Antonio, TX"
+country = "USA"
+
+[address.coordinates]
+lat = 29.597047805786133
+lon = -98.35049438476563

@@ -1,0 +1,21 @@
+id = 813
+title = "MechaCon"
+start_date = 2020-07-24
+end_date = 2020-07-26
+tags = []
+
+[website]
+title = "www.mechacon.com"
+url = "http://www.mechacon.com/"
+
+[address]
+address = """
+Hyatt Regency New Orleans
+New Orleans, LA
+USA"""
+city = "New Orleans, LA"
+country = "USA"
+
+[address.coordinates]
+lat = 29.949525833129883
+lon = -90.07669830322266

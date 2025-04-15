@@ -1,0 +1,20 @@
+id = 117
+title = "Anime Milwaukee"
+start_date = 2019-02-15
+end_date = 2019-02-17
+
+[website]
+title = "animemilwaukee.org"
+url = "http://animemilwaukee.org/"
+
+[address]
+address = """
+Hyatt Regency Milwaukee / Wisconsin Center
+Milwaukee, WI, USA
+53203"""
+city = "Milwaukee, WI"
+country = "United States"
+
+[address.coordinates]
+lat = 43.040103912353516
+lon = -87.91643524169922

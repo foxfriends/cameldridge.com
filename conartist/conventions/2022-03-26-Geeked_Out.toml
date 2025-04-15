@@ -1,0 +1,21 @@
+id = 981
+title = "Geeked Out"
+start_date = 2022-03-26
+end_date = 2022-03-27
+
+[website]
+title = "www.geekedoutevents.ca"
+url = "https://www.geekedoutevents.ca/"
+
+[address]
+address = """
+Nepean Sportsplex
+1701 Woodroffe Ave
+Nepean, ON, Canada
+K2G 1W2"""
+city = "Ottawa, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 45.32711410522461
+lon = -75.74687957763672

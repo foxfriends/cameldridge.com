@@ -1,0 +1,21 @@
+id = 846
+title = "PeoriaCon"
+start_date = 2020-03-07
+end_date = 2020-03-07
+tags = []
+
+[website]
+title = "www.peoriacon.com"
+url = "https://www.peoriacon.com/"
+
+[address]
+address = """
+Exposition Gardens
+Peoria, IL
+USA"""
+city = "Peoria, IL"
+country = "USA"
+
+[address.coordinates]
+lat = 40.7653694152832
+lon = -89.6191177368164

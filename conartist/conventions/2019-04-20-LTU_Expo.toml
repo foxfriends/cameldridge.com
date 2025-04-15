@@ -1,0 +1,20 @@
+id = 308
+title = "LTU Expo"
+start_date = 2019-04-20
+end_date = 2019-04-20
+
+[website]
+title = "www.ltuexpo.com"
+url = "http://www.ltuexpo.com/"
+
+[address]
+address = """
+Lawrence Technological University
+Southfield, MI, USA
+48075"""
+city = "Southfield, MI"
+country = "United States"
+
+[address.coordinates]
+lat = 42.47473907470703
+lon = -83.249267578125

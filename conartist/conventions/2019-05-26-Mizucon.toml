@@ -1,0 +1,20 @@
+id = 330
+title = "Mizucon"
+start_date = 2019-05-26
+end_date = 2019-05-27
+
+[website]
+title = "mizucon.com"
+url = "https://mizucon.com/"
+
+[address]
+address = """
+Hilton Miami Airport Blue Lagoon
+Miami, FL, USA
+33126"""
+city = "Miami, FL"
+country = "United States"
+
+[address.coordinates]
+lat = 25.782085418701172
+lon = -80.27874755859375

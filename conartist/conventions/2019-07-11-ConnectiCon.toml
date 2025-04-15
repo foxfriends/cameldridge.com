@@ -1,0 +1,20 @@
+id = 204
+title = "ConnectiCon"
+start_date = 2019-07-11
+end_date = 2019-07-14
+
+[website]
+title = "connecticon.org"
+url = "http://connecticon.org/"
+
+[address]
+address = """
+Connecticut Convention Center / Hartford Marriott Downtown
+Hartford, CT, USA
+06103-2805"""
+city = "Hartford, CT"
+country = "United States"
+
+[address.coordinates]
+lat = 41.7634391784668
+lon = -72.6683349609375

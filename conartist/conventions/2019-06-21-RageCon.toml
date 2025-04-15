@@ -1,0 +1,20 @@
+id = 380
+title = "RageCon"
+start_date = 2019-06-21
+end_date = 2019-06-23
+
+[website]
+title = "www.ragecon.com"
+url = "http://www.ragecon.com/"
+
+[address]
+address = """
+Circus Circus Reno
+Reno, NV, USA
+89501"""
+city = "Reno, NV"
+country = "United States"
+
+[address.coordinates]
+lat = 39.53166961669922
+lon = -119.8154525756836

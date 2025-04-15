@@ -1,0 +1,21 @@
+id = 835
+title = "Oceanime"
+start_date = 2020-04-23
+end_date = 2020-04-26
+tags = []
+
+[website]
+title = "oceanime.com"
+url = "https://oceanime.com/"
+
+[address]
+address = """
+Carnival Imagination
+Departing from Long Beach, CA
+USA"""
+city = "Departing from Long Beach, CA"
+country = "USA"
+
+[address.coordinates]
+lat = 33.75126266479492
+lon = -118.18890380859375

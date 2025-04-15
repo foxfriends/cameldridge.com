@@ -1,0 +1,21 @@
+id = 75
+title = "Prairie Comics Expo"
+start_date = 2019-05-04
+end_date = 2019-05-05
+
+[website]
+title = "prairiecomics.com"
+url = "http://prairiecomics.com/"
+
+[address]
+address = """
+Millennium Library, second floor
+251 Donald Street
+Winnipeg, MB
+"""
+city = "Winnipeg, MB"
+country = "Canada"
+
+[address.coordinates]
+lat = 49.891883850097656
+lon = -97.14423370361328

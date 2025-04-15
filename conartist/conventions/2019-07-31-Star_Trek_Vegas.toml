@@ -1,0 +1,20 @@
+id = 415
+title = "Star Trek Vegas"
+start_date = 2019-07-31
+end_date = 2019-08-04
+
+[website]
+title = "www.creationent.com"
+url = "https://www.creationent.com/calendar.htm#stlv"
+
+[address]
+address = """
+Rio All-Suites Hotel and Casino
+Las Vegas, NV, USA
+89103"""
+city = "Las Vegas, NV"
+country = "United States"
+
+[address.coordinates]
+lat = 36.11712646484375
+lon = -115.18817138671875

@@ -1,0 +1,20 @@
+id = 33
+title = "Keycon"
+start_date = 2019-05-17
+end_date = 2019-05-19
+
+[website]
+title = "www.keycon.org"
+url = "http://www.keycon.org/"
+
+[address]
+address = """
+Radisson Hotel Winnipeg Downtown
+Winnipeg, MB, Canada
+R3C 0B8"""
+city = "Winnipeg, MB"
+country = "Canada"
+
+[address.coordinates]
+lat = 49.89361572265625
+lon = -97.14247131347656

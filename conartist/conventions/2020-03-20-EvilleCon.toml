@@ -1,0 +1,21 @@
+id = 752
+title = "EvilleCon"
+start_date = 2020-03-20
+end_date = 2020-03-22
+tags = []
+
+[website]
+title = "www.evillecon.com"
+url = "https://www.evillecon.com/"
+
+[address]
+address = """
+Old National Events Plaza
+Evansville, IN
+USA"""
+city = "Evansville, IN"
+country = "USA"
+
+[address.coordinates]
+lat = 37.97262191772461
+lon = -87.56575775146484

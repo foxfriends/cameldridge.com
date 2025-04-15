@@ -1,0 +1,20 @@
+id = 310
+title = "Lvl Up Expo"
+start_date = 2019-04-26
+end_date = 2019-04-28
+
+[website]
+title = "lvlupexpo.com"
+url = "https://lvlupexpo.com/"
+
+[address]
+address = """
+Las Vegas Convention Center
+Las Vegas, NV, USA
+89109"""
+city = "Las Vegas, NV"
+country = "United States"
+
+[address.coordinates]
+lat = 36.131797790527344
+lon = -115.15171813964844

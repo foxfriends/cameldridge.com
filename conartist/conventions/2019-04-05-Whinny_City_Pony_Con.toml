@@ -1,0 +1,20 @@
+id = 458
+title = "Whinny City Pony Con"
+start_date = 2019-04-05
+end_date = 2019-04-07
+
+[website]
+title = "www.whinnycity.com"
+url = "http://www.whinnycity.com/"
+
+[address]
+address = """
+Hyatt Regency Schaumburg, Chicago
+Schaumburg, IL, USA
+60173"""
+city = "Schaumburg, IL"
+country = "United States"
+
+[address.coordinates]
+lat = 42.052215576171875
+lon = -88.03357696533203

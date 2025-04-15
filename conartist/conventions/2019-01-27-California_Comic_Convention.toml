@@ -1,0 +1,20 @@
+id = 169
+title = "California Comic Convention"
+start_date = 2019-01-27
+end_date = 2019-01-27
+
+[website]
+title = "www.calcomiccon.com"
+url = "https://www.calcomiccon.com/"
+
+[address]
+address = """
+Yorba Linda Community Center
+Yorba Linda, CA, USA
+92886"""
+city = "Yorba Linda, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 33.895774841308594
+lon = -117.82584381103516

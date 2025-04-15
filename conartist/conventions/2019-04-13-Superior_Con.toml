@@ -1,0 +1,20 @@
+id = 422
+title = "Superior Con"
+start_date = 2019-04-13
+end_date = 2019-04-13
+
+[website]
+title = "superiorcon.wixsite.com"
+url = "https://superiorcon.wixsite.com/superiorcon"
+
+[address]
+address = """
+Northern Michigan University, John X. Jamrich Hall
+Marquette, MI, USA
+49855"""
+city = "Marquette, MI"
+country = "United States"
+
+[address.coordinates]
+lat = 46.55965042114258
+lon = -87.40655517578125

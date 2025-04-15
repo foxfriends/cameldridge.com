@@ -1,0 +1,21 @@
+id = 792
+title = "Jacksonville Anime Day"
+start_date = 2020-01-19
+end_date = 2020-01-19
+tags = []
+
+[website]
+title = "jacksonville.animeday.net"
+url = "http://jacksonville.animeday.net/"
+
+[address]
+address = """
+Embassy Suites by Hilton Jacksonville Baymeadows
+Jacksonville, FL
+USA"""
+city = "Jacksonville, FL"
+country = "USA"
+
+[address.coordinates]
+lat = 30.21990966796875
+lon = -81.56513977050781

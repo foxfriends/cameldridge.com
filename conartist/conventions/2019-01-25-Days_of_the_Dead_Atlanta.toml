@@ -1,0 +1,20 @@
+id = 212
+title = "Days of the Dead Atlanta"
+start_date = 2019-01-25
+end_date = 2019-01-27
+
+[website]
+title = "daysofthedead.com"
+url = "https://daysofthedead.com/atlanta/"
+
+[address]
+address = """
+Sheraton Atlanta Hotel
+Atlanta, GA, USA
+30303"""
+city = "Atlanta, GA"
+country = "United States"
+
+[address.coordinates]
+lat = 33.7590217590332
+lon = -84.3831558227539

@@ -1,0 +1,20 @@
+id = 475
+title = "ČeSFuR"
+start_date = 2019-07-10
+end_date = 2019-07-14
+tags = []
+
+[website]
+title = "cesfur.org"
+url = "https://www.cesfur.org/"
+
+[address]
+address = """
+Hotel Skalský dvůr
+Bystřice nad Pernštejnem, Czech Republic"""
+city = "Bystřice nad Pernštejnem"
+country = "Czech Republic"
+
+[address.coordinates]
+lat = 49.56489944458008
+lon = 16.179306030273438

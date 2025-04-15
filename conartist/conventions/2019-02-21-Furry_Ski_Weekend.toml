@@ -1,0 +1,20 @@
+id = 248
+title = "Furry Ski Weekend"
+start_date = 2019-02-21
+end_date = 2019-02-24
+
+[website]
+title = "furryskiweekend.com"
+url = "https://furryskiweekend.com/"
+
+[address]
+address = """
+Copper Mountain Resort
+Frisco, CO, USA
+80443"""
+city = "Frisco, CO"
+country = "United States"
+
+[address.coordinates]
+lat = 39.50013732910156
+lon = -106.14683532714844

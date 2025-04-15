@@ -1,0 +1,20 @@
+id = 338
+title = "My-Con"
+start_date = 2019-03-16
+end_date = 2019-03-16
+
+[website]
+title = "mystic-con.com"
+url = "http://mystic-con.com/"
+
+[address]
+address = """
+Wyndham Orlando Resort International Drive
+Orlando, FL, USA
+32819"""
+city = "Orlando, FL"
+country = "United States"
+
+[address.coordinates]
+lat = 28.448152542114258
+lon = -81.46807098388672

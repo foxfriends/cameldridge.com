@@ -1,0 +1,20 @@
+id = 436
+title = "Tiger Con"
+start_date = 2019-04-13
+end_date = 2019-04-14
+
+[website]
+title = "tigerconvention.com"
+url = "http://tigerconvention.com/"
+
+[address]
+address = """
+Holiday Inn Valdosta Conference Center
+Valdosta, GA, USA
+31601"""
+city = "Valdosta, GA"
+country = "United States"
+
+[address.coordinates]
+lat = 30.819385528564453
+lon = -83.31051635742188

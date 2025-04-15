@@ -1,0 +1,21 @@
+id = 913
+title = "Tysons Corner Comic Book Show"
+start_date = 2020-01-26
+end_date = 2020-01-26
+tags = []
+
+[website]
+title = "shoffpromotions.com"
+url = "http://shoffpromotions.com/"
+
+[address]
+address = """
+DoubleTree by Hilton McLean Tysons
+McLean, VA
+USA"""
+city = "McLean, VA"
+country = "USA"
+
+[address.coordinates]
+lat = 38.920616149902344
+lon = -77.22711944580078

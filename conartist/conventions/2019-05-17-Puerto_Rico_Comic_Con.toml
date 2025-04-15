@@ -1,0 +1,20 @@
+id = 376
+title = "Puerto Rico Comic Con"
+start_date = 2019-05-17
+end_date = 2019-05-19
+
+[website]
+title = "prcomiccon.com"
+url = "http://prcomiccon.com/"
+
+[address]
+address = """
+Puerto Rico Convention Center
+San Juan, Puerto Rico, USA
+00907"""
+city = "San Juan, Puerto Rico"
+country = "United States"
+
+[address.coordinates]
+lat = 18.4531307220459
+lon = -66.09264373779297

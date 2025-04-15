@@ -1,0 +1,20 @@
+id = 365
+title = "Pensacon"
+start_date = 2019-02-22
+end_date = 2019-02-24
+
+[website]
+title = "pensacon.com"
+url = "https://pensacon.com/"
+
+[address]
+address = """
+Pensacola Bay Center
+Pensacola, FL, USA
+32502"""
+city = "Pensacola, FL"
+country = "United States"
+
+[address.coordinates]
+lat = 30.416366577148438
+lon = -87.2089614868164

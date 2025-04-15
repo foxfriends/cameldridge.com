@@ -1,0 +1,21 @@
+id = 822
+title = "Minefaire Dallas"
+start_date = 2020-02-22
+end_date = 2020-02-23
+tags = []
+
+[website]
+title = "www.minefaire.com"
+url = "https://www.minefaire.com/"
+
+[address]
+address = """
+Kay Bailey Hutchison Convention Center Dallas
+Dallas, TX
+USA"""
+city = "Dallas, TX"
+country = "USA"
+
+[address.coordinates]
+lat = 32.774322509765625
+lon = -96.80024719238281

@@ -1,0 +1,21 @@
+id = 86
+title = "Vernon Comic Con"
+start_date = 2019-05-04
+end_date = 2019-05-04
+
+[website]
+title = "facebook.com/VernonComicCon"
+url = "https://www.facebook.com/VernonComicCon/"
+
+[address]
+address = """
+Dragon Village Green Hotel Complex
+4801 27 St
+Vernon, BC
+"""
+city = "Vernon, BC"
+country = "Canada"
+
+[address.coordinates]
+lat = 50.28239059448242
+lon = -119.26792907714844

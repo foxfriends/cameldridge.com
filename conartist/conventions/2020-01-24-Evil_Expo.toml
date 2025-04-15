@@ -1,0 +1,21 @@
+id = 751
+title = "Evil Expo"
+start_date = 2020-01-24
+end_date = 2020-01-26
+tags = []
+
+[website]
+title = "evilexpo.com"
+url = "https://evilexpo.com/"
+
+[address]
+address = """
+Radisson Hotel Piscataway-Somerset
+Piscataway, NJ
+USA"""
+city = "Piscataway, NJ"
+country = "USA"
+
+[address.coordinates]
+lat = 40.54372787475586
+lon = -74.5000228881836

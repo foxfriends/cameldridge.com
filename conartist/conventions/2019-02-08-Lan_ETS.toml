@@ -1,0 +1,20 @@
+id = 34
+title = "Lan ETS"
+start_date = 2019-02-08
+end_date = 2019-02-10
+
+[website]
+title = "lanets.ca"
+url = "https://lanets.ca/"
+
+[address]
+address = """
+Palais des Congrès de Montréal
+Montréal, QC, Canada
+H2Z 1X7"""
+city = "Montréal, QC"
+country = "Canada"
+
+[address.coordinates]
+lat = 45.504966735839844
+lon = -73.56002044677734

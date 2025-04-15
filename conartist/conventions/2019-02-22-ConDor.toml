@@ -1,0 +1,20 @@
+id = 202
+title = "ConDor"
+start_date = 2019-02-22
+end_date = 2019-02-24
+
+[website]
+title = "www.condorcon.org"
+url = "http://www.condorcon.org/"
+
+[address]
+address = """
+Handlery Hotel San Diego
+San Diego, CA, USA
+92108"""
+city = "San Diego, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 32.761192321777344
+lon = -117.17315673828125

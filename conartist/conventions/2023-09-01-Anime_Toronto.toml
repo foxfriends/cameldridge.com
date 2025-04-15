@@ -1,0 +1,21 @@
+id = 990
+title = "Anime Toronto"
+start_date = 2023-09-01
+end_date = 2023-09-03
+
+[website]
+title = "animetoronto.ca"
+url = "https://animetoronto.ca/"
+
+[address]
+address = """
+Metro Toronto Convention Centre
+255 Front St W
+Toronto, ON, Canada
+M5V 2W6"""
+city = "Toronto, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.64341735839844
+lon = -79.38846588134766

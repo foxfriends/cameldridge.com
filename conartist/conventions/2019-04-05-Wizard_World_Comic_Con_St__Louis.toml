@@ -1,0 +1,20 @@
+id = 465
+title = "Wizard World Comic Con St. Louis"
+start_date = 2019-04-05
+end_date = 2019-04-07
+
+[website]
+title = "wizardworld.com"
+url = "https://wizardworld.com/comiccon/st-louis"
+
+[address]
+address = """
+America's Center
+St. Louis, MO, USA
+63101"""
+city = "St. Louis, MO"
+country = "United States"
+
+[address.coordinates]
+lat = 38.632720947265625
+lon = -90.19063568115234

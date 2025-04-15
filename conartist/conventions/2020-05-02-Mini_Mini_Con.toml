@@ -1,0 +1,21 @@
+id = 823
+title = "Mini-Mini Con"
+start_date = 2020-05-02
+end_date = 2020-05-02
+tags = []
+
+[website]
+title = "miniminicon.com"
+url = "https://miniminicon.com/"
+
+[address]
+address = """
+Wonderland of the Americas Mall
+San Antonio, TX
+USA"""
+city = "San Antonio, TX"
+country = "USA"
+
+[address.coordinates]
+lat = 29.49294662475586
+lon = -98.55127716064453

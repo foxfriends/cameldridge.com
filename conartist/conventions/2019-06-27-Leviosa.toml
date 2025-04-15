@@ -1,0 +1,20 @@
+id = 302
+title = "Leviosa"
+start_date = 2019-06-27
+end_date = 2019-06-30
+
+[website]
+title = "leviosa2019.org"
+url = "https://leviosa2019.org/"
+
+[address]
+address = """
+Loews Hollywood Hotel
+Hollywood, CA, USA
+90028"""
+city = "Hollywood, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 34.1032600402832
+lon = -118.33927154541016

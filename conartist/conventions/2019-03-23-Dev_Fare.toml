@@ -1,0 +1,20 @@
+id = 216
+title = "Dev Fare"
+start_date = 2019-03-23
+end_date = 2019-03-23
+
+[website]
+title = "societyofwestasuga.wixsite.com"
+url = "https://societyofwestasuga.wixsite.com/devfare"
+
+[address]
+address = """
+Arizona State University West Campus, University Center Building
+Glendale, AZ, USA
+85306"""
+city = "Glendale, AZ"
+country = "United States"
+
+[address.coordinates]
+lat = 33.60877227783203
+lon = -112.16094207763672

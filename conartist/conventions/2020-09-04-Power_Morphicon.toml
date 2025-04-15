@@ -1,0 +1,21 @@
+id = 853
+title = "Power Morphicon"
+start_date = 2020-09-04
+end_date = 2020-09-06
+tags = []
+
+[website]
+title = "powermorphicon.wordpress.com"
+url = "https://powermorphicon.wordpress.com/"
+
+[address]
+address = """
+Pasadena Convention Center
+Pasadena, CA
+USA"""
+city = "Pasadena, CA"
+country = "USA"
+
+[address.coordinates]
+lat = 34.1439208984375
+lon = -118.144287109375

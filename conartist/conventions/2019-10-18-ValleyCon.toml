@@ -1,0 +1,20 @@
+id = 448
+title = "ValleyCon"
+start_date = 2019-10-18
+end_date = 2019-10-21
+
+[website]
+title = "www.valleycon.com"
+url = "http://www.valleycon.com/"
+
+[address]
+address = """
+Ramada by Wyndham Fargo
+Fargo, ND, USA
+58103"""
+city = "Fargo, ND"
+country = "United States"
+
+[address.coordinates]
+lat = 46.86254119873047
+lon = -96.83424377441406

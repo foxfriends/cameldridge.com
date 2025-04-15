@@ -1,0 +1,20 @@
+id = 957
+title = "Newcastle Anime & Gaming Con"
+start_date = 2020-05-16
+end_date = 2020-05-17
+tags = []
+
+[website]
+title = "www.newcastleanimecon.com"
+url = "https://www.newcastleanimecon.com/"
+
+[address]
+address = """
+Crowne Plaza Newcastle - Stephenson Quarter
+Newcastle, UK"""
+city = "Newcastle"
+country = "UK"
+
+[address.coordinates]
+lat = 54.966957092285156
+lon = -1.6174196004867554

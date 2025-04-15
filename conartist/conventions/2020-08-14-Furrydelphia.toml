@@ -1,0 +1,21 @@
+id = 769
+title = "Furrydelphia"
+start_date = 2020-08-14
+end_date = 2020-08-16
+tags = []
+
+[website]
+title = "www.furrydelphia.org"
+url = "https://www.furrydelphia.org/"
+
+[address]
+address = """
+Valley Forge Casino Resort
+King of Prussia, PA
+USA"""
+city = "King of Prussia, PA"
+country = "USA"
+
+[address.coordinates]
+lat = 40.09672546386719
+lon = -75.41539764404297

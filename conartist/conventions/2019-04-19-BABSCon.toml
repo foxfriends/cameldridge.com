@@ -1,0 +1,20 @@
+id = 151
+title = "BABSCon"
+start_date = 2019-04-19
+end_date = 2019-04-22
+
+[website]
+title = "www.babscon.com"
+url = "http://www.babscon.com/"
+
+[address]
+address = """
+Hyatt Regency San Francisco Airport
+Burlingame, CA, USA
+94010"""
+city = "Burlingame, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 37.59349822998047
+lon = -122.36498260498047

@@ -1,0 +1,20 @@
+id = 264
+title = "Genesis"
+start_date = 2019-02-01
+end_date = 2019-02-03
+
+[website]
+title = "smash.gg"
+url = "https://smash.gg/tournament/genesis-6/details"
+
+[address]
+address = """
+Oakland Convention Center / Paramount Theater
+Oakland, CA, USA
+94607"""
+city = "Oakland, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 37.80244064331055
+lon = -122.2740478515625

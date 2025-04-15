@@ -1,0 +1,20 @@
+id = 272
+title = "HasCon"
+start_date = 2019-09-06
+end_date = 2019-09-08
+
+[website]
+title = "hascon.hasbro.com"
+url = "https://hascon.hasbro.com/"
+
+[address]
+address = """
+Rhode Island Convention Center & Dunkin Donuts Center
+Providence, RI, USA
+02903"""
+city = "Providence, RI"
+country = "United States"
+
+[address.coordinates]
+lat = 41.824073791503906
+lon = -71.4179458618164

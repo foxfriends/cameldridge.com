@@ -1,0 +1,20 @@
+id = 250
+title = "Furry Weekend Atlanta"
+start_date = 2019-05-09
+end_date = 2019-05-13
+
+[website]
+title = "www.furryweekend.com"
+url = "https://www.furryweekend.com/"
+
+[address]
+address = """
+Atlanta Marriott Marquis
+Atlanta, GA, USA
+30303"""
+city = "Atlanta, GA"
+country = "United States"
+
+[address.coordinates]
+lat = 33.76160430908203
+lon = -84.38513946533203

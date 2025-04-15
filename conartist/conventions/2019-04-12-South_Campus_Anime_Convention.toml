@@ -1,0 +1,20 @@
+id = 410
+title = "South Campus Anime Convention"
+start_date = 2019-04-12
+end_date = 2019-04-13
+
+[website]
+title = "www.scacon.org"
+url = "https://www.scacon.org/"
+
+[address]
+address = """
+Tarrant County College South Campus
+Fort Worth, TX, USA
+76119"""
+city = "Fort Worth, TX"
+country = "United States"
+
+[address.coordinates]
+lat = 32.66720199584961
+lon = -97.28956604003906

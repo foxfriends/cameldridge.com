@@ -1,0 +1,21 @@
+id = 614
+title = "International Fan Festival Toronto"
+start_date = 2020-06-19
+end_date = 2020-06-21
+tags = []
+
+[website]
+title = "toronto.ifanfes.com"
+url = "https://toronto.ifanfes.com/"
+
+[address]
+address = """
+Metro Toronto Convention Centre
+Toronto, ON
+Canada"""
+city = "Toronto, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.64376449584961
+lon = -79.3868179321289

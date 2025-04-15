@@ -1,0 +1,21 @@
+id = 873
+title = "SacAnime"
+start_date = 2020-09-04
+end_date = 2020-09-06
+tags = []
+
+[website]
+title = "www.sacanime.com"
+url = "https://www.sacanime.com/"
+
+[address]
+address = """
+Cal Expo
+Sacramento, CA
+USA"""
+city = "Sacramento, CA"
+country = "USA"
+
+[address.coordinates]
+lat = 38.59446334838867
+lon = -121.43461608886719

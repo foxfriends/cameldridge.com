@@ -1,0 +1,21 @@
+id = 638
+title = "VancouFur"
+start_date = 2020-03-05
+end_date = 2020-03-08
+tags = []
+
+[website]
+title = "vancoufur.org"
+url = "https://vancoufur.org/"
+
+[address]
+address = """
+Sheraton Vancouver Guildford Hotel
+Surrey, BC
+Canada"""
+city = "Surrey, BC"
+country = "Canada"
+
+[address.coordinates]
+lat = 49.19206619262695
+lon = -122.79890441894531

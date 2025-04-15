@@ -1,0 +1,20 @@
+id = 165
+title = "BrickFair Charlotte"
+start_date = 2019-03-23
+end_date = 2019-03-24
+
+[website]
+title = "www.brickfair.com"
+url = "https://www.brickfair.com/NC/"
+
+[address]
+address = """
+Park Expo Center
+Charlotte, NC, USA
+28205"""
+city = "Charlotte, NC"
+country = "United States"
+
+[address.coordinates]
+lat = 35.20698165893555
+lon = -80.7979736328125

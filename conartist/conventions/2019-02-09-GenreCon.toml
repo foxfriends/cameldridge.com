@@ -1,0 +1,20 @@
+id = 30
+title = "GenreCon"
+start_date = 2019-02-09
+end_date = 2019-02-10
+
+[website]
+title = "genrecon.com"
+url = "http://genrecon.com/"
+
+[address]
+address = """
+Delta Hotels by Marriott Guelph Conference Centre
+Guelph, ON, Canada
+N1G 0A9"""
+city = "Guelph, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.526031494140625
+lon = -80.22457122802734

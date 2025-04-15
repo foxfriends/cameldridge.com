@@ -1,0 +1,20 @@
+id = 115
+title = "Anime Matsuri"
+start_date = 2019-06-13
+end_date = 2019-06-16
+
+[website]
+title = "www.animematsuri.com"
+url = "https://www.animematsuri.com/"
+
+[address]
+address = """
+George R. Brown Convention Center
+Houston, TX, USA
+77010"""
+city = "Houston, TX"
+country = "United States"
+
+[address.coordinates]
+lat = 29.752065658569336
+lon = -95.35798645019531

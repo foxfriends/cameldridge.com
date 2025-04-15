@@ -1,0 +1,21 @@
+id = 814
+title = "Megabit Game Expo"
+start_date = 2020-09-13
+end_date = 2020-09-13
+tags = []
+
+[website]
+title = "megabitgameexpo.com"
+url = "https://megabitgameexpo.com/"
+
+[address]
+address = """
+Grand Vista Hotel
+Simi Valley, CA
+USA"""
+city = "Simi Valley, CA"
+country = "USA"
+
+[address.coordinates]
+lat = 34.283660888671875
+lon = -118.7813491821289

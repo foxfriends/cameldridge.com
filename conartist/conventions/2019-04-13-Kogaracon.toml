@@ -1,0 +1,20 @@
+id = 297
+title = "Kogaracon"
+start_date = 2019-04-13
+end_date = 2019-04-13
+
+[website]
+title = "kogaracon.com"
+url = "http://kogaracon.com/"
+
+[address]
+address = """
+Middlesex County College
+Edison, NJ, USA
+08837"""
+city = "Edison, NJ"
+country = "United States"
+
+[address.coordinates]
+lat = 40.50483703613281
+lon = -74.36663818359375

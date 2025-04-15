@@ -1,0 +1,20 @@
+id = 466
+title = "WonderCon"
+start_date = 2019-03-29
+end_date = 2019-03-31
+
+[website]
+title = "www.comic-con.org"
+url = "https://www.comic-con.org/wca"
+
+[address]
+address = """
+Anaheim Convention Center
+Anaheim, CA, USA
+92802"""
+city = "Anaheim, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 33.80015563964844
+lon = -117.92132568359375

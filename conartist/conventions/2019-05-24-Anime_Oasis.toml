@@ -1,0 +1,20 @@
+id = 119
+title = "Anime Oasis"
+start_date = 2019-05-24
+end_date = 2019-05-27
+
+[website]
+title = "www.animeoasis.org"
+url = "http://www.animeoasis.org/"
+
+[address]
+address = """
+The Grove Hotel / CenturyLink Arena Boise / Boise Centre
+Boise, ID, USA
+83702"""
+city = "Boise, ID"
+country = "United States"
+
+[address.coordinates]
+lat = 43.614532470703125
+lon = -116.20458221435547

@@ -1,0 +1,21 @@
+id = 79
+title = "Sci-Fi on the Rock"
+start_date = 2019-03-29
+end_date = 2019-03-31
+
+[website]
+title = "scifiontherock.com"
+url = "https://scifiontherock.com/"
+
+[address]
+address = """
+Sheraton Hotel Newfoundland
+115 Cavendish Square
+St. John's, NL
+"""
+city = "St. John's, NL"
+country = "Canada"
+
+[address.coordinates]
+lat = 47.57123565673828
+lon = -52.70252227783203

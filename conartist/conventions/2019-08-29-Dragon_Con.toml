@@ -1,0 +1,21 @@
+id = 220
+title = "Dragon Con"
+start_date = 2019-08-29
+end_date = 2019-09-02
+
+[website]
+title = "dragoncon.org"
+url = "http://dragoncon.org/"
+
+[address]
+address = """
+Atlanta Marriott Marquis, Hyatt Regency Atlanta, Atlanta Hilton
+Sheraton Atlanta, Westin Peachtree
+Atlanta, GA, USA
+30303"""
+city = "Atlanta, GA"
+country = "United States"
+
+[address.coordinates]
+lat = 33.761497497558594
+lon = -84.38511657714844

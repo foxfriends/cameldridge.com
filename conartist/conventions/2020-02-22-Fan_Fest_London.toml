@@ -1,0 +1,20 @@
+id = 942
+title = "Fan Fest London"
+start_date = 2020-02-22
+end_date = 2020-02-23
+tags = []
+
+[website]
+title = "www.fanfestevents.com"
+url = "https://www.fanfestevents.com/london/"
+
+[address]
+address = """
+ExCeL London
+London, UK"""
+city = "London"
+country = "UK"
+
+[address.coordinates]
+lat = 51.508262634277344
+lon = 0.030043600127100945

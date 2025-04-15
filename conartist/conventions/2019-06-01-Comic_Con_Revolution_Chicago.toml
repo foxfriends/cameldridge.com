@@ -1,0 +1,20 @@
+id = 193
+title = "Comic Con Revolution Chicago"
+start_date = 2019-06-01
+end_date = 2019-06-02
+
+[website]
+title = "www.comicconrevolution.com"
+url = "http://www.comicconrevolution.com/chicago/"
+
+[address]
+address = """
+Donald E Stephens Convention Center
+Rosemont, IL, USA
+60018"""
+city = "Rosemont, IL"
+country = "United States"
+
+[address.coordinates]
+lat = 41.97929763793945
+lon = -87.86052703857422

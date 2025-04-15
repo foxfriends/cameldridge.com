@@ -1,0 +1,20 @@
+id = 946
+title = "Geek Days Rennes"
+start_date = 2020-02-22
+end_date = 2020-02-23
+tags = []
+
+[website]
+title = "www.geek-days.com"
+url = "https://www.geek-days.com/rennes/"
+
+[address]
+address = """
+Parc Expo Rennes
+Bruz, France"""
+city = "Bruz"
+country = "France"
+
+[address.coordinates]
+lat = 48.057674407958984
+lon = -1.7320024967193604

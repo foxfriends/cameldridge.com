@@ -1,0 +1,20 @@
+id = 442
+title = "TrotCon"
+start_date = 2019-07-19
+end_date = 2019-07-21
+
+[website]
+title = "trotcon.net"
+url = "http://trotcon.net/"
+
+[address]
+address = """
+Crowne Plaza Columbus North
+Columbus, OH, USA
+43229"""
+city = "Columbus, OH"
+country = "United States"
+
+[address.coordinates]
+lat = 40.099002838134766
+lon = -82.98632049560547

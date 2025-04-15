@@ -1,0 +1,21 @@
+id = 815
+title = "MegaCon Orlando"
+start_date = 2020-04-16
+end_date = 2020-04-19
+tags = []
+
+[website]
+title = "www.megaconorlando.com"
+url = "https://www.megaconorlando.com/"
+
+[address]
+address = """
+Orange County Convention Center
+Orlando, FL
+USA"""
+city = "Orlando, FL"
+country = "USA"
+
+[address.coordinates]
+lat = 28.424806594848633
+lon = -81.46961212158203

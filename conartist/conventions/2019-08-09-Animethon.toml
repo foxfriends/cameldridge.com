@@ -1,0 +1,20 @@
+id = 5
+title = "Animethon"
+start_date = 2019-08-09
+end_date = 2019-08-11
+
+[website]
+title = "animethon.org"
+url = "https://animethon.org/"
+
+[address]
+address = """
+Shaw Conference Centre
+Edmonton, AB, Canada
+T5J 1N9"""
+city = "Edmonton, AB"
+country = "Canada"
+
+[address.coordinates]
+lat = 53.541404724121094
+lon = -113.48613739013672

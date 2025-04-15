@@ -1,0 +1,21 @@
+id = 910
+title = "ToyXpo"
+start_date = 2020-02-21
+end_date = 2020-02-23
+tags = []
+
+[website]
+title = "bayareatoyexpo.com"
+url = "http://bayareatoyexpo.com/"
+
+[address]
+address = """
+Santa Clara Convention Center
+Santa Clara, CA
+USA"""
+city = "Santa Clara, CA"
+country = "USA"
+
+[address.coordinates]
+lat = 37.4043083190918
+lon = -121.973876953125

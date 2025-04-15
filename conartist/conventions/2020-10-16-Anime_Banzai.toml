@@ -1,0 +1,21 @@
+id = 655
+title = "Anime Banzai"
+start_date = 2020-10-16
+end_date = 2020-10-18
+tags = []
+
+[website]
+title = "www.animebanzai.org"
+url = "https://www.animebanzai.org/"
+
+[address]
+address = """
+Davis Conference Center
+Layton, UT
+USA"""
+city = "Layton, UT"
+country = "USA"
+
+[address.coordinates]
+lat = 41.0843620300293
+lon = -111.98078918457031

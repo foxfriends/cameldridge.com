@@ -1,0 +1,20 @@
+id = 141
+title = "Aquatifur"
+start_date = 2019-10-11
+end_date = 2019-10-13
+
+[website]
+title = "aquatifur.com"
+url = "https://aquatifur.com/"
+
+[address]
+address = """
+Chula Vista Resort - Wisconsin Dells Waterpark Resort
+Wisconsin Dells, WI, USA
+53969"""
+city = "Wisconsin Dells, WI"
+country = "United States"
+
+[address.coordinates]
+lat = 43.664466857910156
+lon = -89.78462219238281

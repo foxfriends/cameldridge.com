@@ -1,0 +1,20 @@
+id = 949
+title = "Leeds Anime & Gaming Con"
+start_date = 2020-03-14
+end_date = 2020-03-15
+tags = []
+
+[website]
+title = "www.leedsanimecon.com"
+url = "https://www.leedsanimecon.com/"
+
+[address]
+address = """
+Leeds Marriott Hotel
+Leeds, UK"""
+city = "Leeds"
+country = "UK"
+
+[address.coordinates]
+lat = 53.79558181762695
+lon = -1.5433194637298584

@@ -1,0 +1,20 @@
+id = 37
+title = "Ontario Collectors Con"
+start_date = 2019-01-27
+end_date = 2019-01-27
+
+[website]
+title = "www.ontariocollectorscon.com"
+url = "http://www.ontariocollectorscon.com/"
+
+[address]
+address = """
+Hilton Mississauga/Meadowvale
+Mississauga, ON, Canada
+L5N 2L3"""
+city = "Mississauga, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.60105895996094
+lon = -79.74292755126953

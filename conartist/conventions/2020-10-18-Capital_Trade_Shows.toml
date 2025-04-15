@@ -1,0 +1,21 @@
+id = 600
+title = "Capital Trade Shows"
+start_date = 2020-10-18
+end_date = 2020-10-18
+tags = []
+
+[website]
+title = "capitaltradeshows.com"
+url = "http://capitaltradeshows.com/"
+
+[address]
+address = """
+Jim Durrell Recreation Centre
+Ottawa, ON
+Canada"""
+city = "Ottawa, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 45.37313461303711
+lon = -75.65882110595703

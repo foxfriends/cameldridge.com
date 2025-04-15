@@ -1,0 +1,20 @@
+id = 170
+title = "Capricon"
+start_date = 2019-02-14
+end_date = 2019-02-17
+
+[website]
+title = "capricon.org"
+url = "http://capricon.org/"
+
+[address]
+address = """
+Westin Chicago North Shore
+Wheeling, IL, USA
+60090"""
+city = "Wheeling, IL"
+country = "United States"
+
+[address.coordinates]
+lat = 42.15082931518555
+lon = -87.91279602050781

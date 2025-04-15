@@ -1,0 +1,20 @@
+id = 484
+title = "Comic Con Manchester"
+start_date = 2019-06-01
+end_date = 2019-06-02
+tags = []
+
+[website]
+title = "comicconventionmanchester.co.uk"
+url = "http://comicconventionmanchester.co.uk/"
+
+[address]
+address = """
+Bowlers Exhibition Centre
+Manchester, UK"""
+city = "Manchester"
+country = "United Kingdom"
+
+[address.coordinates]
+lat = 53.468955993652344
+lon = -2.3314719200134277

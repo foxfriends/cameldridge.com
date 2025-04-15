@@ -1,0 +1,20 @@
+id = 309
+title = "LumaCon"
+start_date = 2019-01-26
+end_date = 2019-01-26
+
+[website]
+title = "www.lumacon.net"
+url = "http://www.lumacon.net/"
+
+[address]
+address = """
+Petaluma Community Center and Lucchesi Park
+Petaluma, CA, USA
+94954"""
+city = "Petaluma, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 38.252708435058594
+lon = -122.63058471679688

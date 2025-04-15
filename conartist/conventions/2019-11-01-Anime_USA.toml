@@ -1,0 +1,20 @@
+id = 125
+title = "Anime USA"
+start_date = 2019-11-01
+end_date = 2019-11-03
+
+[website]
+title = "animeusa.org"
+url = "http://animeusa.org/"
+
+[address]
+address = """
+Washington Marriott Wardman Park
+Washington, DC, USA
+20008"""
+city = "Washington, DC"
+country = "United States"
+
+[address.coordinates]
+lat = 38.924198150634766
+lon = -77.0551528930664

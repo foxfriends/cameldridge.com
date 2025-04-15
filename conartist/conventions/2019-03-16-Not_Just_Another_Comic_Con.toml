@@ -1,0 +1,20 @@
+id = 349
+title = "Not Just Another Comic Con"
+start_date = 2019-03-16
+end_date = 2019-03-17
+
+[website]
+title = "www.notjustanothercomiccon.com"
+url = "https://www.notjustanothercomiccon.com/"
+
+[address]
+address = """
+Holiday Inn Little Rock-Airport-Conf Ctr
+Little Rock, AR, USA
+72206"""
+city = "Little Rock, AR"
+country = "United States"
+
+[address.coordinates]
+lat = 34.714351654052734
+lon = -92.2220687866211

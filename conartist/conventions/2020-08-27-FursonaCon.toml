@@ -1,0 +1,21 @@
+id = 770
+title = "FursonaCon"
+start_date = 2020-08-27
+end_date = 2020-08-30
+tags = []
+
+[website]
+title = "fursonacon.com"
+url = "https://fursonacon.com/"
+
+[address]
+address = """
+Holiday Inn Virginia Beach - Norfolk
+Virginia Beach, VA
+USA"""
+city = "Virginia Beach, VA"
+country = "USA"
+
+[address.coordinates]
+lat = 36.84389877319336
+lon = -76.18085479736328

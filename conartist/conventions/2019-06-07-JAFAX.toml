@@ -1,0 +1,20 @@
+id = 285
+title = "JAFAX"
+start_date = 2019-06-07
+end_date = 2019-06-09
+
+[website]
+title = "www.jafax.org"
+url = "https://www.jafax.org/"
+
+[address]
+address = """
+Amway Grand Plaza Hotel / DeVos Place
+Grand Rapids, MI, USA
+49503"""
+city = "Grand Rapids, MI"
+country = "United States"
+
+[address.coordinates]
+lat = 42.96752166748047
+lon = -85.67304992675781

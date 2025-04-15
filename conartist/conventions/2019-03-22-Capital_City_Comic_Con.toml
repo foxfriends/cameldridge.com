@@ -1,0 +1,21 @@
+id = 59
+title = "Capital City Comic Con"
+start_date = 2019-03-22
+end_date = 2019-03-24
+
+[website]
+title = "capitalcitycomiccon.ca"
+url = "https://capitalcitycomiccon.ca"
+
+[address]
+address = """
+Victoria Conference Centre - Crystal Garden
+713 Douglas St
+Victoria, BC
+"""
+city = "Victoria, BC"
+country = "Canada"
+
+[address.coordinates]
+lat = 48.42067337036133
+lon = -123.36819458007813

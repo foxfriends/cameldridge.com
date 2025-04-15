@@ -1,0 +1,21 @@
+id = 69
+title = "Kelowna Fan Xperience"
+start_date = 2019-03-22
+end_date = 2019-03-24
+
+[website]
+title = "kelownafx.com"
+url = "https://kelownafx.com"
+
+[address]
+address = """
+Rotary Centre for the Arts
+421 Cawston Ave
+Kelowna, BC
+"""
+city = "Kelowna, BC"
+country = "Canada"
+
+[address.coordinates]
+lat = 49.89096450805664
+lon = -119.49610900878906

@@ -1,0 +1,20 @@
+id = 51
+title = "Anime Revolution (Winter)"
+start_date = 2019-02-02
+end_date = 2019-02-03
+
+[website]
+title = "winter.animerevolution.ca"
+url = "https://winter.animerevolution.ca"
+
+[address]
+address = """
+Lipont Place
+4211 No 3 Rd
+Richmond, BC"""
+city = "Vancouver, BC"
+country = "Canada"
+
+[address.coordinates]
+lat = 49.18312072753906
+lon = -123.13945770263672

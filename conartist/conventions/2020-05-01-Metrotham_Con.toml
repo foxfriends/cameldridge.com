@@ -1,0 +1,21 @@
+id = 819
+title = "Metrotham Con"
+start_date = 2020-05-01
+end_date = 2020-05-03
+tags = []
+
+[website]
+title = "metrothamcon.com"
+url = "https://metrothamcon.com/"
+
+[address]
+address = """
+Chattanooga Convention Center
+Chattanooga, TN
+USA"""
+city = "Chattanooga, TN"
+country = "USA"
+
+[address.coordinates]
+lat = 35.042991638183594
+lon = -85.31246948242188

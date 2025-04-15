@@ -1,0 +1,20 @@
+id = 239
+title = "FlashbACTS"
+start_date = 2019-07-06
+end_date = 2019-07-06
+
+[website]
+title = "www.flashbacts.com"
+url = "https://www.flashbacts.com/"
+
+[address]
+address = """
+Marriott St. Louis Grand
+St. Louis, MO, USA
+63101"""
+city = "St. Louis, MO"
+country = "United States"
+
+[address.coordinates]
+lat = 38.63045883178711
+lon = -90.19235229492188

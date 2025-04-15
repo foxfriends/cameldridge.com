@@ -1,0 +1,20 @@
+id = 456
+title = "WhedonCon"
+start_date = 2019-06-07
+end_date = 2019-06-09
+
+[website]
+title = "www.whedoncon.com"
+url = "https://www.whedoncon.com/"
+
+[address]
+address = """
+Hilton Los Angeles Airport
+Los Angeles, CA, USA
+90045"""
+city = "Los Angeles, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 33.946189880371094
+lon = -118.38160705566406

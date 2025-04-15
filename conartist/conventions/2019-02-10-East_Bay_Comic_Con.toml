@@ -1,0 +1,20 @@
+id = 223
+title = "East Bay Comic-Con"
+start_date = 2019-02-10
+end_date = 2019-02-10
+
+[website]
+title = "eastbaycomiccon.com"
+url = "http://eastbaycomiccon.com/"
+
+[address]
+address = """
+Crowne Plaza Concord/Walnut Creek
+Concord, CA, USA
+94520"""
+city = "Concord, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 37.98052215576172
+lon = -122.05778503417969

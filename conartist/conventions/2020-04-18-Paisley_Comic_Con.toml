@@ -1,0 +1,20 @@
+id = 962
+title = "Paisley Comic Con"
+start_date = 2020-04-18
+end_date = 2020-04-18
+tags = []
+
+[website]
+title = "www.paisleycomics.com"
+url = "http://www.paisleycomics.com/"
+
+[address]
+address = """
+Lagoon Leisure Centre
+Paisley, UK"""
+city = "Paisley"
+country = "UK"
+
+[address.coordinates]
+lat = 55.845340728759766
+lon = -4.4151997566223145

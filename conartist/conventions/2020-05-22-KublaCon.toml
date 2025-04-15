@@ -1,0 +1,21 @@
+id = 804
+title = "KublaCon"
+start_date = 2020-05-22
+end_date = 2020-05-25
+tags = []
+
+[website]
+title = "www.kublacon.com"
+url = "https://www.kublacon.com/"
+
+[address]
+address = """
+Hyatt Regency San Francisco Airport
+Burlingame, CA
+USA"""
+city = "Burlingame, CA"
+country = "USA"
+
+[address.coordinates]
+lat = 37.5938720703125
+lon = -122.3652572631836

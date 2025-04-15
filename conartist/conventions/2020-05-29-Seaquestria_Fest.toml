@@ -1,0 +1,21 @@
+id = 881
+title = "Seaquestria Fest"
+start_date = 2020-05-29
+end_date = 2020-05-31
+tags = []
+
+[website]
+title = "www.seaquestriafest.com"
+url = "https://www.seaquestriafest.com/"
+
+[address]
+address = """
+Grand Hotel & Spa
+Ocean City, MD
+USA"""
+city = "Ocean City, MD"
+country = "USA"
+
+[address.coordinates]
+lat = 38.350669860839844
+lon = -75.07575225830078

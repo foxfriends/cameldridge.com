@@ -1,0 +1,21 @@
+id = 847
+title = "Permain Basin Comic Con"
+start_date = 2020-03-13
+end_date = 2020-03-15
+tags = []
+
+[website]
+title = "pbcomicconx.com"
+url = "https://pbcomicconx.com/"
+
+[address]
+address = """
+Bush Convention Center
+Midland, TX
+USA"""
+city = "Midland, TX"
+country = "USA"
+
+[address.coordinates]
+lat = 31.997983932495117
+lon = -102.07475280761719

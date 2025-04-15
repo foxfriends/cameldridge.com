@@ -1,0 +1,21 @@
+id = 812
+title = "Matsuricon"
+start_date = 2020-08-14
+end_date = 2020-08-16
+tags = []
+
+[website]
+title = "www.matsuricon.org"
+url = "http://www.matsuricon.org/"
+
+[address]
+address = """
+Hyatt Regency Columbus / Greater Columbus Convention Center
+Columbus, OH
+USA"""
+city = "Columbus, OH"
+country = "USA"
+
+[address.coordinates]
+lat = 39.97010803222656
+lon = -83.00077819824219

@@ -1,0 +1,21 @@
+id = 893
+title = "Star Wars Celebration Anaheim"
+start_date = 2020-08-27
+end_date = 2020-08-30
+tags = []
+
+[website]
+title = "www.starwarscelebration.com"
+url = "https://www.starwarscelebration.com/"
+
+[address]
+address = """
+Anaheim Convention Center
+Anaheim, CA
+USA"""
+city = "Anaheim, CA"
+country = "USA"
+
+[address.coordinates]
+lat = 33.80046844482422
+lon = -117.92121887207031

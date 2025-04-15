@@ -1,0 +1,20 @@
+id = 200
+title = "ConComCon"
+start_date = 2019-06-14
+end_date = 2019-06-16
+
+[website]
+title = "concomcon.com"
+url = "https://concomcon.com/"
+
+[address]
+address = """
+Sheraton Portland Airport Hotel
+Portland, OR, USA
+97220"""
+city = "Portland, OR"
+country = "United States"
+
+[address.coordinates]
+lat = 45.583003997802734
+lon = -122.57518768310547

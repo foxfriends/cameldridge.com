@@ -1,0 +1,21 @@
+id = 703
+title = "Burning Cat"
+start_date = 2020-05-16
+end_date = 2020-05-17
+tags = []
+
+[website]
+title = "burningcat.com"
+url = "https://burningcat.com/"
+
+[address]
+address = """
+Oregon Convention Center
+Portland, OR
+USA"""
+city = "Portland, OR"
+country = "USA"
+
+[address.coordinates]
+lat = 45.528316497802734
+lon = -122.66315460205078

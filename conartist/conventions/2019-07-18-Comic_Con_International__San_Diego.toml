@@ -1,0 +1,20 @@
+id = 192
+title = "Comic-Con International: San Diego"
+start_date = 2019-07-18
+end_date = 2019-07-21
+
+[website]
+title = "www.comic-con.org"
+url = "https://www.comic-con.org/cci"
+
+[address]
+address = """
+San Diego Convention Center
+San Diego, CA, USA
+92101-7822"""
+city = "San Diego, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 32.70671081542969
+lon = -117.16197967529297

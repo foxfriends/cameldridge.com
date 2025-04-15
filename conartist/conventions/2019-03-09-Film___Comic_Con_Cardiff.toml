@@ -1,0 +1,20 @@
+id = 500
+title = "Film & Comic Con Cardiff"
+start_date = 2019-03-09
+end_date = 2019-03-10
+tags = []
+
+[website]
+title = "filmandcomicconcardiff.com"
+url = "http://filmandcomicconcardiff.com/"
+
+[address]
+address = """
+Motorpoint Arena Cardiff
+Cardiff, UK"""
+city = "Cardiff"
+country = "United Kingdom"
+
+[address.coordinates]
+lat = 51.478939056396484
+lon = -3.1718404293060303

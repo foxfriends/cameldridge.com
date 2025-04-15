@@ -1,0 +1,20 @@
+id = 288
+title = "Kami-Con"
+start_date = 2019-02-22
+end_date = 2019-02-24
+
+[website]
+title = "kamicon.net"
+url = "http://kamicon.net/"
+
+[address]
+address = """
+Birmingham-Jefferson Convention Complex
+Birmingham, AL, USA
+35203"""
+city = "Birmingham, AL"
+country = "United States"
+
+[address.coordinates]
+lat = 33.525054931640625
+lon = -86.81187438964844

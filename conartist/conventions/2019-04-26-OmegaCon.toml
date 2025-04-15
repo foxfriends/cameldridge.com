@@ -1,0 +1,20 @@
+id = 354
+title = "OmegaCon"
+start_date = 2019-04-26
+end_date = 2019-04-28
+
+[website]
+title = "omegacon.org"
+url = "http://omegacon.org/"
+
+[address]
+address = """
+The Lodge at Crooked Lake
+Siren, WI, USA
+54872"""
+city = "Siren, WI"
+country = "United States"
+
+[address.coordinates]
+lat = 45.794464111328125
+lon = -92.3822021484375

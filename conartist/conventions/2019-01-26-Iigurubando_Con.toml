@@ -1,0 +1,20 @@
+id = 280
+title = "Iigurubando Con"
+start_date = 2019-01-26
+end_date = 2019-01-26
+
+[website]
+title = "ictx.webs.com"
+url = "https://ictx.webs.com/"
+
+[address]
+address = """
+Fairfield Junior High School
+Fairfield, TX, USA
+75840"""
+city = "Fairfield, TX"
+country = "United States"
+
+[address.coordinates]
+lat = 31.714908599853516
+lon = -96.14136505126953

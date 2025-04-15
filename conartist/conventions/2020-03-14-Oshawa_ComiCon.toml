@@ -1,0 +1,21 @@
+id = 625
+title = "Oshawa ComiCon"
+start_date = 2020-03-14
+end_date = 2020-03-14
+tags = []
+
+[website]
+title = "www.popculturecanada.ca"
+url = "http://www.popculturecanada.ca/"
+
+[address]
+address = """
+Delpark Homes Centre (formerly Legends Centre)
+Oshawa, ON
+Canada"""
+city = "Oshawa, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.94834899902344
+lon = -78.85115814208984

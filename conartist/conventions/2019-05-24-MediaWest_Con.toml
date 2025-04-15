@@ -1,0 +1,20 @@
+id = 316
+title = "MediaWest*Con"
+start_date = 2019-05-24
+end_date = 2019-05-27
+
+[website]
+title = "www.mediawestcon.org"
+url = "http://www.mediawestcon.org/"
+
+[address]
+address = """
+Ramada Lansing Hotel and Conference Center
+Lansing, MI, USA
+48917"""
+city = "Lansing, MI"
+country = "United States"
+
+[address.coordinates]
+lat = 42.73974609375
+lon = -84.6612548828125

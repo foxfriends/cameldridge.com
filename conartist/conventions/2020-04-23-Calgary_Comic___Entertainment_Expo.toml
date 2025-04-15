@@ -1,0 +1,21 @@
+id = 591
+title = "Calgary Comic & Entertainment Expo"
+start_date = 2020-04-23
+end_date = 2020-04-26
+tags = []
+
+[website]
+title = "www.calgaryexpo.com"
+url = "https://www.calgaryexpo.com/"
+
+[address]
+address = """
+Stampede Park
+Calgary, AB
+Canada"""
+city = "Calgary, AB"
+country = "Canada"
+
+[address.coordinates]
+lat = 51.03815841674805
+lon = -114.05591583251953

@@ -1,0 +1,20 @@
+id = 416
+title = "Star Wars Celebration Chicago"
+start_date = 2019-04-11
+end_date = 2019-04-15
+
+[website]
+title = "www.starwarscelebration.com"
+url = "http://www.starwarscelebration.com/"
+
+[address]
+address = """
+McCormick Place
+Chicago, IL, USA
+60616"""
+city = "Chicago, IL"
+country = "United States"
+
+[address.coordinates]
+lat = 41.851375579833984
+lon = -87.61485290527344

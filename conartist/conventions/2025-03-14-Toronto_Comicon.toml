@@ -1,0 +1,21 @@
+id = 1012
+title = "Toronto Comicon"
+start_date = 2025-03-14
+end_date = 2025-03-16
+
+[website]
+title = "fanexpohq.com/comicontoronto"
+url = "https://fanexpohq.com/comicontoronto/"
+
+[address]
+address = """
+Metro Toronto Convention Centre
+255 Front St W
+Toronto, ON M5V 2W6
+Canada"""
+city = "Toronto, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.643775939941406
+lon = -79.3869857788086

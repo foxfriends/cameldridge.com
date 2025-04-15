@@ -1,0 +1,20 @@
+id = 259
+title = "Gateway FurMeet"
+start_date = 2019-03-01
+end_date = 2019-03-03
+
+[website]
+title = "gatewayfurmeet.org"
+url = "https://gatewayfurmeet.org/"
+
+[address]
+address = """
+DoubleTree by Hilton Hotel St. Louis - Westport
+St. Louis, MO, USA
+63146"""
+city = "St. Louis, MO"
+country = "United States"
+
+[address.coordinates]
+lat = 38.69423294067383
+lon = -90.44940948486328

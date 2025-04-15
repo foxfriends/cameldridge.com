@@ -1,0 +1,21 @@
+id = 865
+title = "Quest Con Orlando"
+start_date = 2020-08-01
+end_date = 2020-08-01
+tags = []
+
+[website]
+title = "www.questconorlando.com"
+url = "https://www.questconorlando.com/"
+
+[address]
+address = """
+Holiday Inn & Suites Across From Universal Orlando
+Orlando, FL
+USA"""
+city = "Orlando, FL"
+country = "USA"
+
+[address.coordinates]
+lat = 28.47650909423828
+lon = -81.45772552490234

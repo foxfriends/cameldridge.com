@@ -1,0 +1,21 @@
+id = 771
+title = "Further Confusion"
+start_date = 2020-01-16
+end_date = 2020-01-20
+tags = []
+
+[website]
+title = "www.furtherconfusion.org"
+url = "https://www.furtherconfusion.org/"
+
+[address]
+address = """
+San Jose McEnery Convention Center
+San Jose, CA
+USA"""
+city = "San Jose, CA"
+country = "USA"
+
+[address.coordinates]
+lat = 37.32896041870117
+lon = -121.88894653320313

@@ -1,0 +1,20 @@
+id = 320
+title = "Miami Comic Con"
+start_date = 2019-03-09
+end_date = 2019-03-09
+
+[website]
+title = "herohype.com"
+url = "https://herohype.com/miami2019.html"
+
+[address]
+address = """
+Miami Airport Convention Center
+Miami, FL, USA
+33126"""
+city = "Miami, FL"
+country = "United States"
+
+[address.coordinates]
+lat = 25.77880859375
+lon = -80.30980682373047

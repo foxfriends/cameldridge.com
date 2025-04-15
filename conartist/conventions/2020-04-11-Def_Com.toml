@@ -1,0 +1,21 @@
+id = 739
+title = "Def Com"
+start_date = 2020-04-11
+end_date = 2020-04-11
+tags = []
+
+[website]
+title = "defiancelibrary.org"
+url = "http://defiancelibrary.org/discover/defcom"
+
+[address]
+address = """
+Northtowne Mall
+Defiance, OH
+USA"""
+city = "Defiance, OH"
+country = "USA"
+
+[address.coordinates]
+lat = 41.301448822021484
+lon = -84.36357879638672

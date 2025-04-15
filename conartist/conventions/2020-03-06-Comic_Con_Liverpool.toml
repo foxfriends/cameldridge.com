@@ -1,0 +1,20 @@
+id = 938
+title = "Comic Con Liverpool"
+start_date = 2020-03-06
+end_date = 2020-03-08
+tags = []
+
+[website]
+title = "www.comicconventionliverpool.co.uk"
+url = "https://www.comicconventionliverpool.co.uk/"
+
+[address]
+address = """
+Exhibition Centre Liverpool
+Liverpool, UK"""
+city = "Liverpool"
+country = "UK"
+
+[address.coordinates]
+lat = 53.39547348022461
+lon = -2.990323066711426

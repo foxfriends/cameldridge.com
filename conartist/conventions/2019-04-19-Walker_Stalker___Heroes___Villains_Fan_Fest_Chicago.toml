@@ -1,0 +1,20 @@
+id = 451
+title = "Walker Stalker / Heroes & Villains Fan Fest Chicago"
+start_date = 2019-04-19
+end_date = 2019-04-21
+
+[website]
+title = "walkerstalkercon.com"
+url = "https://walkerstalkercon.com/chicago/"
+
+[address]
+address = """
+Donald E Stephens Convention Center
+Rosemont, IL, USA
+60018"""
+city = "Rosemont, IL"
+country = "United States"
+
+[address.coordinates]
+lat = 41.9792366027832
+lon = -87.86087036132813

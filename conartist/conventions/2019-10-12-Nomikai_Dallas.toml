@@ -1,0 +1,20 @@
+id = 346
+title = "Nomikai Dallas"
+start_date = 2019-10-12
+end_date = 2019-10-13
+
+[website]
+title = "www.nomikaidallas.com"
+url = "http://www.nomikaidallas.com/"
+
+[address]
+address = """
+Premier Event Center
+Lewisville, TX, USA
+75067"""
+city = "Lewisville, TX"
+country = "United States"
+
+[address.coordinates]
+lat = 33.02864074707031
+lon = -96.99500274658203

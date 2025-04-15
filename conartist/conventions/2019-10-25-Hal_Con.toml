@@ -1,0 +1,21 @@
+id = 66
+title = "Hal-Con"
+start_date = 2019-10-25
+end_date = 2019-10-27
+
+[website]
+title = "hal-con.com"
+url = "https://hal-con.com"
+
+[address]
+address = """
+Halifax Convention Centre
+1650 Argyle St
+Halifax, NS
+"""
+city = "Halifax, NS"
+country = "Canada"
+
+[address.coordinates]
+lat = 44.64726638793945
+lon = -63.57727813720703

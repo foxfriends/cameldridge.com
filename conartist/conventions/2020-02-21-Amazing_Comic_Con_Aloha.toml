@@ -1,0 +1,21 @@
+id = 648
+title = "Amazing Comic Con Aloha"
+start_date = 2020-02-21
+end_date = 2020-02-23
+tags = []
+
+[website]
+title = "www.amazingcomicconaloha.com"
+url = "https://www.amazingcomicconaloha.com/"
+
+[address]
+address = """
+Hawaii Convention Center
+Honolulu, HI
+USA"""
+city = "Honolulu, HI"
+country = "USA"
+
+[address.coordinates]
+lat = 21.289579391479492
+lon = -157.83616638183594

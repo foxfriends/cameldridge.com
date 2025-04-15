@@ -1,0 +1,20 @@
+id = 176
+title = "Chibi Chibi Con"
+start_date = 2019-02-09
+end_date = 2019-02-09
+
+[website]
+title = "chibichibicon.net"
+url = "http://chibichibicon.net/"
+
+[address]
+address = """
+The Evergreen State College
+Olympia, WA, USA
+98505-0005"""
+city = "Olympia, WA"
+country = "United States"
+
+[address.coordinates]
+lat = 47.073123931884766
+lon = -122.97744750976563

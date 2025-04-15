@@ -1,0 +1,20 @@
+id = 217
+title = "Dice Tower Con"
+start_date = 2019-07-03
+end_date = 2019-07-07
+
+[website]
+title = "www.dicetowercon.com"
+url = "http://www.dicetowercon.com/"
+
+[address]
+address = """
+Caribe Royale All-Suite Hotel and Convention Center
+Orlando, FL, USA
+32821"""
+city = "Orlando, FL"
+country = "United States"
+
+[address.coordinates]
+lat = 28.358243942260742
+lon = -81.4930648803711

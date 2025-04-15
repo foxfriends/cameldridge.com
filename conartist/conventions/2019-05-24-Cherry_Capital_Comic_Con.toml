@@ -1,0 +1,20 @@
+id = 175
+title = "Cherry Capital Comic Con"
+start_date = 2019-05-24
+end_date = 2019-05-26
+
+[website]
+title = "cherrycapitalcon.com"
+url = "http://cherrycapitalcon.com/"
+
+[address]
+address = """
+Grand Traverse Resort and Spa
+Acme, MI, USA
+49610"""
+city = "Acme, MI"
+country = "United States"
+
+[address.coordinates]
+lat = 44.77897644042969
+lon = -85.48846435546875

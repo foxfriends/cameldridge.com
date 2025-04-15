@@ -1,0 +1,20 @@
+id = 464
+title = "Wizard World Comic Con Portland"
+start_date = 2019-02-22
+end_date = 2019-02-24
+
+[website]
+title = "wizardworld.com"
+url = "https://wizardworld.com/comiccon/portland"
+
+[address]
+address = """
+Oregon Convention Center
+Portland, OR, USA
+97232"""
+city = "Portland, OR"
+country = "United States"
+
+[address.coordinates]
+lat = 45.528343200683594
+lon = -122.663330078125

@@ -1,0 +1,20 @@
+id = 148
+title = "Atlanta Sci-Fi and Fantasy Expo"
+start_date = 2019-03-09
+end_date = 2019-03-10
+
+[website]
+title = "www.atlantascifiexpo.com"
+url = "http://www.atlantascifiexpo.com/"
+
+[address]
+address = """
+North DeKalb Mall
+Decatur, GA, USA
+30033"""
+city = "Decatur, GA"
+country = "United States"
+
+[address.coordinates]
+lat = 33.80838394165039
+lon = -84.2778549194336

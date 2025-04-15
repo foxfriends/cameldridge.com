@@ -1,0 +1,20 @@
+id = 136
+title = "Anthro Northwest"
+start_date = 2019-11-21
+end_date = 2019-11-24
+
+[website]
+title = "www.anthronw.com"
+url = "http://www.anthronw.com/"
+
+[address]
+address = """
+Hyatt Regency Seattle
+Seattle, WA, USA
+98101"""
+city = "Seattle, WA"
+country = "United States"
+
+[address.coordinates]
+lat = 47.61441421508789
+lon = -122.33419799804688

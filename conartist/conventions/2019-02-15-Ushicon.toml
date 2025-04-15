@@ -1,0 +1,20 @@
+id = 446
+title = "Ushicon"
+start_date = 2019-02-15
+end_date = 2019-02-17
+
+[website]
+title = "www.ushicon.com"
+url = "http://www.ushicon.com/"
+
+[address]
+address = """
+Wingate by Wyndham Round Rock Hotel & Conference Center
+Round Rock, TX, USA
+78664"""
+city = "Round Rock, TX"
+country = "United States"
+
+[address.coordinates]
+lat = 30.51935386657715
+lon = -97.68734741210938

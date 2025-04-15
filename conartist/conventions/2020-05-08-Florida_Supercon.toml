@@ -1,0 +1,21 @@
+id = 761
+title = "Florida Supercon"
+start_date = 2020-05-08
+end_date = 2020-05-10
+tags = []
+
+[website]
+title = "www.floridasupercon.com"
+url = "https://www.floridasupercon.com/"
+
+[address]
+address = """
+Miami Beach Convention Center
+Miami Beach, FL
+USA"""
+city = "Miami Beach, FL"
+country = "USA"
+
+[address.coordinates]
+lat = 25.794897079467773
+lon = -80.1334228515625

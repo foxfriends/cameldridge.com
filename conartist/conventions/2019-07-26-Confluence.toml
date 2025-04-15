@@ -1,0 +1,20 @@
+id = 203
+title = "Confluence"
+start_date = 2019-07-26
+end_date = 2019-07-28
+
+[website]
+title = "www.confluence-sff.org"
+url = "http://www.confluence-sff.org/"
+
+[address]
+address = """
+Sheraton Pittsburgh Airport Hotel
+Pittsburgh, PA, USA
+15108"""
+city = "Pittsburgh, PA"
+country = "United States"
+
+[address.coordinates]
+lat = 40.501861572265625
+lon = -80.20995330810547

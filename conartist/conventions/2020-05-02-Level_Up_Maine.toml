@@ -1,0 +1,21 @@
+id = 805
+title = "Level Up Maine"
+start_date = 2020-05-02
+end_date = 2020-05-02
+tags = []
+
+[website]
+title = "levelupmaine.com"
+url = "http://levelupmaine.com/"
+
+[address]
+address = """
+Maine Mall, PortConMaine Games Arena Space
+South Portland, ME
+USA"""
+city = "South Portland, ME"
+country = "USA"
+
+[address.coordinates]
+lat = 43.632938385009766
+lon = -70.334716796875

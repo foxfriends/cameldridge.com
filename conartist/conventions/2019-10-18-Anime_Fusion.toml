@@ -1,0 +1,20 @@
+id = 113
+title = "Anime Fusion"
+start_date = 2019-10-18
+end_date = 2019-10-20
+
+[website]
+title = "www.animefusion.net"
+url = "https://www.animefusion.net/"
+
+[address]
+address = """
+Crowne Plaza Minneapolis West
+Plymouth, MN, USA
+55441"""
+city = "Plymouth, MN"
+country = "United States"
+
+[address.coordinates]
+lat = 45.016082763671875
+lon = -93.45289611816406

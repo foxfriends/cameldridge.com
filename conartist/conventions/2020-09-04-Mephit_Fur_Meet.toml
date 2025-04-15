@@ -1,0 +1,21 @@
+id = 817
+title = "Mephit Fur Meet"
+start_date = 2020-09-04
+end_date = 2020-09-06
+tags = []
+
+[website]
+title = "www.mephitfurmeet.org"
+url = "https://www.mephitfurmeet.org/"
+
+[address]
+address = """
+Whispering Woods Hotel and Conference Center
+Olive Branch, MS
+USA"""
+city = "Olive Branch, MS"
+country = "USA"
+
+[address.coordinates]
+lat = 34.96665954589844
+lon = -89.79169464111328

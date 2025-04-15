@@ -1,0 +1,20 @@
+id = 539
+title = "Walker Stalker Con Germany"
+start_date = 2019-03-23
+end_date = 2019-03-24
+tags = []
+
+[website]
+title = "walkerstalkercon.de"
+url = "http://walkerstalkercon.de/"
+
+[address]
+address = """
+Messe Berlin
+Berlin, Germany"""
+city = "Berlin"
+country = "Germany"
+
+[address.coordinates]
+lat = 52.50173568725586
+lon = 13.273356437683105

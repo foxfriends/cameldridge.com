@@ -1,0 +1,20 @@
+id = 306
+title = "Long Beach Comic Expo"
+start_date = 2019-02-16
+end_date = 2019-02-17
+
+[website]
+title = "longbeachcomicexpo.com"
+url = "http://longbeachcomicexpo.com/"
+
+[address]
+address = """
+Long Beach Convention Center
+Long Beach, CA, USA
+90802"""
+city = "Long Beach, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 33.76477813720703
+lon = -118.19023895263672

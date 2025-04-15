@@ -1,0 +1,21 @@
+id = 610
+title = "Ganbatte"
+start_date = 2020-07-04
+end_date = 2020-07-05
+tags = []
+
+[website]
+title = "ganbatte.ca"
+url = "https://ganbatte.ca/"
+
+[address]
+address = """
+TCU Place
+Saskatoon, SK
+Canada"""
+city = "Saskatoon, SK"
+country = "Canada"
+
+[address.coordinates]
+lat = 52.12769317626953
+lon = -106.66730499267578

@@ -1,0 +1,20 @@
+id = 970
+title = "Sci-Fi Scarborough"
+start_date = 2020-04-04
+end_date = 2020-04-05
+tags = []
+
+[website]
+title = "www.scifiscarborough.co.uk"
+url = "https://www.scifiscarborough.co.uk/"
+
+[address]
+address = """
+Scarborough Spa
+Scarborough, UK"""
+city = "Scarborough"
+country = "UK"
+
+[address.coordinates]
+lat = 54.27570724487305
+lon = -0.3975445032119751

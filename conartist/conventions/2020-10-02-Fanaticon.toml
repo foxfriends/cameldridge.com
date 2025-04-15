@@ -1,0 +1,21 @@
+id = 755
+title = "Fanaticon"
+start_date = 2020-10-02
+end_date = 2020-10-04
+tags = []
+
+[website]
+title = "www.alabamafanaticon.org"
+url = "https://www.alabamafanaticon.org/"
+
+[address]
+address = """
+Dothan City Civic Center
+Dothan, AL
+USA"""
+city = "Dothan, AL"
+country = "USA"
+
+[address.coordinates]
+lat = 31.22489356994629
+lon = -85.39021301269531

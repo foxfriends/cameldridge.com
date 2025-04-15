@@ -1,0 +1,21 @@
+id = 566
+title = "ToyCon + OpoLife FanX"
+start_date = 2019-06-28
+end_date = 2019-06-29
+
+[website]
+title = "facebook.com/toyconph"
+url = "https://www.facebook.com/toyconph/"
+
+[address]
+address = """
+SMX Convention Center,
+Mall of Asia Complex, Seashell Ln
+Pasay, 1300 Metro Manila, Philippines
+"""
+city = "Pasay, Metro Manila"
+country = "Philippines"
+
+[address.coordinates]
+lat = 14.53211498260498
+lon = 120.9793930053711

@@ -1,0 +1,20 @@
+id = 383
+title = "RavenCon"
+start_date = 2019-04-04
+end_date = 2019-04-07
+
+[website]
+title = "www.ravencon.com"
+url = "http://www.ravencon.com/"
+
+[address]
+address = """
+DoubleTree by Hilton Hotel Williamsburg
+Williamsburg, VA, USA
+23185"""
+city = "Williamsburg, VA"
+country = "United States"
+
+[address.coordinates]
+lat = 37.243614196777344
+lon = -76.65921783447266

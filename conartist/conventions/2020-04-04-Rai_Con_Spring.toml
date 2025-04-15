@@ -1,0 +1,20 @@
+id = 967
+title = "Rai Con Spring"
+start_date = 2020-04-04
+end_date = 2020-04-04
+tags = []
+
+[website]
+title = "www.raicon.co.uk"
+url = "http://www.raicon.co.uk/"
+
+[address]
+address = """
+The Glasgow Royal Concert Hall
+Glasgow, UK"""
+city = "Glasgow"
+country = "UK"
+
+[address.coordinates]
+lat = 55.8643798828125
+lon = -4.252042770385742

@@ -1,0 +1,20 @@
+id = 189
+title = "Colossalcon Cruise"
+start_date = 2019-01-25
+end_date = 2019-01-28
+
+[website]
+title = "colossalconeast.com"
+url = "http://colossalconeast.com/colossalcon-cruise-2019/"
+
+[address]
+address = """
+Royal Caribbean's Enchantment of the Seas
+Departing from Cape Canaveral, FL, USA
+32920"""
+city = "Cape Canaveral, FL"
+country = "United States"
+
+[address.coordinates]
+lat = 28.408424377441406
+lon = -80.61163330078125

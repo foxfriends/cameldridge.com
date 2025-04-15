@@ -1,0 +1,20 @@
+id = 166
+title = "BrickFair Virginia"
+start_date = 2019-08-03
+end_date = 2019-08-04
+
+[website]
+title = "www.brickfair.com"
+url = "https://www.brickfair.com/VA/"
+
+[address]
+address = """
+Dulles Expo Center
+Chantilly, VA, USA
+20151"""
+city = "Chantilly, VA"
+country = "United States"
+
+[address.coordinates]
+lat = 38.88765335083008
+lon = -77.44012451171875

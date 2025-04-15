@@ -1,0 +1,20 @@
+id = 428
+title = "Tekko"
+start_date = 2019-04-11
+end_date = 2019-04-14
+
+[website]
+title = "www.teamtekko.us"
+url = "http://www.teamtekko.us/"
+
+[address]
+address = """
+David L. Lawrence Convention Center
+Pittsburgh, PA, USA
+15222"""
+city = "Pittsburgh, PA"
+country = "United States"
+
+[address.coordinates]
+lat = 40.445777893066406
+lon = -79.99642944335938

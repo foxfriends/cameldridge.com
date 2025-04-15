@@ -1,0 +1,21 @@
+id = 736
+title = "Cosplay And Photography Expo"
+start_date = 2020-07-18
+end_date = 2020-07-19
+tags = []
+
+[website]
+title = "cape.nerdcaliber.com"
+url = "http://cape.nerdcaliber.com/"
+
+[address]
+address = """
+Holiday Inn Mansfield-Foxboro Area
+Mansfield, MA
+USA"""
+city = "Mansfield, MA"
+country = "USA"
+
+[address.coordinates]
+lat = 42.028446197509766
+lon = -71.25080871582031

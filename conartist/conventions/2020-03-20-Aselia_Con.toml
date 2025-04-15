@@ -1,0 +1,21 @@
+id = 686
+title = "Aselia Con"
+start_date = 2020-03-20
+end_date = 2020-03-22
+tags = []
+
+[website]
+title = "aseliacon.com"
+url = "https://aseliacon.com/"
+
+[address]
+address = """
+DoubleTree by Hilton Hotel Dallas - DFW Airport North
+Irving, TX
+USA"""
+city = "Irving, TX"
+country = "USA"
+
+[address.coordinates]
+lat = 32.91653060913086
+lon = -97.00668334960938

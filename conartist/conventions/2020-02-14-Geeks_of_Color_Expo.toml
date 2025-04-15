@@ -1,0 +1,21 @@
+id = 779
+title = "Geeks of Color Expo"
+start_date = 2020-02-14
+end_date = 2020-02-16
+tags = []
+
+[website]
+title = "gcxaustin.com"
+url = "https://gcxaustin.com/"
+
+[address]
+address = """
+Crowne Plaza Austin
+Austin, TX
+USA"""
+city = "Austin, TX"
+country = "USA"
+
+[address.coordinates]
+lat = 30.323925018310547
+lon = -97.70466613769531

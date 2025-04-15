@@ -1,0 +1,20 @@
+id = 132
+title = "AnimeIowa"
+start_date = 2019-07-12
+end_date = 2019-07-14
+
+[website]
+title = "animeiowa.com"
+url = "http://animeiowa.com/"
+
+[address]
+address = """
+Iowa Events Center
+Des Moines, IA, USA
+50309"""
+city = "Des Moines, IA"
+country = "United States"
+
+[address.coordinates]
+lat = 41.59204864501953
+lon = -93.62257385253906

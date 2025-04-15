@@ -1,0 +1,20 @@
+id = 340
+title = "Naka-Kon"
+start_date = 2019-03-15
+end_date = 2019-03-17
+
+[website]
+title = "naka-kon.com"
+url = "https://naka-kon.com/"
+
+[address]
+address = """
+Overland Park Convention Center
+Overland Park, KS, USA
+66211"""
+city = "Overland Park, KS"
+country = "United States"
+
+[address.coordinates]
+lat = 38.92853546142578
+lon = -94.6552505493164

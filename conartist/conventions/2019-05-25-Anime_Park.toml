@@ -1,0 +1,20 @@
+id = 121
+title = "Anime Park"
+start_date = 2019-05-25
+end_date = 2019-05-25
+
+[website]
+title = "animeparkconstaff.wixsite.com"
+url = "http://animeparkconstaff.wixsite.com/animepark"
+
+[address]
+address = """
+Canton High School
+Canton, MI, USA
+48187-1300"""
+city = "Canton, MI"
+country = "United States"
+
+[address.coordinates]
+lat = 42.34675216674805
+lon = -83.4923095703125

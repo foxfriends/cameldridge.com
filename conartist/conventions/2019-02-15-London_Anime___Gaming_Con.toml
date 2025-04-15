@@ -1,0 +1,20 @@
+id = 517
+title = "London Anime & Gaming Con"
+start_date = 2019-02-15
+end_date = 2019-02-17
+tags = []
+
+[website]
+title = "winter.londonanimecon.com"
+url = "https://winter.londonanimecon.com/"
+
+[address]
+address = """
+London Metropolitan University, The Rocket Complex
+London, UK"""
+city = "London"
+country = "United Kingdom"
+
+[address.coordinates]
+lat = 51.551727294921875
+lon = -0.11039400100708008

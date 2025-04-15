@@ -1,0 +1,20 @@
+id = 468
+title = "World Fantasy Convention"
+start_date = 2019-10-31
+end_date = 2019-11-03
+
+[website]
+title = "wfc2019.org"
+url = "https://wfc2019.org/"
+
+[address]
+address = """
+Los Angeles Airport Marriott
+Los Angeles, CA, USA
+90045"""
+city = "Los Angeles, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 33.94660186767578
+lon = -118.3848648071289

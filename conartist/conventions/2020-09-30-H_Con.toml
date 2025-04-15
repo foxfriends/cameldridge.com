@@ -1,0 +1,20 @@
+id = 948
+title = "H-Con"
+start_date = 2020-09-30
+end_date = 2020-10-04
+tags = []
+
+[website]
+title = "h-con.org"
+url = "https://h-con.org/"
+
+[address]
+address = """
+Petershof
+Erbach, Germany"""
+city = "Erbach"
+country = "Germany"
+
+[address.coordinates]
+lat = 49.64047622680664
+lon = 9.045928955078125

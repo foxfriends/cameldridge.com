@@ -1,0 +1,21 @@
+id = 73
+title = "Northern Ontario Expo: Comicon Timmins"
+start_date = 2019-04-13
+end_date = 2019-04-14
+
+[website]
+title = "northernontarioexpo.com"
+url = "https://northernontarioexpo.com"
+
+[address]
+address = """
+McIntyre Curling Club
+85 Mcintyre Rd
+Timmins, ON
+"""
+city = "Timmins, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 48.47789001464844
+lon = -81.30040740966797

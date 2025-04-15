@@ -1,0 +1,21 @@
+id = 859
+title = "QuadCon Davenport"
+start_date = 2020-04-11
+end_date = 2020-04-11
+tags = []
+
+[website]
+title = "quadcitycon.com"
+url = "https://quadcitycon.com/"
+
+[address]
+address = """
+The Golden Leaf Banquet & Convention Center
+Davenport, IA
+USA"""
+city = "Davenport, IA"
+country = "USA"
+
+[address.coordinates]
+lat = 41.55636215209961
+lon = -90.5291748046875

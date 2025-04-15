@@ -1,0 +1,21 @@
+id = 641
+title = "13 Gears"
+start_date = 2020-02-15
+end_date = 2020-02-16
+tags = []
+
+[website]
+title = "www.13gearsmn.com"
+url = "https://www.13gearsmn.com/"
+
+[address]
+address = """
+Grain Belt Bottling House
+Minneapolis, MN
+USA"""
+city = "Minneapolis, MN"
+country = "USA"
+
+[address.coordinates]
+lat = 44.99998092651367
+lon = -93.27127838134766

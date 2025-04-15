@@ -1,0 +1,21 @@
+id = 763
+title = "Frederick Comic Con"
+start_date = 2020-03-08
+end_date = 2020-03-08
+tags = []
+
+[website]
+title = "shoffpromotions.com"
+url = "http://shoffpromotions.com/"
+
+[address]
+address = """
+Clarion Inn Frederick Event Center
+Frederick, MD
+USA"""
+city = "Frederick, MD"
+country = "USA"
+
+[address.coordinates]
+lat = 39.37869644165039
+lon = -77.405517578125

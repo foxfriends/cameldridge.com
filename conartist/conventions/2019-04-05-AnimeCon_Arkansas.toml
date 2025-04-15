@@ -1,0 +1,20 @@
+id = 129
+title = "AnimeCon Arkansas"
+start_date = 2019-04-05
+end_date = 2019-04-07
+
+[website]
+title = "www.animeconarkansas.com"
+url = "http://www.animeconarkansas.com/"
+
+[address]
+address = """
+Holiday Inn Little Rock-Airport-Conf Ctr
+Little Rock, AR, USA
+72206"""
+city = "Little Rock, AR"
+country = "United States"
+
+[address.coordinates]
+lat = 34.7142333984375
+lon = -92.22212219238281

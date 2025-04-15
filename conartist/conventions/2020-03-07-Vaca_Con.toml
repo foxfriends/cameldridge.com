@@ -1,0 +1,21 @@
+id = 916
+title = "Vaca-Con"
+start_date = 2020-03-07
+end_date = 2020-03-07
+tags = []
+
+[website]
+title = "www.visitvacaville.com"
+url = "https://www.visitvacaville.com/"
+
+[address]
+address = """
+Ulatis Community Center
+Vacaville, CA
+USA"""
+city = "Vacaville, CA"
+country = "USA"
+
+[address.coordinates]
+lat = 38.35584259033203
+lon = -121.96351623535156

@@ -1,0 +1,21 @@
+id = 807
+title = "Long Beach Comic Expo"
+start_date = 2020-01-11
+end_date = 2020-01-12
+tags = []
+
+[website]
+title = "longbeachcomicexpo.com"
+url = "http://longbeachcomicexpo.com/"
+
+[address]
+address = """
+Long Beach Convention Center
+Long Beach, CA
+USA"""
+city = "Long Beach, CA"
+country = "USA"
+
+[address.coordinates]
+lat = 33.76477813720703
+lon = -118.19023895263672

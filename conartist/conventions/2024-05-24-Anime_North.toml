@@ -1,0 +1,21 @@
+id = 996
+title = "Anime North"
+start_date = 2024-05-24
+end_date = 2024-05-26
+
+[website]
+title = "www.animenorth.com"
+url = "https://www.animenorth.com/"
+
+[address]
+address = """
+Toronto Congress Center / Delta Hotels by Marriott Toronto Airport & Conference Centre
+650 Dixon Rd
+Etobicoke, ON M9W 1J1
+Canada"""
+city = "Toronto, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.691890716552734
+lon = -79.57841491699219

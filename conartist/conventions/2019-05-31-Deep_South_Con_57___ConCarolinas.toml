@@ -1,0 +1,20 @@
+id = 213
+title = "Deep South Con 57 / ConCarolinas"
+start_date = 2019-05-31
+end_date = 2019-06-02
+
+[website]
+title = "concarolinas.org"
+url = "https://concarolinas.org/"
+
+[address]
+address = """
+Hilton Charlotte University Place
+Charlotte, NC, USA
+28262"""
+city = "Charlotte, NC"
+country = "United States"
+
+[address.coordinates]
+lat = 35.3089485168457
+lon = -80.75053405761719

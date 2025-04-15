@@ -1,0 +1,21 @@
+id = 784
+title = "Havoc"
+start_date = 2020-04-03
+end_date = 2020-04-05
+tags = []
+
+[website]
+title = "havoc.battlegroupboston.org"
+url = "http://havoc.battlegroupboston.org/"
+
+[address]
+address = """
+Maironis Park
+Shrewsbury, MA
+USA"""
+city = "Shrewsbury, MA"
+country = "USA"
+
+[address.coordinates]
+lat = 42.2705078125
+lon = -71.752685546875

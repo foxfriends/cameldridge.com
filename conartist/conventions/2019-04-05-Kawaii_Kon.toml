@@ -1,0 +1,20 @@
+id = 292
+title = "Kawaii Kon"
+start_date = 2019-04-05
+end_date = 2019-04-07
+
+[website]
+title = "kawaiikon.com"
+url = "https://kawaiikon.com/"
+
+[address]
+address = """
+Hawaii Convention Center
+Honolulu, HI, USA
+96815-1513"""
+city = "Honolulu, HI"
+country = "United States"
+
+[address.coordinates]
+lat = 21.289819717407227
+lon = -157.83612060546875

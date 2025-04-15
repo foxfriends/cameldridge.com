@@ -1,0 +1,21 @@
+id = 72
+title = "Northern Fancon"
+start_date = 2019-05-03
+end_date = 2019-05-05
+
+[website]
+title = "fancon.ca"
+url = "http://fancon.ca"
+
+[address]
+address = """
+CN Centre
+2187 Ospika Blvd S #100
+Prince George, BC
+"""
+city = "Prince George, BC"
+country = "Canada"
+
+[address.coordinates]
+lat = 53.904510498046875
+lon = -122.8041763305664

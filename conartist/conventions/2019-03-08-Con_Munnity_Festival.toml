@@ -1,0 +1,20 @@
+id = 197
+title = "Con-Munnity Festival"
+start_date = 2019-03-08
+end_date = 2019-03-10
+
+[website]
+title = "conmunnityfestival.wixsite.com"
+url = "https://conmunnityfestival.wixsite.com/mysite"
+
+[address]
+address = """
+Amarillo Civic Center Complex
+Amarillo, TX, USA
+79101"""
+city = "Amarillo, TX"
+country = "United States"
+
+[address.coordinates]
+lat = 35.20835876464844
+lon = -101.83052825927734

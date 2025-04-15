@@ -1,0 +1,21 @@
+id = 555
+title = "Komikon Grande"
+start_date = 2019-11-23
+end_date = 2019-11-24
+
+[website]
+title = "facebook.com/events/2242632995992334"
+url = "https://www.facebook.com/events/2242632995992334/"
+
+[address]
+address = """
+Bayanihan Center, UNILAB
+Pioneer St.
+Pasig, Metro Manila, Philippines
+"""
+city = "Pasig, Metro Manila"
+country = "Philippines"
+
+[address.coordinates]
+lat = 11.634727478027344
+lon = 103.37065887451172

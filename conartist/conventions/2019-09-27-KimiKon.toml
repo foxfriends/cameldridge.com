@@ -1,0 +1,21 @@
+id = 581
+title = "KimiKon"
+start_date = 2019-09-27
+end_date = 2019-09-29
+
+[website]
+title = "kimikon.ca"
+url = "https://kimikon.ca/"
+
+[address]
+address = """
+Enercare Centre
+100 Princes' Blvd.
+Toronto, ON, Canada
+"""
+city = "Toronto, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.63491439819336
+lon = -79.4148941040039

@@ -1,0 +1,20 @@
+id = 122
+title = "Anime Recharge"
+start_date = 2019-03-10
+end_date = 2019-03-10
+
+[website]
+title = "www.animerecharge.com"
+url = "https://www.animerecharge.com/"
+
+[address]
+address = """
+Drake University Olmsted Center
+Des Moines, IA, USA
+50311"""
+city = "Des Moines, IA"
+country = "United States"
+
+[address.coordinates]
+lat = 41.601932525634766
+lon = -93.65697479248047

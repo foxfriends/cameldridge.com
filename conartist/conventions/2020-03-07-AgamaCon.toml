@@ -1,0 +1,21 @@
+id = 645
+title = "AgamaCon"
+start_date = 2020-03-07
+end_date = 2020-03-08
+tags = []
+
+[website]
+title = "agamacon.com"
+url = "https://agamacon.com/"
+
+[address]
+address = """
+Odell Weeks Activity Center
+Aiken, SC
+USA"""
+city = "Aiken, SC"
+country = "USA"
+
+[address.coordinates]
+lat = 33.52791213989258
+lon = -81.72069549560547

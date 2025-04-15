@@ -1,0 +1,20 @@
+id = 231
+title = "Fairfax, VA Comicon"
+start_date = 2019-12-07
+end_date = 2019-12-07
+
+[website]
+title = "vacomicon.com"
+url = "https://vacomicon.com/events/gmu2019/"
+
+[address]
+address = """
+George Mason University, Johnson Center
+Fairfax, VA, USA
+22030"""
+city = "Fairfax, VA"
+country = "United States"
+
+[address.coordinates]
+lat = 38.8299674987793
+lon = -77.3075942993164

@@ -1,0 +1,20 @@
+id = 21
+title = "Coburg ComiCon"
+start_date = 2019-04-06
+end_date = 2019-04-06
+
+[website]
+title = "www.popculturecanada.ca"
+url = "http://www.popculturecanada.ca/"
+
+[address]
+address = """
+Cobourg Community Centre
+Coburg, ON, Canada
+K9A 0G1"""
+city = "Coburg, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.974674224853516
+lon = -78.16046142578125

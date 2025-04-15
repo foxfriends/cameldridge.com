@@ -1,0 +1,20 @@
+id = 377
+title = "Queen City Anime Convention"
+start_date = 2019-08-09
+end_date = 2019-08-11
+
+[website]
+title = "queencityanimecon.com"
+url = "https://queencityanimecon.com/"
+
+[address]
+address = """
+Sheraton Charlotte Hotel
+Charlotte, NC, USA
+28204"""
+city = "Charlotte, NC"
+country = "United States"
+
+[address.coordinates]
+lat = 35.21688461303711
+lon = -80.83868408203125

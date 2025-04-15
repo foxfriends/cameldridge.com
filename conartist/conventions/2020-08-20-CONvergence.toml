@@ -1,0 +1,21 @@
+id = 734
+title = "CONvergence"
+start_date = 2020-08-20
+end_date = 2020-08-23
+tags = []
+
+[website]
+title = "www.convergence-con.org"
+url = "http://www.convergence-con.org/"
+
+[address]
+address = """
+Hyatt Regency Minneapolis
+Minneapolis, MN
+USA"""
+city = "Minneapolis, MN"
+country = "USA"
+
+[address.coordinates]
+lat = 44.97061538696289
+lon = -93.27849578857422

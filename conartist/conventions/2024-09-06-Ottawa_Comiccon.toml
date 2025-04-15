@@ -1,0 +1,21 @@
+id = 1003
+title = "Ottawa Comiccon"
+start_date = 2024-09-06
+end_date = 2024-09-08
+tags = []
+
+[website]
+title = "ottawacomiccon.com"
+url = "https://ottawacomiccon.com/"
+
+[address]
+address = """
+EY Centre
+4899 Uplands Dr
+Ottawa, ON K1V 2N6"""
+city = "Ottawa, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 45.397071838378906
+lon = -75.74978637695313

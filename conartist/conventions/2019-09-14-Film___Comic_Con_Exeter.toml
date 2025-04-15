@@ -1,0 +1,20 @@
+id = 501
+title = "Film & Comic Con Exeter"
+start_date = 2019-09-14
+end_date = 2019-09-15
+tags = []
+
+[website]
+title = "www.showmastersevents.com"
+url = "https://www.showmastersevents.com/exeter/"
+
+[address]
+address = """
+Westpoint Exeter
+Exeter, UK"""
+city = "Exeter"
+country = "United Kingdom"
+
+[address.coordinates]
+lat = 50.71312713623047
+lon = -3.4405434131622314

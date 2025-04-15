@@ -1,0 +1,21 @@
+id = 880
+title = "ScareFest"
+start_date = 2020-10-23
+end_date = 2020-10-25
+tags = []
+
+[website]
+title = "thescarefest.com"
+url = "https://thescarefest.com/"
+
+[address]
+address = """
+Lexington Convention Center
+Lexington, KY
+USA"""
+city = "Lexington, KY"
+country = "USA"
+
+[address.coordinates]
+lat = 38.04937744140625
+lon = -84.501953125

@@ -1,0 +1,20 @@
+id = 296
+title = "Kogan Con"
+start_date = 2019-07-20
+end_date = 2019-07-20
+
+[website]
+title = "kogancon.com"
+url = "http://kogancon.com/"
+
+[address]
+address = """
+Grand Haven Community Center
+Grand Haven, MI, USA
+49417"""
+city = "Grand Haven, MI"
+country = "United States"
+
+[address.coordinates]
+lat = 43.063838958740234
+lon = -86.22602844238281

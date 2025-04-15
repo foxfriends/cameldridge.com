@@ -1,0 +1,21 @@
+id = 843
+title = "OtakuFest"
+start_date = 2020-07-04
+end_date = 2020-07-05
+tags = []
+
+[website]
+title = "www.otakufest.com"
+url = "https://www.otakufest.com/"
+
+[address]
+address = """
+DoubleTree by Hilton Hotel Miami Airport & Convention Center
+Miami, FL
+USA"""
+city = "Miami, FL"
+country = "USA"
+
+[address.coordinates]
+lat = 25.778465270996094
+lon = -80.31028747558594

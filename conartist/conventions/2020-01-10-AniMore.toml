@@ -1,0 +1,21 @@
+id = 679
+title = "AniMore"
+start_date = 2020-01-10
+end_date = 2020-01-12
+tags = []
+
+[website]
+title = "animorecon.com"
+url = "https://animorecon.com/"
+
+[address]
+address = """
+Hyatt Regency Baltimore Inner Harbor
+Baltimore, MD
+USA"""
+city = "Baltimore, MD"
+country = "USA"
+
+[address.coordinates]
+lat = 39.285030364990234
+lon = -76.6141357421875

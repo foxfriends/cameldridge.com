@@ -1,0 +1,17 @@
+id = 65
+title = "Gryphcon"
+start_date = 2019-04-05
+end_date = 2019-04-07
+
+[website]
+title = "gryphcon.org"
+url = "http://gryphcon.org/info.php"
+
+[address]
+address = "University Centre (Basement), University of Guelph"
+city = "Guelph, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.53053283691406
+lon = -80.22848510742188

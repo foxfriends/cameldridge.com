@@ -1,0 +1,20 @@
+id = 118
+title = "Anime NYC"
+start_date = 2019-11-15
+end_date = 2019-11-17
+
+[website]
+title = "animenyc.com"
+url = "http://animenyc.com/"
+
+[address]
+address = """
+Jacob K. Javits Convention Center
+New York, NY, USA
+10001"""
+city = "New York, NY"
+country = "United States"
+
+[address.coordinates]
+lat = 40.757850646972656
+lon = -74.00261688232422

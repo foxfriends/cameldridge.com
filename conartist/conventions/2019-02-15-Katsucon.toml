@@ -1,0 +1,20 @@
+id = 291
+title = "Katsucon"
+start_date = 2019-02-15
+end_date = 2019-02-17
+
+[website]
+title = "www.katsucon.org"
+url = "https://www.katsucon.org/"
+
+[address]
+address = """
+Gaylord National Resort & Convention Center
+National Harbor, MD, USA
+20745"""
+city = "National Harbor, MD"
+country = "United States"
+
+[address.coordinates]
+lat = 38.78141403198242
+lon = -77.01702117919922

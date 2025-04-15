@@ -1,0 +1,21 @@
+id = 844
+title = "PAX East"
+start_date = 2020-02-27
+end_date = 2020-03-01
+tags = []
+
+[website]
+title = "east.paxsite.com"
+url = "http://east.paxsite.com/"
+
+[address]
+address = """
+Boston Convention and Exhibition Center
+Boston, MA
+USA"""
+city = "Boston, MA"
+country = "USA"
+
+[address.coordinates]
+lat = 42.345638275146484
+lon = -71.04634094238281

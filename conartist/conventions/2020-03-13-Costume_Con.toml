@@ -1,0 +1,21 @@
+id = 604
+title = "Costume-Con"
+start_date = 2020-03-13
+end_date = 2020-03-16
+tags = []
+
+[website]
+title = "costumecon38.org"
+url = "http://costumecon38.org/"
+
+[address]
+address = """
+Hotel Bonaventure
+Montreal, QC
+Canada"""
+city = "Montreal, QC"
+country = "Canada"
+
+[address.coordinates]
+lat = 45.49940490722656
+lon = -73.56509399414063

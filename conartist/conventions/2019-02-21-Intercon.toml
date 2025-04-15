@@ -1,0 +1,20 @@
+id = 283
+title = "Intercon"
+start_date = 2019-02-21
+end_date = 2019-02-24
+
+[website]
+title = "s.interconlarp.org"
+url = "https://s.interconlarp.org/"
+
+[address]
+address = """
+Crowne Plaza Providence-Warwick (Airport)
+Warwick, RI, USA
+02886"""
+city = "Warwick, RI"
+country = "United States"
+
+[address.coordinates]
+lat = 41.71503448486328
+lon = -71.46765899658203

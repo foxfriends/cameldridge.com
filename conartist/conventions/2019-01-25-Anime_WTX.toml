@@ -1,0 +1,20 @@
+id = 127
+title = "Anime WTX"
+start_date = 2019-01-25
+end_date = 2019-01-27
+
+[website]
+title = "www.animewtx.com"
+url = "http://www.animewtx.com/"
+
+[address]
+address = """
+MCM Eleganté Hotel & Suites
+Lubbock, TX, USA
+79401"""
+city = "Lubbock, TX"
+country = "United States"
+
+[address.coordinates]
+lat = 33.587947845458984
+lon = -101.85420227050781

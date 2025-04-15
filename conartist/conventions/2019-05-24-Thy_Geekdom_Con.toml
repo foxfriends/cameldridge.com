@@ -1,0 +1,20 @@
+id = 435
+title = "Thy Geekdom Con"
+start_date = 2019-05-24
+end_date = 2019-05-26
+
+[website]
+title = "thygeekdomcon.com"
+url = "https://www.thygeekdomcon.com/"
+
+[address]
+address = """
+The Greater Philadelphia Expo Center
+Oaks, PA, USA
+19456"""
+city = "Oaks, PA"
+country = "United States"
+
+[address.coordinates]
+lat = 40.12378692626953
+lon = -75.45824432373047

@@ -1,0 +1,20 @@
+id = 430
+title = "Texas Frightmare Weekend"
+start_date = 2019-05-03
+end_date = 2019-05-05
+
+[website]
+title = "www.texasfrightmareweekend.com"
+url = "https://www.texasfrightmareweekend.com/"
+
+[address]
+address = """
+Hyatt Regency DFW International Airport
+Dallas, TX, USA
+75261"""
+city = "Dallas, TX"
+country = "United States"
+
+[address.coordinates]
+lat = 32.89752197265625
+lon = -97.03878021240234

@@ -1,0 +1,20 @@
+id = 142
+title = "Archon"
+start_date = 2019-10-04
+end_date = 2019-10-06
+
+[website]
+title = "www.archonstl.org"
+url = "http://www.archonstl.org/"
+
+[address]
+address = """
+Gateway Convention Center / DoubleTree by Hilton Hotel Collinsville - St. Louis
+Collinsville, IL, USA
+62234"""
+city = "Collinsville, IL"
+country = "United States"
+
+[address.coordinates]
+lat = 38.68145751953125
+lon = -90.01725006103516

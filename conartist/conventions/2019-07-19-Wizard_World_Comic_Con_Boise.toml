@@ -1,0 +1,20 @@
+id = 459
+title = "Wizard World Comic Con Boise"
+start_date = 2019-07-19
+end_date = 2019-07-21
+
+[website]
+title = "wizardworld.com"
+url = "https://wizardworld.com/comiccon/boise"
+
+[address]
+address = """
+Boise Centre
+Boise, ID, USA
+83702"""
+city = "Boise, ID"
+country = "United States"
+
+[address.coordinates]
+lat = 43.61474609375
+lon = -116.20526885986328

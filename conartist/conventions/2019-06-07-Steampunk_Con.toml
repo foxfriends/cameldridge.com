@@ -1,0 +1,20 @@
+id = 419
+title = "Steampunk Con"
+start_date = 2019-06-07
+end_date = 2019-06-09
+
+[website]
+title = "steampunkcon.com"
+url = "http://steampunkcon.com/"
+
+[address]
+address = """
+Radisson Hotel Piscataway-Somerset
+Piscataway, NJ, USA
+08854"""
+city = "Piscataway, NJ"
+country = "United States"
+
+[address.coordinates]
+lat = 40.54365539550781
+lon = -74.50009155273438

@@ -1,0 +1,21 @@
+id = 795
+title = "Kanpai!Con"
+start_date = 2020-02-07
+end_date = 2020-02-09
+tags = []
+
+[website]
+title = "kanpaicon.com"
+url = "http://kanpaicon.com/"
+
+[address]
+address = """
+Ramada Plaza by Wyndham Omaha CoCo Key Water Resort
+Omaha, NE
+USA"""
+city = "Omaha, NE"
+country = "USA"
+
+[address.coordinates]
+lat = 41.22769546508789
+lon = -96.0221176147461

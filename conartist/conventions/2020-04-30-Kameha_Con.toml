@@ -1,0 +1,21 @@
+id = 794
+title = "Kameha Con"
+start_date = 2020-04-30
+end_date = 2020-05-03
+tags = []
+
+[website]
+title = "www.kamehacon.com"
+url = "https://www.kamehacon.com/"
+
+[address]
+address = """
+Irving Convention Center at Las Colinas
+Irving, TX
+USA"""
+city = "Irving, TX"
+country = "USA"
+
+[address.coordinates]
+lat = 32.87814712524414
+lon = -96.94331359863281

@@ -1,0 +1,21 @@
+id = 606
+title = "FanExpo Vancouver"
+start_date = 2020-02-15
+end_date = 2020-02-17
+tags = []
+
+[website]
+title = "www.fanexpovancouver.com"
+url = "https://www.fanexpovancouver.com/"
+
+[address]
+address = """
+Vancouver Convention Centre
+Vancouver, BC
+Canada"""
+city = "Vancouver, BC"
+country = "Canada"
+
+[address.coordinates]
+lat = 49.28890609741211
+lon = -123.1163558959961

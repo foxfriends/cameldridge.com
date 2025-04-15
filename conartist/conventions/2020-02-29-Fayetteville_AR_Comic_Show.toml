@@ -1,0 +1,21 @@
+id = 759
+title = "Fayetteville AR Comic Show"
+start_date = 2020-02-29
+end_date = 2020-03-01
+tags = []
+
+[website]
+title = "fayettevillecomicshow.com"
+url = "https://fayettevillecomicshow.com/"
+
+[address]
+address = """
+Fayetteville Town Center
+Fayetteville, AR
+USA"""
+city = "Fayetteville, AR"
+country = "USA"
+
+[address.coordinates]
+lat = 36.06114959716797
+lon = -94.16029357910156

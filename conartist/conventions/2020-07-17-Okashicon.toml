@@ -1,0 +1,21 @@
+id = 838
+title = "Okashicon"
+start_date = 2020-07-17
+end_date = 2020-07-19
+tags = []
+
+[website]
+title = "www.okashicon.com"
+url = "https://www.okashicon.com/"
+
+[address]
+address = """
+Courtyard by Marriott Austin Pflugerville and Pflugerville Conference Center
+Pflugerville, TX
+USA"""
+city = "Pflugerville, TX"
+country = "USA"
+
+[address.coordinates]
+lat = 30.42275047302246
+lon = -97.59127044677734

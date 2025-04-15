@@ -1,0 +1,21 @@
+id = 871
+title = "Ronin-Expo"
+start_date = 2020-06-06
+end_date = 2020-06-06
+tags = []
+
+[website]
+title = "www.ronin-expo.org"
+url = "https://www.ronin-expo.org/"
+
+[address]
+address = """
+Japanese American Cultural & Community Center
+Los Angeles, CA
+USA"""
+city = "Los Angeles, CA"
+country = "USA"
+
+[address.coordinates]
+lat = 34.04779052734375
+lon = -118.24185943603516

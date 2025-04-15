@@ -1,0 +1,21 @@
+id = 1008
+title = "FanExpo Canada"
+start_date = 2025-08-21
+end_date = 2025-08-24
+
+[website]
+title = "fanexpohq.com"
+url = "https://fanexpohq.com/fanexpocanada/"
+
+[address]
+address = """
+Metro Toronto Convention Centre
+255 Front St W
+Toronto, ON M5V 2W6
+Canada"""
+city = "Toronto, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.643775939941406
+lon = -79.3869857788086

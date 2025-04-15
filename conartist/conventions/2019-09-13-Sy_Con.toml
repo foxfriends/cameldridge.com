@@ -1,0 +1,20 @@
+id = 426
+title = "Sy-Con"
+start_date = 2019-09-13
+end_date = 2019-09-14
+
+[website]
+title = "sycon.org"
+url = "https://sycon.org/"
+
+[address]
+address = """
+Syosset Public Library
+Syosset, NY, USA
+11791"""
+city = "Syosset, NY"
+country = "United States"
+
+[address.coordinates]
+lat = 40.798805236816406
+lon = -73.50228118896484

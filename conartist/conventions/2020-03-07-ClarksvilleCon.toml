@@ -1,0 +1,21 @@
+id = 717
+title = "ClarksvilleCon"
+start_date = 2020-03-07
+end_date = 2020-03-07
+tags = []
+
+[website]
+title = "www.clarksvillecon.com"
+url = "https://www.clarksvillecon.com/"
+
+[address]
+address = """
+Riverview Inn
+Clarksville, TN
+USA"""
+city = "Clarksville, TN"
+country = "USA"
+
+[address.coordinates]
+lat = 36.52872085571289
+lon = -87.36224365234375

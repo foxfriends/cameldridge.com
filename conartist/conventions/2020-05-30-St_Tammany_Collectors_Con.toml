@@ -1,0 +1,21 @@
+id = 890
+title = "St Tammany Collectors Con"
+start_date = 2020-05-30
+end_date = 2020-05-30
+tags = []
+
+[website]
+title = "www.sttammanycollectorscon.com"
+url = "https://www.sttammanycollectorscon.com/"
+
+[address]
+address = """
+Castine Center
+Mandeville, LA
+USA"""
+city = "Mandeville, LA"
+country = "USA"
+
+[address.coordinates]
+lat = 30.353572845458984
+lon = -90.02344512939453

@@ -1,0 +1,21 @@
+id = 877
+title = "Saturday Morning CONToons"
+start_date = 2020-08-28
+end_date = 2020-08-30
+tags = []
+
+[website]
+title = "saturdaymorningcon.com"
+url = "https://saturdaymorningcon.com/"
+
+[address]
+address = """
+Boxboro Regency
+Boxborough, MA
+USA"""
+city = "Boxborough, MA"
+country = "USA"
+
+[address.coordinates]
+lat = 42.48154830932617
+lon = -71.54580688476563

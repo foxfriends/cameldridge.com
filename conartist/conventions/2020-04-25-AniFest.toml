@@ -1,0 +1,21 @@
+id = 652
+title = "AniFest"
+start_date = 2020-04-25
+end_date = 2020-04-25
+tags = []
+
+[website]
+title = "anifest.org"
+url = "https://anifest.org/"
+
+[address]
+address = """
+Torrance Cultural Arts Center
+Torrance, CA
+USA"""
+city = "Torrance, CA"
+country = "USA"
+
+[address.coordinates]
+lat = 33.83941650390625
+lon = -118.34395599365234

@@ -1,0 +1,20 @@
+id = 218
+title = "Dokidokon"
+start_date = 2019-07-12
+end_date = 2019-07-14
+
+[website]
+title = "www.dokidokon.org"
+url = "https://www.dokidokon.org/"
+
+[address]
+address = """
+Radisson Plaza Hotel at Kalamazoo Center
+Kalamazoo, MI, USA
+49007"""
+city = "Kalamazoo, MI"
+country = "United States"
+
+[address.coordinates]
+lat = 42.2922248840332
+lon = -85.58401489257813

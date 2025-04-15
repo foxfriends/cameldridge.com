@@ -1,0 +1,21 @@
+id = 666
+title = "Anime Milwaukee"
+start_date = 2020-02-14
+end_date = 2020-02-16
+tags = []
+
+[website]
+title = "animemilwaukee.org"
+url = "http://animemilwaukee.org/"
+
+[address]
+address = """
+Wisconsin Center / Hilton Milwaukee City Center
+Milwaukee, WI
+USA"""
+city = "Milwaukee, WI"
+country = "USA"
+
+[address.coordinates]
+lat = 43.03939437866211
+lon = -87.91754913330078

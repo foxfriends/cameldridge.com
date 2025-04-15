@@ -1,0 +1,20 @@
+id = 348
+title = "North Texas Comic Book Show"
+start_date = 2019-02-02
+end_date = 2019-02-03
+
+[website]
+title = "www.comicbooksdallas.com"
+url = "https://www.comicbooksdallas.com/"
+
+[address]
+address = """
+Irving Convention Center at Las Colinas
+Irving, TX, USA
+75039"""
+city = "Irving, TX"
+country = "United States"
+
+[address.coordinates]
+lat = 32.878089904785156
+lon = -96.94336700439453

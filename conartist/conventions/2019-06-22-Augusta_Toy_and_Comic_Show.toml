@@ -1,0 +1,20 @@
+id = 149
+title = "Augusta Toy and Comic Show"
+start_date = 2019-06-22
+end_date = 2019-06-22
+
+[website]
+title = "augustatoyandcomicshow.com"
+url = "https://augustatoyandcomicshow.com/"
+
+[address]
+address = """
+DoubleTree by Hilton Hotel Augusta
+Augusta, GA, USA
+30909"""
+city = "Augusta, GA"
+country = "United States"
+
+[address.coordinates]
+lat = 33.486175537109375
+lon = -82.0849609375

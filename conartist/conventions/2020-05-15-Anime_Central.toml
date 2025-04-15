@@ -1,0 +1,21 @@
+id = 657
+title = "Anime Central"
+start_date = 2020-05-15
+end_date = 2020-05-17
+tags = []
+
+[website]
+title = "www.acen.org"
+url = "https://www.acen.org/"
+
+[address]
+address = """
+Donald E. Stephens Convention Center / Hyatt Regency O'Hare
+Rosemont, IL
+USA"""
+city = "Rosemont, IL"
+country = "USA"
+
+[address.coordinates]
+lat = 41.980674743652344
+lon = -87.85990142822266

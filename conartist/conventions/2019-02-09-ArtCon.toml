@@ -1,0 +1,20 @@
+id = 146
+title = "ArtCon"
+start_date = 2019-02-09
+end_date = 2019-02-09
+
+[website]
+title = "www.neoshoarts.net"
+url = "http://www.neoshoarts.net/artcon.html"
+
+[address]
+address = """
+Neosho Civic Center
+Neosho, MO, USA
+64850"""
+city = "Neosho, MO"
+country = "United States"
+
+[address.coordinates]
+lat = 36.86832809448242
+lon = -94.36930084228516

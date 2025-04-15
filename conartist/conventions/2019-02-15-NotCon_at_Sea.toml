@@ -1,0 +1,20 @@
+id = 350
+title = "NotCon at Sea"
+start_date = 2019-02-15
+end_date = 2019-02-18
+
+[website]
+title = "notcon.us"
+url = "http://notcon.us/"
+
+[address]
+address = """
+Royal Caribbean's Mariner of the Seas
+Departing from Miami, FL, USA
+33132"""
+city = "Miami, FL"
+country = "United States"
+
+[address.coordinates]
+lat = 25.77987289428711
+lon = -80.17774963378906

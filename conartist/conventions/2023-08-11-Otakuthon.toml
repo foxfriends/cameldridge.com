@@ -1,0 +1,21 @@
+id = 993
+title = "Otakuthon"
+start_date = 2023-08-11
+end_date = 2023-08-13
+
+[website]
+title = "otakuthon.com"
+url = "https://www.otakuthon.com/2023/home/"
+
+[address]
+address = """
+Palais des congrès de Montréal
+1001 Pl. Jean-Paul-Riopelle
+Montréal, QC, Canada
+H2Z 1H5"""
+city = "Montréal, QC"
+country = "Canada"
+
+[address.coordinates]
+lat = 45.50374221801758
+lon = -73.56105041503906

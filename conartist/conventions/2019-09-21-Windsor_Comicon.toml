@@ -1,0 +1,21 @@
+id = 88
+title = "Windsor Comicon"
+start_date = 2019-09-21
+end_date = 2019-09-22
+
+[website]
+title = "windsorcomicon.com"
+url = "https://windsorcomicon.com"
+
+[address]
+address = """
+Caesars Windsor in The Colosseum
+377 Riverside Dr E
+Windsor, ON
+"""
+city = "Windsor, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 42.31962966918945
+lon = -83.035400390625

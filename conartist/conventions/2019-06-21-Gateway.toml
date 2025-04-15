@@ -1,0 +1,20 @@
+id = 257
+title = "Gateway"
+start_date = 2019-06-21
+end_date = 2019-06-23
+
+[website]
+title = "www.creationent.com"
+url = "https://www.creationent.com/cal/gateway25.htm"
+
+[address]
+address = """
+The Westin O'Hare
+Rosemont, IL, USA
+60018"""
+city = "Rosemont, IL"
+country = "United States"
+
+[address.coordinates]
+lat = 41.98891830444336
+lon = -87.8613052368164

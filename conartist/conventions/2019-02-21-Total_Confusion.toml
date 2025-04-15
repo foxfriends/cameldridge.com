@@ -1,0 +1,20 @@
+id = 437
+title = "Total Confusion"
+start_date = 2019-02-21
+end_date = 2019-02-24
+
+[website]
+title = "totalcon.com"
+url = "http://totalcon.com/"
+
+[address]
+address = """
+Best Western Royal Plaza Hotel and Trade Center
+Marlborough, MA, USA
+01752"""
+city = "Marlborough, MA"
+country = "United States"
+
+[address.coordinates]
+lat = 42.34246063232422
+lon = -71.59077453613281

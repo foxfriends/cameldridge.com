@@ -1,0 +1,20 @@
+id = 479
+title = "AnimeCon"
+start_date = 2019-06-14
+end_date = 2019-06-16
+tags = []
+
+[website]
+title = "www.animecon.nl"
+url = "https://www.animecon.nl/"
+
+[address]
+address = """
+Rotterdam Ahoy
+Rotterdam, Netherlands"""
+city = "Rotterdam"
+country = "Netherlands"
+
+[address.coordinates]
+lat = 51.88283920288086
+lon = 4.488104820251465

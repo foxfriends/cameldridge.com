@@ -1,0 +1,20 @@
+id = 247
+title = "Furry Siesta"
+start_date = 2019-07-19
+end_date = 2019-07-20
+
+[website]
+title = "www.furrysiesta.org"
+url = "https://www.furrysiesta.org/"
+
+[address]
+address = """
+Hyatt Regency North Dallas
+Richardson, TX, USA
+75081"""
+city = "Richardson, TX"
+country = "United States"
+
+[address.coordinates]
+lat = 32.97641372680664
+lon = -96.7140884399414

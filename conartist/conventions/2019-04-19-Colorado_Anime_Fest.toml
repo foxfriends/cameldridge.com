@@ -1,0 +1,20 @@
+id = 186
+title = "Colorado Anime Fest"
+start_date = 2019-04-19
+end_date = 2019-04-21
+
+[website]
+title = "coanimefest.com"
+url = "http://coanimefest.com/"
+
+[address]
+address = """
+Denver Marriott Tech Center
+Denver, CO, USA
+80237"""
+city = "Denver, CO"
+country = "United States"
+
+[address.coordinates]
+lat = 39.6269416809082
+lon = -104.9016342163086

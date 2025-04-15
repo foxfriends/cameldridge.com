@@ -1,0 +1,20 @@
+id = 357
+title = "OokiiSoraCon"
+start_date = 2019-07-19
+end_date = 2019-07-21
+
+[website]
+title = "ookiisoracon.org"
+url = "https://ookiisoracon.org/"
+
+[address]
+address = """
+Delta Hotels by Marriott Helena Colonial
+Helena, MT, USA
+59601"""
+city = "Helena, MT"
+country = "United States"
+
+[address.coordinates]
+lat = 46.588775634765625
+lon = -111.99854278564453

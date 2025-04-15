@@ -1,0 +1,20 @@
+id = 355
+title = "OMG!Con"
+start_date = 2019-06-07
+end_date = 2019-06-09
+
+[website]
+title = "omgcon.com"
+url = "http://omgcon.com/"
+
+[address]
+address = """
+Owensboro Convention Center
+Owensboro, KY, USA
+42301"""
+city = "Owensboro, KY"
+country = "United States"
+
+[address.coordinates]
+lat = 37.77567672729492
+lon = -87.1169204711914

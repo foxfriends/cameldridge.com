@@ -1,0 +1,20 @@
+id = 97
+title = "Ani-Me Con"
+start_date = 2019-03-16
+end_date = 2019-03-17
+
+[website]
+title = "www.ani-me.com"
+url = "http://www.ani-me.com/"
+
+[address]
+address = """
+The Big Fresno Fair
+Fresno, CA, USA
+93702"""
+city = "Fresno, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 36.73219680786133
+lon = -119.75071716308594

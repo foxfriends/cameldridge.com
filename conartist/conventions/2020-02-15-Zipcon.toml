@@ -1,0 +1,21 @@
+id = 926
+title = "Zipcon"
+start_date = 2020-02-15
+end_date = 2020-02-15
+tags = []
+
+[website]
+title = "zipcon.weebly.com"
+url = "https://zipcon.weebly.com/"
+
+[address]
+address = """
+University of Akron Student Union
+Akron, OH
+USA"""
+city = "Akron, OH"
+country = "USA"
+
+[address.coordinates]
+lat = 41.07566452026367
+lon = -81.51251983642578

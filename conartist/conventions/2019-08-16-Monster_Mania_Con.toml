@@ -1,0 +1,20 @@
+id = 334
+title = "Monster-Mania Con"
+start_date = 2019-08-16
+end_date = 2019-08-18
+
+[website]
+title = "monstermania.net"
+url = "http://monstermania.net/"
+
+[address]
+address = """
+Crowne Plaza Philadelphia-Cherry Hill
+Cherry Hill, NJ, USA
+08002"""
+city = "Cherry Hill, NJ"
+country = "United States"
+
+[address.coordinates]
+lat = 39.92621994018555
+lon = -75.05366516113281

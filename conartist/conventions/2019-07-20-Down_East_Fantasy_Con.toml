@@ -1,0 +1,20 @@
+id = 219
+title = "Down East Fantasy Con"
+start_date = 2019-07-20
+end_date = 2019-07-20
+
+[website]
+title = "www.downeastfantasyconme.com"
+url = "https://www.downeastfantasyconme.com/"
+
+[address]
+address = """
+Cross Insurance Center
+Bangor, ME, USA
+04401"""
+city = "Bangor, ME"
+country = "United States"
+
+[address.coordinates]
+lat = 44.789031982421875
+lon = -68.77931213378906

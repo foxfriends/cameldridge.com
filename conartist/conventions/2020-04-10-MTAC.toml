@@ -1,0 +1,21 @@
+id = 829
+title = "MTAC"
+start_date = 2020-04-10
+end_date = 2020-04-12
+tags = []
+
+[website]
+title = "mtac.net"
+url = "http://mtac.net/"
+
+[address]
+address = """
+Sheraton Music City Hotel / Embassy Suites Nashville Airport
+Nashville, TN
+USA"""
+city = "Nashville, TN"
+country = "USA"
+
+[address.coordinates]
+lat = 36.14456558227539
+lon = -86.68279266357422

@@ -1,0 +1,20 @@
+id = 312
+title = "Manahawkin Comic Book Show"
+start_date = 2019-03-17
+end_date = 2019-03-17
+
+[website]
+title = "centraljerseycomicbookshows.com"
+url = "http://centraljerseycomicbookshows.com/manahawkin.html"
+
+[address]
+address = """
+Holiday Inn Manahawkin/Long Beach Island
+Manahawkin, NJ, USA
+08050"""
+city = "Manahawkin, NJ"
+country = "United States"
+
+[address.coordinates]
+lat = 39.69562911987305
+lon = -74.26471710205078

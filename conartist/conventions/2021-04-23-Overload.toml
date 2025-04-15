@@ -1,0 +1,21 @@
+id = 980
+title = "Overload"
+start_date = 2021-04-23
+end_date = 2021-04-24
+
+[website]
+title = "overload.co.nz"
+url = "https://www.overload.co.nz/"
+
+[address]
+address = """
+The Cloud
+89 Quay Street
+Auckland CBD, Auckland 1010
+New Zealand"""
+city = "Auckland"
+country = "New Zealand"
+
+[address.coordinates]
+lat = -36.84165573120117
+lon = 174.76547241210938

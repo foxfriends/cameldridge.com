@@ -1,0 +1,20 @@
+id = 228
+title = "Epic Comic Con"
+start_date = 2019-06-21
+end_date = 2019-06-23
+
+[website]
+title = "www.epiccomiccon.com"
+url = "https://www.epiccomiccon.com/"
+
+[address]
+address = """
+Showboat Atlantic City
+Atlantic City, NJ, USA
+08401"""
+city = "Atlantic City, NJ"
+country = "United States"
+
+[address.coordinates]
+lat = 39.3615837097168
+lon = -74.41840362548828

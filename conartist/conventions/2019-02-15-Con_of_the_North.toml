@@ -1,0 +1,20 @@
+id = 199
+title = "Con of the North"
+start_date = 2019-02-15
+end_date = 2019-02-17
+
+[website]
+title = "conofthenorth.org"
+url = "http://conofthenorth.org/"
+
+[address]
+address = """
+Crowne Plaza Minneapolis West
+Plymouth, MN, USA
+55441"""
+city = "Plymouth, MN"
+country = "United States"
+
+[address.coordinates]
+lat = 45.01607894897461
+lon = -93.45402526855469

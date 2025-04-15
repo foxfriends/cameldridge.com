@@ -1,0 +1,20 @@
+id = 391
+title = "Running GAGG"
+start_date = 2019-02-08
+end_date = 2019-02-10
+
+[website]
+title = "www.geneseo.edu"
+url = "https://www.geneseo.edu/gagg/runninggagg"
+
+[address]
+address = """
+SUNY Geneseo
+Geneseo, NY, USA
+14454"""
+city = "Geneseo, NY"
+country = "United States"
+
+[address.coordinates]
+lat = 42.7963752746582
+lon = -77.82292175292969

@@ -1,0 +1,20 @@
+id = 137
+title = "Anthro Weekend Utah"
+start_date = 2019-07-19
+end_date = 2019-07-21
+
+[website]
+title = "anthroweekendutah.org"
+url = "https://anthroweekendutah.org/"
+
+[address]
+address = """
+Davis Conference Center
+Layton, UT, USA
+84041"""
+city = "Layton, UT"
+country = "United States"
+
+[address.coordinates]
+lat = 41.084815979003906
+lon = -111.98107147216797

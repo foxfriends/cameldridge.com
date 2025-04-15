@@ -1,0 +1,20 @@
+id = 317
+title = "Megaplex"
+start_date = 2019-08-09
+end_date = 2019-08-11
+
+[website]
+title = "megaplexcon.org"
+url = "https://megaplexcon.org/"
+
+[address]
+address = """
+Caribe Royale Orlando
+Orlando, FL, USA
+32821"""
+city = "Orlando, FL"
+country = "United States"
+
+[address.coordinates]
+lat = 28.35940933227539
+lon = -81.49311065673828

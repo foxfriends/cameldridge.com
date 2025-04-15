@@ -1,0 +1,21 @@
+id = 713
+title = "Cherry Blossom Festival Fort Wayne"
+start_date = 2020-05-17
+end_date = 2020-05-17
+tags = []
+
+[website]
+title = "www.cherryblossomfw.com"
+url = "https://www.cherryblossomfw.com/"
+
+[address]
+address = """
+Allen County Public Library
+Fort Wayne, IN
+USA"""
+city = "Fort Wayne, IN"
+country = "USA"
+
+[address.coordinates]
+lat = 41.07708740234375
+lon = -85.14326477050781

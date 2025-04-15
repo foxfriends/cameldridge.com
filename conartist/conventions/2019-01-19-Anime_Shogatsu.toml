@@ -1,0 +1,20 @@
+id = 4
+title = "Anime Shogatsu"
+start_date = 2019-01-19
+end_date = 2019-01-19
+
+[website]
+title = "animeshogatsu.com"
+url = "http://animeshogatsu.com/"
+
+[address]
+address = """
+Japanese Canadian Cultural Centre
+North York, ON, Canada
+M3C 1Z5"""
+city = "North York, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.726463317871094
+lon = -79.33495330810547

@@ -1,0 +1,20 @@
+id = 295
+title = "Knoxville Anime Day"
+start_date = 2019-01-26
+end_date = 2019-01-26
+
+[website]
+title = "knoxville.animeday.net"
+url = "http://knoxville.animeday.net/"
+
+[address]
+address = """
+Holiday Inn Knoxville West - Cedar Bluff Rd
+Knoxville, TN, USA
+37923"""
+city = "Knoxville, TN"
+country = "United States"
+
+[address.coordinates]
+lat = 35.919677734375
+lon = -84.09015655517578

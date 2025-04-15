@@ -1,0 +1,21 @@
+id = 709
+title = "Celebrity Fan Fest"
+start_date = 2020-06-11
+end_date = 2020-06-14
+tags = []
+
+[website]
+title = "pmxevents.com"
+url = "https://pmxevents.com/"
+
+[address]
+address = """
+Freeman Expo Halls & Coliseum
+San Antonio, TX
+USA"""
+city = "San Antonio, TX"
+country = "USA"
+
+[address.coordinates]
+lat = 29.429180145263672
+lon = -98.44025421142578

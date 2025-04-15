@@ -1,0 +1,20 @@
+id = 409
+title = "SNAFU Con"
+start_date = 2019-11-15
+end_date = 2019-11-17
+
+[website]
+title = "snafucon.com"
+url = "https://snafucon.com/"
+
+[address]
+address = """
+Grand Sierra Resort and Casino
+Reno, NV, USA
+89595"""
+city = "Reno, NV"
+country = "United States"
+
+[address.coordinates]
+lat = 39.523284912109375
+lon = -119.77923583984375

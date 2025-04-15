@@ -1,0 +1,20 @@
+id = 195
+title = "Comic Con Revolution West Palm Beach"
+start_date = 2019-03-02
+end_date = 2019-03-03
+
+[website]
+title = "www.comicconrevolution.com"
+url = "http://www.comicconrevolution.com/westpalmbeach/"
+
+[address]
+address = """
+Palm Beach County Convention Center
+West Palm Beach, FL, USA
+33401"""
+city = "West Palm Beach, FL"
+country = "United States"
+
+[address.coordinates]
+lat = 26.704641342163086
+lon = -80.05899810791016

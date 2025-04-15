@@ -1,0 +1,20 @@
+id = 267
+title = "Gojotekicon"
+start_date = 2019-04-26
+end_date = 2019-04-28
+
+[website]
+title = "www.gojotekicon.com"
+url = "http://www.gojotekicon.com/"
+
+[address]
+address = """
+Holiday Inn Express & Suites Ashland
+Ashland, OH, USA
+44287"""
+city = "Ashland, OH"
+country = "United States"
+
+[address.coordinates]
+lat = 40.85932159423828
+lon = -82.26874542236328

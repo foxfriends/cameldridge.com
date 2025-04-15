@@ -1,0 +1,21 @@
+id = 760
+title = "Florida Game Con"
+start_date = 2020-02-22
+end_date = 2020-02-22
+tags = []
+
+[website]
+title = "vgcusf.club"
+url = "https://vgcusf.club/"
+
+[address]
+address = """
+University of South Florida, Recreation Center
+Tampa, FL
+USA"""
+city = "Tampa, FL"
+country = "USA"
+
+[address.coordinates]
+lat = 28.0592041015625
+lon = -82.40657043457031

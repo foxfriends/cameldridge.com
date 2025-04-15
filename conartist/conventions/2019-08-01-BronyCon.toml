@@ -1,0 +1,21 @@
+id = 569
+title = "BronyCon"
+start_date = 2019-08-01
+end_date = 2019-08-04
+
+[website]
+title = "bronycon.org"
+url = "https://bronycon.org/"
+
+[address]
+address = """
+Baltimore Convention Center
+1 W Pratt St
+Baltimore, MD USA
+"""
+city = "Baltimore, MD"
+country = "United States"
+
+[address.coordinates]
+lat = 39.2853889465332
+lon = -76.61930847167969

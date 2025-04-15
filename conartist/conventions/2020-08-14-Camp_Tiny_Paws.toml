@@ -1,0 +1,21 @@
+id = 705
+title = "Camp Tiny Paws"
+start_date = 2020-08-14
+end_date = 2020-08-16
+tags = []
+
+[website]
+title = "www.camptinypaws.org"
+url = "https://www.camptinypaws.org/"
+
+[address]
+address = """
+Crowne Plaza Danbury
+Danbury, CT
+USA"""
+city = "Danbury, CT"
+country = "USA"
+
+[address.coordinates]
+lat = 41.388797760009766
+lon = -73.51526641845703

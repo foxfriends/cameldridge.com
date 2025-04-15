@@ -1,0 +1,21 @@
+id = 765
+title = "Fur the More"
+start_date = 2020-03-06
+end_date = 2020-03-08
+tags = []
+
+[website]
+title = "www.furthemore.org"
+url = "https://www.furthemore.org/"
+
+[address]
+address = """
+Hyatt Regency Crystal City At Reagan National Airport
+Arlington, VA
+USA"""
+city = "Arlington, VA"
+country = "USA"
+
+[address.coordinates]
+lat = 38.848838806152344
+lon = -77.05172729492188

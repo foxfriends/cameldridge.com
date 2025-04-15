@@ -1,0 +1,20 @@
+id = 396
+title = "Sakura-Con"
+start_date = 2019-04-19
+end_date = 2019-04-21
+
+[website]
+title = "sakuracon.org"
+url = "http://sakuracon.org/"
+
+[address]
+address = """
+Washington State Convention Center
+Seattle, WA, USA
+98101-2350"""
+city = "Seattle, WA"
+country = "United States"
+
+[address.coordinates]
+lat = 47.61178207397461
+lon = -122.33116149902344

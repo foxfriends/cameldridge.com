@@ -1,0 +1,21 @@
+id = 816
+title = "Memphis Comic Expo"
+start_date = 2020-10-17
+end_date = 2020-10-18
+tags = []
+
+[website]
+title = "www.memphiscomicexpo.com"
+url = "http://www.memphiscomicexpo.com/"
+
+[address]
+address = """
+Agricenter International
+Memphis, TN
+USA"""
+city = "Memphis, TN"
+country = "USA"
+
+[address.coordinates]
+lat = 35.12883758544922
+lon = -89.8037109375

@@ -1,0 +1,21 @@
+id = 578
+title = "StocktonCon Summer"
+start_date = 2019-08-18
+end_date = 2019-08-19
+
+[website]
+title = "stocktoncon.com"
+url = "http://stocktoncon.com/"
+
+[address]
+address = """
+Stockton Arena
+248 W Fremont St.
+Stockton, CA, USA
+"""
+city = "Stockton, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 37.955989837646484
+lon = -121.29822540283203

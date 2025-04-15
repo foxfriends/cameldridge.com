@@ -1,0 +1,20 @@
+id = 301
+title = "Level Up Maine"
+start_date = 2019-03-16
+end_date = 2019-03-16
+
+[website]
+title = "levelupmaine.com"
+url = "http://levelupmaine.com/"
+
+[address]
+address = """
+South Portland High School Cafeteria
+South Portland, ME, USA
+04106"""
+city = "South Portland, ME"
+country = "United States"
+
+[address.coordinates]
+lat = 43.62202453613281
+lon = -70.26858520507813

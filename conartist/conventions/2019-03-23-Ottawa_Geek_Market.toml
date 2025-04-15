@@ -1,0 +1,21 @@
+id = 74
+title = "Ottawa Geek Market"
+start_date = 2019-03-23
+end_date = 2019-03-24
+
+[website]
+title = "geekmarket.ca"
+url = "https://geekmarket.ca/"
+
+[address]
+address = """
+Nepean Sportsplex
+1701 Woodroffe Ave
+Nepean, ON
+"""
+city = "Ottawa, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 45.327476501464844
+lon = -75.748046875

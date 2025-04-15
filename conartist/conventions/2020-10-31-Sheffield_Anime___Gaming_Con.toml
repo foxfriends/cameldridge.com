@@ -1,0 +1,20 @@
+id = 971
+title = "Sheffield Anime & Gaming Con"
+start_date = 2020-10-31
+end_date = 2020-11-01
+tags = []
+
+[website]
+title = "www.sheffieldanimecon.com"
+url = "https://www.sheffieldanimecon.com/"
+
+[address]
+address = """
+Mercure Sheffield St Paul's Hotel & Spa
+Sheffield, UK"""
+city = "Sheffield"
+country = "UK"
+
+[address.coordinates]
+lat = 53.38007354736328
+lon = -1.4686793088912964

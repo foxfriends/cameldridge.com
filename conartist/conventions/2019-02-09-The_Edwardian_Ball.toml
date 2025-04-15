@@ -1,0 +1,20 @@
+id = 433
+title = "The Edwardian Ball"
+start_date = 2019-02-09
+end_date = 2019-02-09
+
+[website]
+title = "www.edwardianball.com"
+url = "https://www.edwardianball.com/"
+
+[address]
+address = """
+Fonda Theater
+Los Angeles, CA, USA
+90028"""
+city = "Los Angeles, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 34.10129165649414
+lon = -118.32324981689453

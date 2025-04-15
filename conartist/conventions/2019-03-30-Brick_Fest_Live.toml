@@ -1,0 +1,20 @@
+id = 164
+title = "Brick Fest Live"
+start_date = 2019-03-30
+end_date = 2019-03-31
+
+[website]
+title = "events.brickfestlive.com"
+url = "http://events.brickfestlive.com/"
+
+[address]
+address = """
+New York Hall of Science
+Corona, NY, USA
+11368"""
+city = "Corona, NY"
+country = "United States"
+
+[address.coordinates]
+lat = 40.747066497802734
+lon = -73.85177612304688

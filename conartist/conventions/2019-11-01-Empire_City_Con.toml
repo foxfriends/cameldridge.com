@@ -1,0 +1,20 @@
+id = 227
+title = "Empire City Con"
+start_date = 2019-11-01
+end_date = 2019-11-03
+
+[website]
+title = "empirecitycon.com"
+url = "https://empirecitycon.com/"
+
+[address]
+address = """
+Sheraton Charlotte Airport Hotel
+Charlotte, NC, USA
+28208"""
+city = "Charlotte, NC"
+country = "United States"
+
+[address.coordinates]
+lat = 35.237483978271484
+lon = -80.92271423339844

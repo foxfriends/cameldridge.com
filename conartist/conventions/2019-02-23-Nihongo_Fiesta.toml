@@ -1,0 +1,21 @@
+id = 559
+title = "Nihongo Fiesta"
+start_date = 2019-02-23
+end_date = 2019-02-23
+
+[website]
+title = "facebook.com/events/934339433623836"
+url = "https://www.facebook.com/events/934339433623836/"
+
+[address]
+address = """
+Shangri-La Plaza Mall
+Epifanio de los Santos Avenue, Shaw Boulevard, Ortigas Center
+Mandaluyong, 1552 Metro Manila, Philippines
+"""
+city = "Mandaluyong, Metro Manila"
+country = "Philippines"
+
+[address.coordinates]
+lat = 14.5824613571167
+lon = 121.05296325683594

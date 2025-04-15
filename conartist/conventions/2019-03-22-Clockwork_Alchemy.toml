@@ -1,0 +1,20 @@
+id = 183
+title = "Clockwork Alchemy"
+start_date = 2019-03-22
+end_date = 2019-03-24
+
+[website]
+title = "www.clockworkalchemy.com"
+url = "http://www.clockworkalchemy.com/"
+
+[address]
+address = """
+Hyatt Regency San Francisco Airport
+Burlingame, CA, USA
+94010"""
+city = "Burlingame, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 37.59385299682617
+lon = -122.3653335571289

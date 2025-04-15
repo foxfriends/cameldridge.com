@@ -1,0 +1,20 @@
+id = 131
+title = "Animefest"
+start_date = 2019-02-10
+end_date = 2019-02-10
+
+[website]
+title = "animefest.ucsd.moe"
+url = "http://animefest.ucsd.moe/"
+
+[address]
+address = """
+University of California San Diego, Price Center
+La Jolla, CA, USA
+92093"""
+city = "La Jolla, CA"
+country = "United States"
+
+[address.coordinates]
+lat = 32.87975311279297
+lon = -117.23619842529297

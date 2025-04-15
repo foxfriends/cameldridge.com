@@ -1,0 +1,21 @@
+id = 866
+title = "Raptor Con"
+start_date = 2020-06-20
+end_date = 2020-06-21
+tags = []
+
+[website]
+title = "www.TheRaptorCon.com"
+url = "http://www.TheRaptorCon.com/"
+
+[address]
+address = """
+Veterans Memorial Coliseum
+Evansville, IN
+USA"""
+city = "Evansville, IN"
+country = "USA"
+
+[address.coordinates]
+lat = 37.97438430786133
+lon = -87.57345581054688

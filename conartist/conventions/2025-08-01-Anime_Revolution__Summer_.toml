@@ -1,0 +1,20 @@
+id = 1013
+title = "Anime Revolution (Summer)"
+start_date = 2025-08-01
+end_date = 2025-08-03
+
+[website]
+title = "summer.animerevolution.ca"
+url = "https://summer.animerevolution.ca"
+
+[address]
+address = """
+Vancouver Convention Centre – West Wing
+1055 Canada Place
+Vancouver, BC"""
+city = "Vancouver, BC"
+country = "Canada"
+
+[address.coordinates]
+lat = 49.288909912109375
+lon = -123.11758422851563

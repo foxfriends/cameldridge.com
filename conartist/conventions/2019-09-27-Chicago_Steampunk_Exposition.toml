@@ -1,0 +1,20 @@
+id = 178
+title = "Chicago Steampunk Exposition"
+start_date = 2019-09-27
+end_date = 2019-09-29
+
+[website]
+title = "chicagosteampunkexpo.com"
+url = "http://chicagosteampunkexpo.com/"
+
+[address]
+address = """
+The Westin O'Hare
+Rosemont, IL, USA
+60018"""
+city = "Rosemont, IL"
+country = "United States"
+
+[address.coordinates]
+lat = 41.98899459838867
+lon = -87.8614730834961

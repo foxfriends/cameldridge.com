@@ -1,0 +1,20 @@
+id = 90
+title = "AfroCon"
+start_date = 2019-03-30
+end_date = 2019-03-30
+
+[website]
+title = "www.hcplc.org"
+url = "https://www.hcplc.org/afrocon"
+
+[address]
+address = """
+Robert W. Saunders, Sr. Public Library
+Tampa, FL, USA
+33602"""
+city = "Tampa, FL"
+country = "United States"
+
+[address.coordinates]
+lat = 27.95821189880371
+lon = -82.4507827758789

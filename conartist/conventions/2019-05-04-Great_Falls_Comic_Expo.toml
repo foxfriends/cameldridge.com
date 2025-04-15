@@ -1,0 +1,20 @@
+id = 269
+title = "Great Falls Comic Expo"
+start_date = 2019-05-04
+end_date = 2018-05-05
+
+[website]
+title = "www.gfcexpo.com"
+url = "http://www.gfcexpo.com/"
+
+[address]
+address = """
+Norway Savings Bank Arena
+Auburn, ME, USA
+04210"""
+city = "Auburn, ME"
+country = "United States"
+
+[address.coordinates]
+lat = 44.12444305419922
+lon = -70.22982025146484

@@ -1,0 +1,21 @@
+id = 832
+title = "NashiCon"
+start_date = 2020-02-14
+end_date = 2020-02-16
+tags = []
+
+[website]
+title = "nashicon.com"
+url = "https://nashicon.com/"
+
+[address]
+address = """
+DoubleTree by Hilton Hotel Columbia, South Carolina
+Columbia, SC
+USA"""
+city = "Columbia, SC"
+country = "USA"
+
+[address.coordinates]
+lat = 34.0318489074707
+lon = -81.11893463134766

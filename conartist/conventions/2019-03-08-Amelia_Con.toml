@@ -1,0 +1,20 @@
+id = 95
+title = "Amelia Con"
+start_date = 2019-03-08
+end_date = 2019-03-10
+
+[website]
+title = "www.ameliacon.com"
+url = "http://www.ameliacon.com/"
+
+[address]
+address = """
+Fernandina Beach Recreation Center
+Fernandina Beach, FL, USA
+32034"""
+city = "Fernandina Beach, FL"
+country = "United States"
+
+[address.coordinates]
+lat = 30.66742706298828
+lon = -81.43616485595703

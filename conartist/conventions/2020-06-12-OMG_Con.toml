@@ -1,0 +1,21 @@
+id = 839
+title = "OMG!Con"
+start_date = 2020-06-12
+end_date = 2020-06-14
+tags = []
+
+[website]
+title = "omgcon.com"
+url = "http://omgcon.com/"
+
+[address]
+address = """
+Owensboro Convention Center
+Owensboro, KY
+USA"""
+city = "Owensboro, KY"
+country = "USA"
+
+[address.coordinates]
+lat = 37.77567672729492
+lon = -87.1169204711914

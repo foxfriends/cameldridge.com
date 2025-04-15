@@ -1,0 +1,21 @@
+id = 908
+title = "Tiger Con"
+start_date = 2020-03-21
+end_date = 2020-03-22
+tags = []
+
+[website]
+title = "tigerconvention.com"
+url = "http://tigerconvention.com/"
+
+[address]
+address = """
+James H Rainwater Conference Center
+Valdosta, GA
+USA"""
+city = "Valdosta, GA"
+country = "USA"
+
+[address.coordinates]
+lat = 30.822559356689453
+lon = -83.31700897216797

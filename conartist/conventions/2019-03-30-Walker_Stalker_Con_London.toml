@@ -1,0 +1,20 @@
+id = 540
+title = "Walker Stalker Con London"
+start_date = 2019-03-30
+end_date = 2019-03-31
+tags = []
+
+[website]
+title = "walkerstalkercon.com"
+url = "https://walkerstalkercon.com/london/"
+
+[address]
+address = """
+ExCeL London
+London, UK"""
+city = "London"
+country = "United Kingdom"
+
+[address.coordinates]
+lat = 51.508262634277344
+lon = 0.030043600127100945

@@ -1,0 +1,21 @@
+id = 545
+title = "BLush Convention"
+start_date = 2019-07-13
+end_date = 2019-07-13
+
+[website]
+title = "blushcon.org"
+url = "http://blushcon.org/"
+
+[address]
+address = """
+The Elements at Centris
+Diliman, Quezon City, Metro Manila
+Philippines
+"""
+city = "Quezon City, Metro Manila"
+country = "Philippines"
+
+[address.coordinates]
+lat = 14.641325950622559
+lon = 121.03997039794922

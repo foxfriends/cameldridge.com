@@ -1,0 +1,21 @@
+id = 744
+title = "DreamHack Anaheim"
+start_date = 2020-02-21
+end_date = 2020-02-23
+tags = []
+
+[website]
+title = "dreamhack.com"
+url = "https://dreamhack.com/anaheim/"
+
+[address]
+address = """
+Anaheim Convention Center
+Anaheim, CA
+USA"""
+city = "Anaheim, CA"
+country = "USA"
+
+[address.coordinates]
+lat = 33.799983978271484
+lon = -117.92082977294922

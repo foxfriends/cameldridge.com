@@ -1,0 +1,21 @@
+id = 883
+title = "Setsucon"
+start_date = 2020-01-25
+end_date = 2020-01-26
+tags = []
+
+[website]
+title = "setsucon.com"
+url = "https://setsucon.com/"
+
+[address]
+address = """
+Blair County Convention Center
+Altoona, PA
+USA"""
+city = "Altoona, PA"
+country = "USA"
+
+[address.coordinates]
+lat = 40.45756530761719
+lon = -78.40106201171875

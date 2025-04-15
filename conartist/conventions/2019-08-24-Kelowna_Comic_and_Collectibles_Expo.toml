@@ -1,0 +1,21 @@
+id = 68
+title = "Kelowna Comic and Collectibles Expo"
+start_date = 2019-08-24
+end_date = 2019-08-25
+
+[website]
+title = "kccexpo.com"
+url = "https://kccexpo.com/"
+
+[address]
+address = """
+Kelowna Curling Club
+551 Recreation Ave
+Kelowna, BC
+"""
+city = "Kelowna, BC"
+country = "Canada"
+
+[address.coordinates]
+lat = 49.897117614746094
+lon = -119.49435424804688

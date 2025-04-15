@@ -1,0 +1,20 @@
+id = 251
+title = "GACUCon"
+start_date = 2019-07-15
+end_date = 2019-07-19
+
+[website]
+title = "www.gacucon.com"
+url = "https://www.gacucon.com/"
+
+[address]
+address = """
+Royal Carribean Navigator of the Seas
+Departing from Miami, FL, USA
+33132"""
+city = "Miami, FL"
+country = "United States"
+
+[address.coordinates]
+lat = 25.777921676635742
+lon = -80.17345428466797

@@ -1,0 +1,21 @@
+id = 918
+title = "Washington State Summer Con"
+start_date = 2020-06-20
+end_date = 2020-06-21
+tags = []
+
+[website]
+title = "www.wasummercon.com"
+url = "https://www.wasummercon.com/"
+
+[address]
+address = """
+Washington State Fair Events Center
+Puyallup, WA
+USA"""
+city = "Puyallup, WA"
+country = "USA"
+
+[address.coordinates]
+lat = 47.18241500854492
+lon = -122.29552459716797

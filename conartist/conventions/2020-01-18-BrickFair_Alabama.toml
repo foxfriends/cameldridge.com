@@ -1,0 +1,21 @@
+id = 698
+title = "BrickFair Alabama"
+start_date = 2020-01-18
+end_date = 2020-01-19
+tags = []
+
+[website]
+title = "www.brickfair.com"
+url = "https://www.brickfair.com/AL/"
+
+[address]
+address = """
+Birmingham Jefferson Convention Complex
+Birmingham, AL
+USA"""
+city = "Birmingham, AL"
+country = "USA"
+
+[address.coordinates]
+lat = 33.523895263671875
+lon = -86.81297302246094

@@ -1,0 +1,21 @@
+id = 712
+title = "CharlestonCon"
+start_date = 2020-10-25
+end_date = 2020-10-25
+tags = []
+
+[website]
+title = "www.charlestoncon.com"
+url = "https://www.charlestoncon.com/"
+
+[address]
+address = """
+Crowne Plaza Charleston Airport - Conv Ctr
+North Charleston, SC
+USA"""
+city = "North Charleston, SC"
+country = "USA"
+
+[address.coordinates]
+lat = 32.87496566772461
+lon = -80.0156021118164

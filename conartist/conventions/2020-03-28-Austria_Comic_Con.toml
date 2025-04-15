@@ -1,0 +1,20 @@
+id = 932
+title = "Austria Comic Con"
+start_date = 2020-03-28
+end_date = 2020-03-29
+tags = []
+
+[website]
+title = "austriacomiccon.com"
+url = "https://austriacomiccon.com/"
+
+[address]
+address = """
+Messe Wels
+Wels, Austria"""
+city = "Wels"
+country = "Austria"
+
+[address.coordinates]
+lat = 48.151817321777344
+lon = 14.018755912780762

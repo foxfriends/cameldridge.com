@@ -1,0 +1,20 @@
+id = 361
+title = "PA STEAM Fest"
+start_date = 2019-08-31
+end_date = 2019-08-31
+
+[website]
+title = "www.pasteamfest.com"
+url = "http://www.pasteamfest.com/"
+
+[address]
+address = """
+ArtsQuest Center at SteelStacks
+Bethlehem, PA, USA
+18015"""
+city = "Bethlehem, PA"
+country = "United States"
+
+[address.coordinates]
+lat = 40.6140022277832
+lon = -75.36767578125

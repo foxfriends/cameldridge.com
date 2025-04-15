@@ -1,0 +1,20 @@
+id = 25
+title = "FanExpo Canada"
+start_date = 2019-08-22
+end_date = 2019-08-25
+
+[website]
+title = "www.fanexpocanada.com"
+url = "https://www.fanexpocanada.com/"
+
+[address]
+address = """
+Metro Toronto Convention Centre
+Toronto, ON, Canada
+M5V 2W6"""
+city = "Toronto, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.643775939941406
+lon = -79.3869857788086

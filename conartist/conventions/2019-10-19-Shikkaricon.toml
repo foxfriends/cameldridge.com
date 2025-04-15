@@ -1,0 +1,20 @@
+id = 406
+title = "Shikkaricon"
+start_date = 2019-10-19
+end_date = 2019-10-20
+
+[website]
+title = "shikkaricon.com"
+url = "http://shikkaricon.com/"
+
+[address]
+address = """
+SPIN Community & Fitness
+Philadelphia, PA, USA
+19154"""
+city = "Philadelphia, PA"
+country = "United States"
+
+[address.coordinates]
+lat = 40.09878921508789
+lon = -74.997314453125

@@ -1,0 +1,21 @@
+id = 716
+title = "Clandestine Comic Book Show"
+start_date = 2020-02-02
+end_date = 2020-02-02
+tags = []
+
+[website]
+title = "clandestinecomics.com"
+url = "http://clandestinecomics.com/"
+
+[address]
+address = """
+DoubleTree by Hilton Hotel Laurel
+Laurel, MD
+USA"""
+city = "Laurel, MD"
+country = "USA"
+
+[address.coordinates]
+lat = 39.097312927246094
+lon = -76.89764404296875

@@ -1,0 +1,29 @@
+id = 574
+title = "Arcticon"
+start_date = 2019-02-23
+end_date = 2019-02-23
+tags = [
+    "gaming",
+    "tabletop",
+]
+
+[[hours]]
+start = 2019-02-23T08:00:00-06:00
+end = 2019-02-23T22:00:00-06:00
+
+[website]
+title = "facebook.com/groups/316924588350872"
+url = "https://www.facebook.com/groups/316924588350872/"
+
+[address]
+address = """
+St. Sava Serbian Orthodox Church
+9191 Mississippi Street
+Merrillville, IN, United States
+"""
+city = "Merrillville, IN"
+country = "United States"
+
+[address.coordinates]
+lat = 41.45195770263672
+lon = -87.31689453125
