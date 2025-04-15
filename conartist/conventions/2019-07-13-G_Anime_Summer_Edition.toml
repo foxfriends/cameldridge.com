@@ -2,11 +2,7 @@ id = 580
 title = "G-Anime Summer Edition"
 start_date = 2019-07-13
 end_date = 2019-07-14
-tags = [
-    "anime",
-    "gaming",
-    "comic",
-]
+tags = ["anime", "gaming", "comic"]
 
 [[hours]]
 start = 2019-07-13T10:00:00-04:00
@@ -31,3 +27,4 @@ country = "Canada"
 [address.coordinates]
 lat = 45.42704391479492
 lon = -75.71576690673828
+

@@ -2,11 +2,7 @@ id = 1014
 title = "Dokomi 2025"
 start_date = 2025-06-06
 end_date = 2025-06-08
-tags = [
-    "anime",
-    "manga",
-    "cosplay",
-]
+tags = ["anime", "manga", "cosplay"]
 
 [[hours]]
 start = 2025-06-06T13:00:00+02:00
@@ -37,3 +33,4 @@ country = "Germany"
 [address.coordinates]
 lat = 51.26145935058594
 lon = 6.735917091369629
+

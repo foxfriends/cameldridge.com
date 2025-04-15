@@ -19,3 +19,4 @@ country = "USA"
 [address.coordinates]
 lat = 47.261810302734375
 lon = -122.48123168945313
+
