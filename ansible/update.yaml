@@ -11,6 +11,7 @@
       community.general.terraform:
         project_path: "./cameldridge.com"
         provider_upgrade: true
+        force_init: true
         variables:
           digitalocean_token: "{{ digitalocean_token }}"
           gacha_discord_application_id: "{{ gacha_discord_application_id }}"
