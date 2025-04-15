@@ -7,16 +7,6 @@ resource "docker_container" "nginx" {
   name    = "cameldridge.com"
   restart = "unless-stopped"
 
-  ports {
-    internal = 80
-    external = 80
-  }
-
-  ports {
-    internal = 443
-    external = 443
-  }
-
   network_mode = "host"
 
   volumes {
