@@ -1,5 +1,5 @@
 server {
-    server_name conartist.app;
+    server_name conartist.app www.conartist.app;
     http2 on;
 
     location / {
@@ -21,11 +21,33 @@ server {
 }
 
 server {
-    server_name new.conartist.app;
+    server_name api.conartist.app;
     http2 on;
 
     location / {
-        proxy_pass http://localhost:${CONARTIST_PORT};
+        proxy_pass http://localhost:${CONARTIST_PORT}/api/;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade ${DOLLAR}http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host ${DOLLAR}host;
+        proxy_cache_bypass ${DOLLAR}http_upgrade;
+    }
+
+    listen 443 ssl;
+    listen [::]:443 ssl;
+
+    ssl_certificate /ssl/conartist.app/fullchain.pem;
+    ssl_certificate_key /ssl/conartist.app/privkey.pem;
+    ssl_trusted_certificate /ssl/conartist.app/chain.pem;
+    add_header Strict-Transport-Security "max-age=63072000" always;
+}
+
+server {
+    server_name graph.conartist.app;
+    http2 on;
+
+    location / {
+        proxy_pass http://localhost:${CONARTIST_PORT}/api/v2/;
         proxy_http_version 1.1;
         proxy_set_header Upgrade ${DOLLAR}http_upgrade;
         proxy_set_header Connection 'upgrade';
