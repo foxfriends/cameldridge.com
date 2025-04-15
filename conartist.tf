@@ -5,7 +5,7 @@ module "conartist" {
 
   conventions_dir = abspath("${path.module}/conartist/conventions")
 
-  base_url     = "conartist.aop"
+  base_url     = "conartist.app"
   server_email = "hello@conartist.app"
 
   mailgun_username = var.conartist_mailgun_username
