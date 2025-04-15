@@ -34,6 +34,7 @@ resource "docker_container" "nginx" {
   env = [
     "COOKIEALYST_PORT=${module.cookiealyst.port}",
     "INVENTORY_PORT=${module.inventory.port}",
+    "CONARTIST_PORT=${module.conartist.port}",
     # HACK: for nginx templating via envsubst, we "escape" the $ as ${DOLLAR}
     "DOLLAR=$",
   ]

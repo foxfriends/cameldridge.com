@@ -46,3 +46,17 @@ variable "gacha_shopify_token" {
   type      = string
   sensitive = true
 }
+
+variable "conartist_mailgun_api_key" {
+  type      = string
+  sensitive = true
+}
+
+variable "conartist_mailgun_password" {
+  type      = string
+  sensitive = true
+}
+
+variable "conartist_mailgun_username" {
+  type = string
+}

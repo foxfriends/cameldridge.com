@@ -22,4 +22,7 @@
           gacha_sheets_refresh_token: "{{ gacha_sheets_refresh_token }}"
           gacha_shopify_shop: "{{ gacha_shopify_shop }}"
           gacha_shopify_token: "{{ gacha_shopify_token }}"
+          conartist_mailgun_username: "{{ conartist_mailgun_username }}"
+          conartist_mailgun_password: "{{ conartist_mailgun_password }}"
+          conartist_mailgun_api_key: "{{ conartist_mailgun_api_key }}"
           acme_server_url: "https://acme-v02.api.letsencrypt.org/directory"
