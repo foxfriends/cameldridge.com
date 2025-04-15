@@ -1,5 +1,5 @@
 server {
-    server_name cookiealyst.com;
+    server_name cookiealyst.com www.cookiealyst.com;
     http2 on;
 
     location / {
