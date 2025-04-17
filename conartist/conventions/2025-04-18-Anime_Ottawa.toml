@@ -1,0 +1,20 @@
+title = "Anime Ottawa"
+start_date = 2025-04-18
+end_date = 2025-04-20
+tags = []
+
+[website]
+title = "animeottawa.com"
+url = "https://animeottawa.com/"
+
+[address]
+address = """
+EY Centre
+4899 Uplands Dr
+Ottawa, ON K1V 2N6"""
+city = "Ottawa, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 45.397071838378906
+lon = -75.74978637695313
