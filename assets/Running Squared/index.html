@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <canvas id="gameCanvas"></canvas>
+        <script>
+            const FPS = 30;
+            var canvas = null;
+            var context2d = null;
+
+            function init() {
+                canvas = document.getElementById('gameCanvas');
+                context2d = canvas.getContext('2d');
+                canvas.width = 32 * 11 + 200;
+                canvas.height = 32 * 11;
+                canvas.style.background = "#000";
+                needsSetUp = true;
+                coinMP3 = addSound("http://flyingpenguin.cyberbri.com/HTML5games/RunningSquared/Audio/coin.mp3");
+                coinWAV = addSound("http://flyingpenguin.cyberbri.com/HTML5games/RunningSquared/Audio/coin.wav");
+                loseLifeWAV = addSound("http://flyingpenguin.cyberbri.com/HTML5games/RunningSquared/Audio/loseLife.wav");
+                gainLifeWAV = addSound("http://flyingpenguin.cyberbri.com/HTML5games/RunningSquared/Audio/gainLife.wav");
+                currentScreen = "titleScreen";
+                runStep = setInterval(step, 1000/FPS);
+            }
+            function newCoin() {
+                if(items.length < 40) {
+                    var x,y;
+                    while(x == undefined) {
+                        x = randomInteger(0, room.width / 32 - 1) * 32;
+                        y = randomInteger(0, room.height / 32 - 1) * 32;
+                        for(var i = 0; i < items.length; i++){
+                            if(x == items[i].x && y == items[i].y) {
+                                x = undefined;
+                                i = items.length;
+                            }
+                        }
+                    }
+                    items[items.length] = new Item(x,y,"coin",32,32,"yellow");
+                }
+            }
+            function newLife() {
+                if(items.length < 40) {
+                    var x,y;
+                    while(x == undefined) {
+                        x = randomInteger(0, room.width / 32 - 1) * 32;
+                        y = randomInteger(0, room.height / 32 - 1) * 32;
+                        for(var i = 0; i < items.length; i++){
+                            if(x == items[i].x && y == items[i].y) {
+                                x = undefined;
+                                i = items.length;
+                            }
+                        }
+                    }
+                    items[items.length] = new Item(x,y,"life",32,32,"red");
+                }
+            }
+            function newEnemy() {
+                if(enemies.length < 40) {
+                    var x,y;
+                    while(x == undefined) {
+                        x = randomInteger(0, room.width / 32 - 1) * 32;
+                        y = randomInteger(0, room.height / 32 - 1) * 32;
+                        if((x <= player.x + 32 * 3 && x >= player.x - 32 * 3) && (y <= player.y + 32 * 3 && y >= player.y - 32 * 3)) {
+                            x = undefined;
+                        }
+                    }
+                    enemies[enemies.length] = new Enemy(x,y,32,32,"purple");
+                }
+            }
+            function setUpRoom(){
+                switch(currentScreen) {
+                    case "titleScreen":
+                        flashTimer = 40;
+                        break;
+                    case "gameStage":
+                        move = 0;
+                        dir = 0;
+                        currentDir = "";
+                        lives = 3;
+                        score = 0;
+                        items = new Array();
+                        enemies = new Array();
+                        player = new Character(5 * 32, 5 * 32, 32, 32, "orange");
+                        view = new View(0, 0, 32 * 11, 32 * 11, 32 * 5, 32 * 5, player);
+                        room = new Room(32*40,32*40);
+                        hud = new HUD(
+                        canvas.width - 200, 0, 200, canvas.height,
+                        "RGB(15,15,15)", "white", "12pt consolas");
+                        makeNewCoins = setInterval(newCoin, 3000);
+                        makeNewLife = setInterval(newLife, 60000);
+                        makeNewEnemy = setInterval(newEnemy, 5000);
+                        break;
+                    case "loseScreen":
+                        flashTimer = 40;
+                        items = [];
+                        enemies = [];
+                        makeNewCoins = "";
+                        makeNewLife = "";
+                        makeNewEnemy = "";
+                        break;
+                    default:
+                        break;
+                }
+            }
+            function step() {
+                if(needsSetUp) {
+                    setUpRoom();
+                    needsSetUp = false;
+                }
+                switch(currentScreen) {
+                    case "titleScreen":
+                    case "loseScreen":    
+                        flashTimer--;
+                        if(keyboardCheck('enter')) {
+                            currentScreen = "gameStage";
+                            needsSetUp = true;
+                        }
+                        break;
+                    case "gameStage":
+                        if(!dir) {
+                            move = 32;
+                            hdir = keyboardCheck("right") - keyboardCheck("left");
+                            vdir = 2 *(keyboardCheck("down") - keyboardCheck("up"));
+                            if(hdir && vdir) {
+                                if(currentDir == "v") {
+                                    hdir = 0;
+                                } else if(currentDir == "h") {
+                                    vdir = 0;
+                                }
+                            }
+                            if(hdir) {
+                                dir = hdir;
+                                currentDir = "h";
+                            } else if(vdir) {
+                                dir = vdir;
+                                currentDir = "v";
+                            } else {
+                                dir = 0;
+                                currentDir = "";
+                            }
+                        }
+                        player.move(dir);
+                        for(var i = 0;i < items.length; i++) {
+                            if(player.getItem(items[i])) {
+                                items.splice(i,1);
+                            }
+                        }
+                        for(i = 0; i < enemies.length; i++) {
+                            enemies[i].moveEnemy();
+                        }
+                        for(i = 0;i < enemies.length; i++) {
+                            if(player.hitEnemy(enemies[i])) {
+                                enemies.splice(i,1);
+                            }
+                        }
+                        view.move();
+                        if(lives == 0) {
+                            currentScreen = "loseScreen";
+                            needsSetUp = true;
+                        }
+                        break;
+                    default:
+                        break;
+                }
+                draw();
+            }
+            function draw() {
+                context2d.clearRect(0, 0, canvas.width, canvas.height);
+                var text;
+                var xPos = canvas.width / 2;
+                switch(currentScreen) {
+                    case "titleScreen":
+                        context2d.textAlign = 'center';
+                        context2d.fillStyle = 'white';
+                        context2d.font = "40px consolas";
+                        text = "Running Squared";
+                        context2d.fillText(text, xPos, 3 * 32);
+                        context2d.font = "20px consolas";
+                        text = "You are orange. Your goals:";
+                        context2d.fillText(text, xPos, 4 * 32);
+                        text = "1. Collect coins (yellow) and lives (red)";
+                        context2d.fillText(text, xPos, 5 * 32);
+                        text = "2. Avoid enemies (purple)";
+                        context2d.fillText(text, xPos, 6 * 32);
+                        text = "Use arrow keys to move";
+                        context2d.fillText(text, xPos, 7 * 32);
+                        if(flashTimer < 25) {
+                            text = "Press Enter to start";
+                            context2d.fillText(text, xPos, 8 * 32);
+                            if(flashTimer == 0) {
+                                flashTimer = 40;
+                            }
+                        }
+                        break;
+                    case "gameStage":
+                        context2d.textAlign = 'left';
+                        tile("RGB(7,7,7)", false, true, room.width, room.height, 32, 32);
+                        for(var i = 0; i < items.length; i++) {
+                            items[i].drawItem();
+                        }
+                        for(i = 0; i < enemies.length; i++) {
+                            enemies[i].drawEnemy();
+                        }
+                        player.drawCharacter();
+                        hud.drawHud();
+                        break;
+                    case "loseScreen":
+                        context2d.textAlign = 'center';
+                        context2d.fillStyle = 'white';
+                        context2d.font = "20px consolas"
+                        text = "Your final score: " + score;
+                        context2d.fillText(text, xPos, 3 * 32);
+                        if(flashTimer < 25) {
+                            text = "Press Enter to retry";
+                            context2d.fillText(text, xPos, 8 * 32);
+                            if(flashTimer == 0) {
+                                flashTimer = 40;
+                            }
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+            function Character(x, y, w, h, color){
+                this.x = x;
+                this.y = y;
+                this.width = w;
+                this.height = h;
+                this.color = color;
+    
+                this.drawCharacter = function() {
+                    context2d.fillStyle = this.color;
+                    context2d.fillRect(this.x - view.x, this.y - view.y, this.width, this.height);
+                }
+                this.move = function(direction) {
+                    const left = -1, right = 1, up = -2, down = 2;
+                    dist = 8;
+                    switch(direction) {
+                        case left:
+                            if(move && this.x > 0) {
+                                this.x -= dist;
+                            } else {
+                                move = 0;
+                            }
+                            break;
+                        case right:
+                            if(move && this.x < room.width - this.width) {
+                                this.x += dist;
+                            } else {
+                                move = 0;
+                            }
+                            break;
+                        case up:
+                            if(move && this.y > 0) {
+                                this.y -= dist;
+                            } else {
+                                move = 0;
+                            }
+                            break;
+                        case down:
+                            if(move && this.y < room.height - this.height) {
+                                this.y += dist;
+                            } else {
+                                move = 0;
+                            }
+                            break;
+                        default:
+                            break;
+                    }
+                    move -= dist;
+                    if(move <= 0) {
+                        dir = "";
+                        move = 0;
+                    }
+                }
+                this.getItem = function(item) {
+                    if(this.x == item.x && this.y == item.y) {
+                        if(item.type == "coin") {
+                            score += 1;
+                            playSound(coinWAV);
+                        } else if(item.type == "life") {
+                            lives += 1;
+                            playSound(gainLifeWAV);
+                        }
+                        return true;
+                    } else {
+                        return false;
+                    }
+                }
+                this.hitEnemy = function(enemy) {
+                    if((this.x >= enemy.x && 
+                        this.x <= enemy.x + 30 && 
+                        this.y >= enemy.y && 
+                        this.y <= enemy.y + 30) || (
+                    enemy.x >= this.x &&
+                        enemy.x <= this.x + 30 && 
+                        enemy.y >= this.y && 
+                        enemy.y <= this.y + 30)) {
+                        lives -= 1;
+                        playSound(loseLifeWAV);
+                        return true;
+                    } else {
+                        return false;
+                    }
+        
+                }
+            }
+            function Enemy(x,y,w,h,color) {
+                this.x = x;
+                this.y = y;
+                this.width = w;
+                this.height = h;
+                this.color = color;
+                this.dir = 0;
+                this.movementTimer = -4;
+                this.drawEnemy = function() {
+                    context2d.fillStyle = this.color;
+                    context2d.fillRect(this.x - view.x, this.y - view.y, this.width, this.height);
+                }
+                this.moveEnemy = function() {
+                    const right = 1, left = 2, down = 3, up = 4;
+                    if(this.dir) {
+                        if(this.dir == 1 && this.x != room.width - 32) {
+                            this.x += 4;
+                        } else if(this.dir == 2 && this.x != 0) {
+                            this.x -= 4;                
+                        } else if(this.dir == 3 && this.y != room.height - 32) {
+                            this.y += 4;
+                        } else if(this.dir == 4 && this.y != 0) {
+                            this.y -= 4;
+                        }
+                        if(this.movementTimer == 0) {
+                            this.dir = 0;
+                        }
+                    } else {
+                        if(this.movementTimer == -4) {
+                            this.dir = randomInteger(0,4);
+                            if(this.x == 0) {
+                                if(this.y == 0) {
+                                    while(this.dir == up || this.dir == left) {
+                                        this.dir = randomInteger(0,4);
+                                    }
+                                } else if(this.y == room.height - 32) {
+                                    while(this.dir == down || this.dir == left) {
+                                        this.dir = randomInteger(0,4);
+                                    }
+                                } else {
+                                    while(this.dir == left) {
+                                        this.dir = randomInteger(0,4);
+                                    }
+                                }
+                            } else if(this.x == room.width - 32) {
+                                if(this.y == 0) {
+                                    while(this.dir == up || this.dir == right) {
+                                        this.dir = randomInteger(0,4);
+                                    }
+                                } else if(this.y == room.height - 32) {
+                                    while(this.dir == down || this.dir == roght) {
+                                        this.dir = randomInteger(0,4);
+                                    }
+                                } else {
+                                    while(this.dir == right) {
+                                        this.dir = randomInteger(0,4);
+                                    }
+                                }
+                            } else if(this.y == 0) {
+                                while(this.dir == up) {
+                                    this.dir = randomInteger(0,4);
+                                }
+                            } else if(this.y == room.height - 32) {
+                                while(this.dir == down) {
+                                    this.dir = randomInteger(0,4);
+                                }
+                            }
+                            this.movementTimer = 8;
+                        }
+                    }
+                    this.movementTimer--;
+                }
+            }
+            function Item(x, y, type, w, h, color) {
+                this.x = x;
+                this.y = y;
+                this.type = type;
+                this.width = w;
+                this.height = h;
+                this.color = color;
+    
+                this.drawItem = function() {
+                    context2d.fillStyle = this.color;
+                    context2d.fillRect(this.x - view.x, this.y - view.y, this.width, this.height);
+                }
+            }
+            function View(x,y,w,h,hbor,vbor,follow) {
+                this.x = x;
+                this.y = y;
+                this.width = w;
+                this.height = h;
+                this.hbor = hbor;
+                this.vbor = vbor;
+                this.follow = follow;
+    
+                this.move = function() {
+                    if(this.follow.x >= this.x + this.width - this.hbor - this.follow.width) {
+                        if(this.x + this.width < room.width) {
+                            this.x = this.follow.x + this.follow.width + this.hbor - this.width;
+                        } else {
+                            this.x = room.width - this.width;
+                        }
+                    } else if(this.follow.x <= this.x + this.hbor) {
+                        if(this.follow.x - this.hbor > 0) {
+                            this.x = this.follow.x - this.hbor;
+                        } else {
+                            this.x = 0;
+                        }
+                    }
+    
+                    if(this.follow.y >= this.y + this.height - this.vbor - this.follow.height) {
+                        if(this.y + this.height < room.height) {
+                            this.y = this.follow.y + this.follow.height + this.vbor - this.height;
+                        } else {
+                            this.y = room.height - this.height;
+                        }
+                    } else if(this.follow.y <= this.y + this.vbor) {
+                        if(this.follow.y - this.vbor > 0) {
+                            this.y = this.follow.y - this.vbor;
+                        } else {
+                            this.y = 0;
+                        }
+                    }
+                }
+            }
+            function Room(w,h) {
+                this.width = w;
+                this.height = h;
+            }
+            function HUD(x, y, w, h, backColor, foreColor, font) {
+                this.x = x;
+                this.y = y;
+                this.w = w;
+                this.h = h;
+                this.backColor = backColor;
+                this.foreColor = foreColor;
+                this.font = font;
+    
+                this.drawHud = function() {
+                    context2d.fillStyle = this.backColor;
+                    context2d.fillRect(this.x, this.y, this.w, this.h);
+                    this.drawScore();
+                    this.drawLives();
+                    this.drawMap();
+                }
+    
+                this.drawScore = function() {
+                    context2d.fillStyle = this.foreColor;
+                    context2d.font = this.font;
+                    context2d.fillText("Score: " + score, this.x + 32, this.y + 2 * 32);
+                }
+                this.drawLives = function() {
+                    context2d.fillText("Lives:", this.x + 32, this.y + 32 * 3);
+                    var life = new Image();
+                    life.src = "http://flyingpenguin.cyberbri.com/HTML5games/RunningSquared/Image/heart.png";
+                    if(lives <= 5) {
+                        for(var i = 0; i < lives; i++) {
+                            context2d.drawImage(life, this.x + 32 * 3 + 32 / 2 * i, this.y + 32 * 2.6);
+                        }
+                    } else {
+                        context2d.drawImage(life, this.x + 32 * 3, this.y + 32 * 2.6);
+                        context2d.fillText("x" + lives, this.x + 32 * 4 - 8, this.y + 32 * 3)
+                    }
+                }
+                this.drawMap = function() {
+                    context2d.fillStyle = "RGB(30,30,30)";
+                    drawGrid(4, 4, this.x + 20, this.y + 5 * 32, 4 * room.width / 32, 4 * room.height / 32);
+                    context2d.fillStyle = player.color;
+                    context2d.fillRect(
+                    this.x + 20 + player.x / 32 * 4 + 1,
+                    this.y + 5 * 32 + player.y / 32 * 4 + 1,
+                    3, 3);
+                    for(var i = 0; i < items.length; i++) {
+                        context2d.fillStyle = items[i].color;
+                        context2d.fillRect(
+                        this.x + 20 + items[i].x / 32 * 4 + 1,
+                        this.y + 5 * 32 + items[i].y / 32 * 4 + 1,
+                        3, 3);
+                    }
+                    for(i = 0; i < enemies.length; i++) {
+                        context2d.fillStyle = enemies[i].color;
+                        context2d.fillRect(
+                        this.x + 20 + enemies[i].x / 32 * 4 + 1,
+                        this.y + 5 * 32 + enemies[i].y / 32 * 4 + 1,
+                        3, 3);
+                    }
+                }
+            }
+            var keys = new Array();
+            window.addEventListener('keydown',keyPressDown,true);
+            window.addEventListener('keyup',keyPressUp,true);
+            function keyPressDown(evt) {
+                keys[evt.keyCode] = true;
+                if(keyboardCheck('up') || keyboardCheck('down')) {
+                    evt.preventDefault();
+                }
+            }
+            function keyPressUp(evt) {
+                keys[evt.keyCode] = false;
+            }
+            function keyboardCheck(checkKey) {
+                if ((checkKey == 'left' || checkKey == 'LEFT') && (37 in keys && keys[37])){
+                    return true;
+                }
+                else if ((checkKey == 'right' || checkKey == 'RIGHT') && (39 in keys && keys[39])){
+                    return true;
+                }
+                else if ((checkKey == 'up' || checkKey == 'UP') && (38 in keys && keys[38])){
+                    return true;
+                }
+                else if ((checkKey == 'down' || checkKey == 'DOWN') && (40 in keys && keys[40])){
+                    return true;
+                } else if((checkKey == 'enter' || checkKey == 'ENTER') && (13 in keys && keys[13])) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            function addSound(path) {
+                var sound = document.createElement('audio'); 
+                sound.style.visibility = "hidden";
+                sound.src =  path;
+                return sound;
+            }
+            function playSound(sound) {
+                sound.currentTime = 0;
+                sound.play();
+                return true;
+            }
+            function drawGrid(gridXSpace, gridYSpace, x, y, width, height) {
+                width += 1;
+                height += 1;
+                for(i = 0; i < height; i += gridXSpace) {
+                    context2d.fillRect(x, y + i, width, 1);
+                }
+                for(var i = 0; i < width; i += gridYSpace) {
+                    context2d.fillRect(x + i, y, 1, height);
+                }
+            }
+            function randomInteger(min, max) {
+                max++;
+                return Math.floor(Math.random() * (max - min)) + min;
+            }
+            function tile(toTile, isImage, alternate, width, height, tileWidth, tileHeight) {
+                if(width === undefined) {
+                    width = room.width;
+                }
+                if(height === undefined) {
+                    height = room.height;
+                }
+                if(tileWidth === undefined) {
+                    if(isImage) {
+                        tileWidth = image.width;
+                    } else {
+                        tileWidth = 32;
+                    }
+                }
+                if(tileHeight === undefined) {
+                    if(isImage) {
+                        tileHeight = image.height;
+                    } else {
+                        tileHeight = 32;
+                    }
+                }
+    
+                if(alternate) {
+                    var x,y;
+                    if(isImage) {
+                        for(y = 0; y < height; y += tileHeight * 2) {
+                            for(x = ((y / tileHeight) % 2) * tileWidth; x < width; x += tileWidth) {
+                                context2d.drawImage(toTile, x - view.x, y - view.y);
+                            }
+                        }
+                    } else {
+                        context2d.fillStyle = toTile;
+                        for(y = 0; y < height; y += tileHeight) {
+                            for(x = ((y / tileHeight) % 2) * tileHeight; x < width; x += tileWidth * 2) {
+                                context2d.fillRect(x - view.x, y - view.y, tileWidth, tileHeight);
+                            }
+                        }
+            
+                    }
+                } else {
+                    if(isImage) {
+                        for(x = 0; x < width; x += tileWidth) {
+                            for(y = 0; y < height; y += tileHeight) {
+                                context2d.drawImage(toTile, x - view.x, y - view.y)
+                            }
+                        }
+                    } else {
+                        context2d.fillStyle = toTile;
+                        for(x = 0; x < width; x += tileWidth) {
+                            for(y = 0; y < height; y += tileHeight) {
+                                context2d.fillRect(x - view.x, y - view.y, tileWidth, tileHeight);
+                            }
+                        }
+                    }
+                }
+            }
+            init();
+        </script>
+    </body>
+</html>
