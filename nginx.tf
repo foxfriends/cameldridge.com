@@ -28,6 +28,7 @@ resource "docker_container" "nginx" {
     "MAHJONG_PORT=${module.mahjong.port}",
     "MACHI_KORO_PORT=${module.machi-koro.port}",
     "TOKAIDO_PORT=${module.tokaido.port}",
+    "CATAN_PORT=${module.catan.port}",
     # HACK: for nginx templating via envsubst, we "escape" the $ as ${DOLLAR}
     "DOLLAR=$",
   ]
