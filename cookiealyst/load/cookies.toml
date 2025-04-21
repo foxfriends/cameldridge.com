@@ -3,39 +3,39 @@ id = "cranberry-pistachio"
 year = 2024
 name = "Brown Butter Slice"
 description = "Cranberry + pistachio + white chocolate"
-image_url = "/cranberry-pistachio.png"
+image_url = "/images/cranberry-pistachio.png"
 
 [[cookies]]
 id = "rye-chocolate-hazelnut-praline"
 year = 2024
 name = "Rye Chocolate Chip"
 description = "Hazelnut praline + 70% dark chocolate"
-image_url = "/rye-chocolate-hazelnut-praline.png"
+image_url = "/images/rye-chocolate-hazelnut-praline.png"
 
 [[cookies]]
 id = "pecan-snowball"
 year = 2024
 name = "Pecan Snowball"
 description = "Vanilla bean + toasted pecan"
-image_url = "/pecan-snowball.png"
+image_url = "/images/pecan-snowball.png"
 
 [[cookies]]
 id = "apple-caramel-sandwich"
 year = 2024
 name = "Apple Sandwich"
 description = "Freeze dried apple + cider caramel"
-image_url = "/apple-caramel-sandwich.png"
+image_url = "/images/apple-caramel-sandwich.png"
 
 [[cookies]]
 id = "lemon-curd-stuffed"
 year = 2024
 name = "Lemon Curd Stuffed"
 description = "Poppyseed + zest of 10 lemons"
-image_url = "/lemon-curd-stuffed.png"
+image_url = "/images/lemon-curd-stuffed.png"
 
 [[cookies]]
 id = "spruce-strawberry-thumb"
 year = 2024
 name = "Forest Thumbprint"
 description = "Summer strawberry + wild spruce tip"
-image_url = "/spruce-strawberry-thumb.png"
+image_url = "/images/spruce-strawberry-thumb.png"
