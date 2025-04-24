@@ -4,10 +4,18 @@ resource "docker_image" "nginx" {
 
 resource "docker_container" "nginx" {
   image   = docker_image.nginx.image_id
-  name    = "cameldridge.com"
+  name    = "nginx"
   restart = "unless-stopped"
 
-  network_mode = "host"
+  ports {
+    internal = 80
+    external = 80
+  }
+
+  ports {
+    internal = 443
+    external = 443
+  }
 
   volumes {
     container_path = "/etc/nginx/templates"
@@ -21,14 +29,55 @@ resource "docker_container" "nginx" {
     read_only      = true
   }
 
+  network_mode = "bridge"
+
+  networks_advanced {
+    name = data.docker_network.bridge.id
+  }
+
+  networks_advanced {
+    name = docker_network.cookiealyst_ingress.id
+  }
+
+  networks_advanced {
+    name = docker_network.conartist_ingress.id
+  }
+
+  networks_advanced {
+    name = docker_network.inventory_ingress.id
+  }
+
+  networks_advanced {
+    name = docker_network.mahjong_ingress.id
+  }
+
+  networks_advanced {
+    name = docker_network.machi_koro_ingress.id
+  }
+
+  networks_advanced {
+    name = docker_network.tokaido_ingress.id
+  }
+
+  networks_advanced {
+    name = docker_network.catan_ingress.id
+  }
+
   env = [
-    "COOKIEALYST_PORT=${module.cookiealyst.port}",
-    "INVENTORY_PORT=${module.inventory.port}",
-    "CONARTIST_PORT=${module.conartist.port}",
-    "MAHJONG_PORT=${module.mahjong.port}",
-    "MACHI_KORO_PORT=${module.machi-koro.port}",
-    "TOKAIDO_PORT=${module.tokaido.port}",
-    "CATAN_PORT=${module.catan.port}",
+    "COOKIEALYST_HOST=${module.cookiealyst.name}",
+    "COOKIEALYST_PORT=${module.cookiealyst.container_port}",
+    "INVENTORY_HOST=${module.inventory.name}",
+    "INVENTORY_PORT=${module.inventory.container_port}",
+    "CONARTIST_HOST=${module.conartist.name}",
+    "CONARTIST_PORT=${module.conartist.container_port}",
+    "MAHJONG_HOST=${module.mahjong.name}",
+    "MAHJONG_PORT=${module.mahjong.container_port}",
+    "MACHI_KORO_HOST=${module.machi-koro.name}",
+    "MACHI_KORO_PORT=${module.machi-koro.container_port}",
+    "TOKAIDO_HOST=${module.tokaido.name}",
+    "TOKAIDO_PORT=${module.tokaido.container_port}",
+    "CATAN_HOST=${module.catan.name}",
+    "CATAN_PORT=${module.catan.container_port}",
     # HACK: for nginx templating via envsubst, we "escape" the $ as ${DOLLAR}
     "DOLLAR=$",
   ]

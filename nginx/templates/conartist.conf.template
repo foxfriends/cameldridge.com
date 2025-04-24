@@ -3,7 +3,7 @@ server {
     http2 on;
 
     location / {
-        proxy_pass http://localhost:${CONARTIST_PORT};
+        proxy_pass http://${CONARTIST_HOST}:${CONARTIST_PORT};
         proxy_http_version 1.1;
         proxy_set_header Upgrade ${DOLLAR}http_upgrade;
         proxy_set_header Connection 'upgrade';
@@ -25,7 +25,7 @@ server {
     http2 on;
 
     location / {
-        proxy_pass http://localhost:${CONARTIST_PORT}/api/;
+        proxy_pass http://${CONARTIST_HOST}:${CONARTIST_PORT}/api/;
         proxy_http_version 1.1;
         proxy_set_header Upgrade ${DOLLAR}http_upgrade;
         proxy_set_header Connection 'upgrade';
@@ -47,7 +47,7 @@ server {
     http2 on;
 
     location / {
-        proxy_pass http://localhost:${CONARTIST_PORT}/api/v2/;
+        proxy_pass http://${CONARTIST_HOST}:${CONARTIST_PORT}/api/v2/;
         proxy_http_version 1.1;
         proxy_set_header Upgrade ${DOLLAR}http_upgrade;
         proxy_set_header Connection 'upgrade';

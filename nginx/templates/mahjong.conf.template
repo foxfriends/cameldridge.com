@@ -3,7 +3,7 @@ server {
     http2 on;
 
     location / {
-        proxy_pass http://localhost:${MAHJONG_PORT};
+        proxy_pass http://${MAHJONG_PORT}:${MAHJONG_PORT};
         proxy_http_version 1.1;
         proxy_set_header Upgrade ${DOLLAR}http_upgrade;
         proxy_set_header Connection 'upgrade';

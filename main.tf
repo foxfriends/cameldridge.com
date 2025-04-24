@@ -12,6 +12,10 @@ terraform {
       source  = "kreuzwerker/docker"
       version = "3.0.2"
     }
+    random = {
+      source  = "hashicorp/random"
+      version = "3.7.2"
+    }
   }
 }
 
@@ -25,4 +29,8 @@ provider "digitalocean" {
 
 provider "acme" {
   server_url = var.acme_server_url
+}
+
+data "docker_network" "bridge" {
+  name = "bridge"
 }
