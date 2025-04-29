@@ -15,12 +15,17 @@ jobs:
         run: terraform fmt -recursive -check
   validate:
     runs-on: ubuntu-latest
+    environment: cameldridge.com
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
       - uses: hashicorp/setup-terraform@v3
         with:
           terraform_version: "1.11.4"
+      - name: Setup Git credentials
+        run: |
+          git config --global credential.helper store
+          echo "https://${{ github.repository_owner }}:${{ secret.DEPLOY_PAT }}@github.com" >>
       - name: Terraform init
         run: terraform init -backend=false
       - name: Terraform validate
