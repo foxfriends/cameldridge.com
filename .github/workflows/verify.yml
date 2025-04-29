@@ -25,7 +25,7 @@ jobs:
       - name: Setup Git credentials
         run: |
           git config --global credential.helper store
-          echo "https://${{ github.repository_owner }}:${{ secret.DEPLOY_PAT }}@github.com" >>
+          echo "https://${{ github.repository_owner }}:${{ secrets.DEPLOY_PAT }}@github.com" >> ~/.git-credentials
       - name: Terraform init
         run: terraform init -backend=false
       - name: Terraform validate
