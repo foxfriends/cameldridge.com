@@ -54,6 +54,10 @@
         registry_url: ghcr.io
         username: foxfriends
         password: "{{github_packages_pat}}"
+    - name: Configure Git credentials store
+      ansible.builtin.shell: |
+        git config --global credential.helper store
+        echo "https://foxfriends:{{github_repositories_pat}}@github.com" > .git-credentials
     - name: Clone repo
       ansible.builtin.git:
         repo: git@github.com:foxfriends/cameldridge.com.git
