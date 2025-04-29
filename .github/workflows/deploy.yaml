@@ -45,6 +45,10 @@ jobs:
           conartist_mailgun_username: '${{ vars.CONARTIST_MAILGUN_USERNAME }}'
           conartist_mailgun_password: '${{ secrets.CONARTIST_MAILGUN_PASSWORD }}'
           conartist_mailgun_api_key: '${{ secrets.CONARTIST_MAILGUN_API_KEY }}'
+          jef_discord_application_id: '${{ vars.JEF_DISCORD_APPLICATION_ID }}'
+          jef_discord_public_key: '${{ vars.JEF_DISCORD_PUBLIC_KEY }}'
+          jef_discord_client_secret: '${{ secrets.JEF_DISCORD_CLIENT_SECRET }}'
+          jef_discord_bot_token: '${{ secrets.JEF_DISCORD_BOT_TOKEN }}'
           EOF
       - name: Run update playbook
         run: |
