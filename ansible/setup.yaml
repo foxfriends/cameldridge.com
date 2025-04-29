@@ -49,6 +49,11 @@
         name: docker
         state: started
         enabled: true
+    - name: Docker Login
+      community.docker.docker_login:
+        registry_url: ghcr.io
+        username: foxfriends
+        password: "{{github_packages_pat}}"
     - name: Clone repo
       ansible.builtin.git:
         repo: git@github.com:foxfriends/cameldridge.com.git
