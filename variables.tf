@@ -60,3 +60,21 @@ variable "conartist_mailgun_password" {
 variable "conartist_mailgun_username" {
   type = string
 }
+
+variable "jef_discord_application_id" {
+  type = string
+}
+
+variable "jef_discord_public_key" {
+  type = string
+}
+
+variable "jef_discord_client_secret" {
+  type      = string
+  sensitive = true
+}
+
+variable "jef_discord_bot_token" {
+  type      = string
+  sensitive = true
+}

@@ -63,6 +63,10 @@ resource "docker_container" "nginx" {
     name = docker_network.catan_ingress.id
   }
 
+  networks_advanced {
+    name = docker_network.jef_ingress.id
+  }
+
   env = [
     "COOKIEALYST_HOST=${module.cookiealyst.name}",
     "COOKIEALYST_PORT=${module.cookiealyst.container_port}",
@@ -78,6 +82,8 @@ resource "docker_container" "nginx" {
     "TOKAIDO_PORT=${module.tokaido.container_port}",
     "CATAN_HOST=${module.catan.name}",
     "CATAN_PORT=${module.catan.container_port}",
+    "JEF_HOST=${module.jef.name}",
+    "JEF_PORT=${module.jef.container_port}",
     # HACK: for nginx templating via envsubst, we "escape" the $ as ${DOLLAR}
     "DOLLAR=$",
   ]
