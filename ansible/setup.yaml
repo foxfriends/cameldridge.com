@@ -84,4 +84,8 @@
           conartist_mailgun_username: "{{ conartist_mailgun_username }}"
           conartist_mailgun_password: "{{ conartist_mailgun_password }}"
           conartist_mailgun_api_key: "{{ conartist_mailgun_api_key }}"
+          jef_discord_application_id: "{{ jef_discord_application_id }}"
+          jef_discord_public_key: "{{ jef_discord_public_key }}"
+          jef_discord_client_secret: "{{ jef_discord_client_secret }}"
+          jef_discord_bot_token: "{{ jef_discord_bot_token }}"
           acme_server_url: "https://acme-v02.api.letsencrypt.org/directory"
