@@ -2,6 +2,10 @@ resource "docker_image" "nginx" {
   name = "nginx"
 }
 
+resource "terraform_data" "nginx_config" {
+  input = sha1(join("", [for f in fileset("${path.module}/nginx/templates", "*") : filesha1("${path.module}/nginx/templates/${f}")]))
+}
+
 resource "docker_container" "nginx" {
   image   = docker_image.nginx.image_id
   name    = "nginx"
@@ -87,4 +91,10 @@ resource "docker_container" "nginx" {
     # HACK: for nginx templating via envsubst, we "escape" the $ as ${DOLLAR}
     "DOLLAR=$",
   ]
+
+  lifecycle {
+    replace_triggered_by = [
+      terraform_data.nginx_config
+    ]
+  }
 }
