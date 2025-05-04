@@ -36,7 +36,7 @@ plan: init
 
 # Format code.
 [group: "terraform"]
-format:
+fmt:
     terraform fmt -recursive
 
 # Check code.
