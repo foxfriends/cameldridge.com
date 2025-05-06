@@ -17,6 +17,9 @@ module "jef" {
   discord_client_secret  = var.jef_discord_client_secret
   discord_bot_token      = var.jef_discord_bot_token
 
+  shopify_client_id     = var.jef_shopify_client_id
+  shopify_client_secret = var.jef_shopify_client_secret
+
   networks = [{
     name = docker_network.jef_ingress.name
   }]

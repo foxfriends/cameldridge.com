@@ -30,4 +30,6 @@
           jef_discord_public_key: "{{ jef_discord_public_key }}"
           jef_discord_client_secret: "{{ jef_discord_client_secret }}"
           jef_discord_bot_token: "{{ jef_discord_bot_token }}"
+          jef_shopify_client_id: "{{ jef_shopify_client_id }}"
+          jef_shopify_client_secret: "{{ jef_shopify_client_secret }}"
           acme_server_url: "https://acme-v02.api.letsencrypt.org/directory"

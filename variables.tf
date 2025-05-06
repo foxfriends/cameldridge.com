@@ -78,3 +78,12 @@ variable "jef_discord_bot_token" {
   type      = string
   sensitive = true
 }
+
+variable "jef_shopify_client_id" {
+  type = string
+}
+
+variable "jef_shopify_client_secret" {
+  type      = string
+  sensitive = true
+}

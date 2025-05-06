@@ -49,6 +49,8 @@ jobs:
           jef_discord_public_key: '${{ vars.JEF_DISCORD_PUBLIC_KEY }}'
           jef_discord_client_secret: '${{ secrets.JEF_DISCORD_CLIENT_SECRET }}'
           jef_discord_bot_token: '${{ secrets.JEF_DISCORD_BOT_TOKEN }}'
+          jef_shopify_client_id: "{{ vars.JEF_SHOPIFY_CLIENT_ID }}"
+          jef_shopify_client_secret: "{{ secrets.JEF_SHOPIFY_CLIENT_SECRET }}"
           EOF
       - name: Run update playbook
         run: |
