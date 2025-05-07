@@ -26,9 +26,5 @@ resource "docker_container" "cameldridge" {
 }
 
 resource "docker_volume" "cameldridge" {
-  name = "cameldridge"
-
-  lifecycle {
-    replace_triggered_by = [terraform_data.cameldridge_sha]
-  }
+  name = "cameldridge-${substr(data.docker_registry_image.cameldridge.sha256_digest, 7, 8)}"
 }
