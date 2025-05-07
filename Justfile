@@ -21,21 +21,18 @@ pre-init:
 
 # Terraform init.
 [group: "terraform"]
-[working-directory: "containers"]
-init:
-    terraform init
+init project="containers":
+    cd {{project}} && terraform init
 
 # Deploy via Terraform on the current host.
 [group: "terraform"]
-[working-directory: "containers"]
-apply: init
-    terraform apply -var-file=./vars.tfvars
+apply project="containers": (init project)
+    cd {{project}} && terraform apply -var-file=./vars.tfvars
 
 # Run Terraform plan.
 [group: "terraform"]
-[working-directory: "containers"]
-plan: init
-    terraform plan -var-file=./vars.tfvars
+plan project="containers": (init project)
+    cd {{project}} && terraform plan -var-file=./vars.tfvars
 
 # Format code.
 [group: "terraform"]
@@ -44,7 +41,7 @@ fmt:
 
 # Check code.
 [group: "terraform"]
-[working-directory: "containers"]
 check: init
     terraform fmt -recursive -check
-    terraform validate
+    cd containers && terraform validate
+    cd infrastructure && terraform validate
