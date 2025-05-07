@@ -16,10 +16,11 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     environment: cameldridge.com
-    matrix:
-      project:
-        - containers
-        - infrastructure
+    strategy:
+      matrix:
+        project:
+          - containers
+          - infrastructure
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
