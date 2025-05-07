@@ -65,7 +65,7 @@
         dest: "cameldridge.com"
     - name: Terraform init
       community.general.terraform:
-        project_path: "./cameldridge.com"
+        project_path: "./cameldridge.com/containers"
         state: planned
         plan_file: init.tfplan
         provider_upgrade: true

@@ -1,6 +1,6 @@
-/inventory/
-/nginx/ssl/*
-!/nginx/ssl/dhparam
+/containers/inventory/
+/containers/nginx/ssl/*
+!/containers/nginx/ssl/dhparam
 .terraform
 *.tfstate*
 *.tfplan*

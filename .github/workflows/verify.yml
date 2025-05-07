@@ -28,5 +28,7 @@ jobs:
           echo "https://${{ github.repository_owner }}:${{ secrets.DEPLOY_PAT }}@github.com" >> ~/.git-credentials
       - name: Terraform init
         run: terraform init -backend=false
+        working-directory: ./containers/
       - name: Terraform validate
         run: terraform validate
+        working-directory: ./containers/

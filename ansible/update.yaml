@@ -9,7 +9,7 @@
         clone: false
     - name: Terraform apply
       community.general.terraform:
-        project_path: "./cameldridge.com"
+        project_path: "./cameldridge.com/containers"
         provider_upgrade: true
         force_init: true
         variables:
