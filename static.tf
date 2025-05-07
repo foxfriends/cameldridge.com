@@ -1,0 +1,26 @@
+data "docker_registry_image" "cameldridge" {
+  name = "ghcr.io/foxfriends/cameldridge:main"
+}
+
+resource "docker_image" "cameldridge" {
+  name          = "ghcr.io/foxfriends/cameldridge:main"
+  pull_triggers = [data.docker_registry_image.cameldridge.sha256_digest]
+}
+
+resource "docker_container" "cameldridge" {
+  image = docker_image.cameldridge.image_id
+  name  = "cameldridge"
+
+  must_run = false
+
+  volumes {
+    container_path = "/app/dist"
+    volume_name    = docker_volume.cameldridge.name
+  }
+
+  network_mode = "none"
+}
+
+resource "docker_volume" "cameldridge" {
+  name = "cameldridge"
+}

@@ -1,5 +1,5 @@
 server {
-    server_name tokaido.cameldridge.com;
+    server_name tokaido.${CAMELDRIDGE_HOST_NAME};
     http2 on;
 
     location / {

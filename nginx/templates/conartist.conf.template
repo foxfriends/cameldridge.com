@@ -1,5 +1,5 @@
 server {
-    server_name conartist.app www.conartist.app;
+    server_name ${CONARTIST_HOST_NAME};
     http2 on;
 
     location / {
@@ -21,7 +21,7 @@ server {
 }
 
 server {
-    server_name api.conartist.app;
+    server_name api.${CONARTIST_HOST_NAME};
     http2 on;
 
     location / {
@@ -43,7 +43,7 @@ server {
 }
 
 server {
-    server_name graph.conartist.app;
+    server_name graph.${CONARTIST_HOST_NAME};
     http2 on;
 
     location / {

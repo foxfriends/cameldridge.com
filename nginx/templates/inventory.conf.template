@@ -1,5 +1,5 @@
 server {
-    server_name inventory.cameldridge.com;
+    server_name inventory.${CAMELDRIDGE_HOST_NAME};
     http2 on;
 
     location / {

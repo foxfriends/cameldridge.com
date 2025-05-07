@@ -1,5 +1,5 @@
 server {
-    server_name mahjong.cameldridge.com;
+    server_name mahjong.${CAMELDRIDGE_HOST_NAME};
     http2 on;
 
     location / {

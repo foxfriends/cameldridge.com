@@ -1,14 +1,14 @@
 server {
-    server_name catan.${CAMELDRIDGE_HOST_NAME};
+    server_name ${CAMELDRIDGE_HOST_NAME} www.${CAMELDRIDGE_HOST_NAME};
     http2 on;
 
     location / {
-        proxy_pass http://${CATAN_HOST}:${CATAN_PORT};
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade ${DOLLAR}http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host ${DOLLAR}host;
-        proxy_cache_bypass ${DOLLAR}http_upgrade;
+        root /www/cameldridge/;
+    }
+
+    location /game/ {
+        alias /www/game/;
+        autoindex on;
     }
 
     listen 443 ssl;

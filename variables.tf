@@ -1,3 +1,18 @@
+variable "cameldridge_host_name" {
+  type    = string
+  default = "cameldridge.com"
+}
+
+variable "cookiealyst_host_name" {
+  type    = string
+  default = "cookiealyst.com"
+}
+
+variable "conartist_host_name" {
+  type    = string
+  default = "conartist.app"
+}
+
 variable "digitalocean_token" {
   type = string
 }

@@ -1,5 +1,5 @@
 server {
-    server_name machi.cameldridge.com;
+    server_name machi.${CAMELDRIDGE_HOST_NAME};
     http2 on;
 
     location / {

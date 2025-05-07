@@ -33,6 +33,18 @@ resource "docker_container" "nginx" {
     read_only      = true
   }
 
+  volumes {
+    container_path = "/www/game/"
+    host_path      = abspath("${path.module}/cameldridge/game")
+    read_only      = true
+  }
+
+  volumes {
+    container_path = "/www/cameldridge/"
+    volume_name    = docker_volume.cameldridge.name
+    read_only      = true
+  }
+
   network_mode = "bridge"
 
   networks_advanced {
@@ -72,6 +84,9 @@ resource "docker_container" "nginx" {
   }
 
   env = [
+    "COOKIEALYST_HOST_NAME=${var.cookiealyst_host_name}",
+    "CONARTIST_HOST_NAME=${var.conartist_host_name}",
+    "CAMELDRIDGE_HOST_NAME=${var.cameldridge_host_name}",
     "COOKIEALYST_HOST=${module.cookiealyst.name}",
     "COOKIEALYST_PORT=${module.cookiealyst.container_port}",
     "INVENTORY_HOST=${module.inventory.name}",

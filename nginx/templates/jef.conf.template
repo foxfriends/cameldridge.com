@@ -1,5 +1,5 @@
 server {
-    server_name jef.cameldridge.com;
+    server_name jef.${CAMELDRIDGE_HOST_NAME};
     http2 on;
 
     location / {
