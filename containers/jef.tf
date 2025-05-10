@@ -12,7 +12,7 @@ module "jef" {
 
   base_url = "https://jef.cameldridge.com"
 
-  well_known_dir = "${path.module}/jef/.well-known"
+  well_known_dir = abspath("${path.module}/jef/.well-known")
 
   discord_application_id = var.jef_discord_application_id
   discord_public_key     = var.jef_discord_public_key
