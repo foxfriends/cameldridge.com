@@ -5,7 +5,7 @@
                 "appIDs": ["KT5TYPEMWT.com.jef.provider"],
                 "components": [
                     {
-                        "/": "/prov",
+                        "/": "/prov/*",
                         "comment": "URLs starting with /prov"
                     }
                 ]
