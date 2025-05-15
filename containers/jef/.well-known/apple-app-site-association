@@ -5,8 +5,8 @@
                 "appIDs": ["KT5TYPEMWT.com.jef.provider"],
                 "components": [
                     {
-                        "/": "/prov/*",
-                        "comment": "URLs starting with /prov"
+                        "/": "/provider/oauth/callback",
+                        "comment": "The OAuth2 redirect URL"
                     }
                 ]
             }
