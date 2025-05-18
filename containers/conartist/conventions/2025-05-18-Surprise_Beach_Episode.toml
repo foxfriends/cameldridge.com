@@ -1,3 +1,4 @@
+id = 1016
 title = "Surprise Beach Episode 2025"
 start_date = 2025-05-18
 end_date = 2025-05-18
@@ -16,5 +17,6 @@ city = "Toronto, ON"
 country = "Canada"
 
 [address.coordinates]
-lat = 43.6430467
-lon = -79.4122485
+lat = 43.64304733276367
+lon = -79.41224670410156
+
