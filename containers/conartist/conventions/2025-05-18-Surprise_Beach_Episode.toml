@@ -1,0 +1,20 @@
+title = "Surprise Beach Episode 2025"
+start_date = 2025-05-18
+end_date = 2025-05-18
+
+[website]
+title = "instagram.com/mrsurprisethewell"
+url = "https://www.instagram.com/mrsurprisetoys/p/DIWxRC4phSr/"
+
+[address]
+address = """
+Lower Ground @ The Well
+486 Front St W.
+Toronto, ON
+M5V 0V2"""
+city = "Toronto, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.6430467
+lon = -79.4122485
