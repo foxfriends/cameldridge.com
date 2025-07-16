@@ -22,6 +22,8 @@ module "jef" {
   shopify_client_id     = var.jef_shopify_client_id
   shopify_client_secret = var.jef_shopify_client_secret
 
+  mandrill_api_key = ""
+
   networks = [{
     name = docker_network.jef_ingress.name
   }]
