@@ -42,14 +42,6 @@ resource "digitalocean_record" "inventory_cameldridge" {
   ttl    = 3600
 }
 
-resource "digitalocean_record" "jef_cameldridge" {
-  domain = "cameldridge.com"
-  type   = "A"
-  name   = "jef"
-  value  = "159.203.22.112"
-  ttl    = 3600
-}
-
 resource "digitalocean_record" "catan_cameldridge" {
   domain = "cameldridge.com"
   type   = "A"
