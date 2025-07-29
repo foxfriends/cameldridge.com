@@ -1,0 +1,21 @@
+id = 1017
+title = "Anirevo Toronto"
+start_date = 2025-11-21
+end_date = 2025-11-23
+
+[website]
+title = "toronto.animerevolution.ca"
+url = "https://toronto.animerevolution.ca"
+
+[address]
+address = """
+Metro Toronto Convention Centre
+Toronto, ON, Canada
+M5V 2W6"""
+city = "Toronto, ON"
+country = "Canada"
+
+[address.coordinates]
+lat = 43.643775939941406
+lon = -79.3869857788086
+
