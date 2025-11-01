@@ -16,6 +16,10 @@ terraform {
       source  = "hashicorp/tls"
       version = "4.1.0"
     }
+    acme = {
+      source  = "vancluever/acme"
+      version = "2.31.0"
+    }
   }
 }
 
@@ -30,6 +34,10 @@ provider "docker" {
 
 provider "digitalocean" {
   token = var.digitalocean_token
+}
+
+provider "acme" {
+  server_url = "https://acme-v02.api.letsencrypt.org/directory"
 }
 
 data "docker_network" "bridge" {
