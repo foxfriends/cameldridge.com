@@ -1,14 +1,14 @@
-resource "docker_image" "nginx" {
-  name = "nginx"
+resource "docker_image" "caddy" {
+  name = "caddy"
 }
 
-resource "terraform_data" "nginx_config" {
-  input = sha1(join("", [for f in fileset("${path.module}/nginx/templates", "*") : filesha1("${path.module}/nginx/templates/${f}")]))
+resource "terraform_data" "caddy_config" {
+  input = sha1(join("", [for f in fileset("${path.module}/caddy/conf", "*") : filesha1("${path.module}/caddy/conf/${f}")]))
 }
 
-resource "docker_container" "nginx" {
-  image   = docker_image.nginx.image_id
-  name    = "nginx"
+resource "docker_container" "caddy" {
+  image   = docker_image.caddy.image_id
+  name    = "caddy"
   restart = "unless-stopped"
 
   ports {
@@ -22,14 +22,8 @@ resource "docker_container" "nginx" {
   }
 
   volumes {
-    container_path = "/etc/nginx/templates"
-    host_path      = abspath("${path.module}/nginx/templates")
-    read_only      = true
-  }
-
-  volumes {
-    container_path = "/ssl/"
-    host_path      = abspath("${path.module}/nginx/ssl")
+    container_path = "/etc/caddy"
+    host_path      = abspath("${path.module}/caddy/conf")
     read_only      = true
   }
 
@@ -97,13 +91,11 @@ resource "docker_container" "nginx" {
     "TOKAIDO_PORT=${module.tokaido.container_port}",
     "CATAN_HOST=${module.catan.name}",
     "CATAN_PORT=${module.catan.container_port}",
-    # HACK: for nginx templating via envsubst, we "escape" the $ as ${DOLLAR}
-    "DOLLAR=$",
   ]
 
   lifecycle {
     replace_triggered_by = [
-      terraform_data.nginx_config
+      terraform_data.caddy_config
     ]
   }
 }

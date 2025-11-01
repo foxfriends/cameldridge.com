@@ -1,0 +1,37 @@
+{$CAMELDRIDGE_HOST_NAME} {
+	handle_path /game/* {
+		root * /www/game/
+		file_server
+	}
+
+	root * /www/cameldridge/
+	file_server
+}
+
+catan.{$CAMELDRIDGE_HOST_NAME} {
+	reverse_proxy {$CATAN_HOST}:{$CATAN_PORT}
+}
+
+tokaido.{$CAMELDRIDGE_HOST_NAME} {
+	reverse_proxy {$TOKAIDO_HOST}:{$TOKAIDO_PORT}
+}
+
+mahjong.{$CAMELDRIDGE_HOST_NAME} {
+	reverse_proxy {$MAHJONG_HOST}:{$MAHJONG_PORT}
+}
+
+machi.{$CAMELDRIDGE_HOST_NAME} {
+	reverse_proxy {$MACHI_KORO_HOST}:{$MACHI_KORO_PORT}
+}
+
+inventory.{$CAMELDRIDGE_HOST_NAME} {
+	reverse_proxy {$INVENTORY_HOST}:{$INVENTORY_PORT}
+}
+
+{$COOKIEALYST_HOST_NAME} {
+	reverse_proxy {$COOKIEALYST_HOST}:{$COOKIEALYST_PORT}
+}
+
+{$CONARTIST_HOST_NAME} {
+	reverse_proxy {$CONARTIST_HOST}:{$CONARTIST_PORT}
+}

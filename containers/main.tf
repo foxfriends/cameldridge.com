@@ -1,9 +1,5 @@
 terraform {
   required_providers {
-    acme = {
-      source  = "vancluever/acme"
-      version = "2.31.0"
-    }
     digitalocean = {
       source  = "digitalocean/digitalocean"
       version = "2.50.0"
@@ -34,10 +30,6 @@ provider "docker" {
 
 provider "digitalocean" {
   token = var.digitalocean_token
-}
-
-provider "acme" {
-  server_url = var.acme_server_url
 }
 
 data "docker_network" "bridge" {
