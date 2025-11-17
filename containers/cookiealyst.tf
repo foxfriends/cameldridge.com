@@ -13,6 +13,8 @@ module "cookiealyst" {
   data_dir   = abspath("${path.module}/cookiealyst/load")
   images_dir = abspath("${path.module}/cookiealyst/images")
 
+  active_year = 2025
+
   networks = [{
     name = docker_network.cookiealyst_ingress.name
   }]
