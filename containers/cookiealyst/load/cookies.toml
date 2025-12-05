@@ -52,7 +52,7 @@ id = "miso-toffee-chocolate-chip"
 year = 2025
 name = "Miso Toffee Chocolate Chip"
 description = "Brown butter + 70% dark chocolate"
-image_url = "/images/miso-toffee-chocolate.chip.png"
+image_url = "/images/miso-toffee-chocolate-chip.png"
 
 [[cookies]]
 id = "roasted-shortbread"
