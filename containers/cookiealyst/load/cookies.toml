@@ -39,3 +39,45 @@ year = 2024
 name = "Forest Thumbprint"
 description = "Summer strawberry + wild spruce tip"
 image_url = "/images/spruce-strawberry-thumb.png"
+
+[[cookies]]
+id = "cranberry-pistachio"
+year = 2025
+name = "Brown Butter Slice"
+description = "Cranberry + pistachio + white chocolate"
+image_url = "/images/cranberry-pistachio.png"
+
+[[cookies]]
+id = "miso-toffee-chocolate-chip"
+year = 2025
+name = "Miso Toffee Chocolate Chip"
+description = "Brown butter + 70% dark chocolate"
+image_url = "/images/miso-toffee-chocolate.chip.png"
+
+[[cookies]]
+id = "roasted-shortbread"
+year = 2025
+name = "Roasted Shortbreads"
+description = "Toasted rye flour + cultured butter"
+image_url = "/images/roasted-shortbread.png"
+
+[[cookies]]
+id = "wasabi-pepparkakor"
+year = 2025
+name = "Wasabi Pepparkakor"
+description = "Mörk sirap + ginger"
+image_url = "/images/wasabi-pepparkakor.png"
+
+[[cookies]]
+id = "pear-softie"
+year = 2025
+name = "Pear Softies"
+description = "Rosemary + vanilla bean"
+image_url = "/images/pear-softie.png"
+
+[[cookies]]
+id = "chocolate-sable"
+year = 2025
+name = "Very Chocolatey Sablé"
+description = "Cocoa nibs + freeze dried raspberries"
+image_url = "/images/chocolate-sable.png"
