@@ -28,6 +28,10 @@ inventory.{$CAMELDRIDGE_HOST_NAME} {
 	reverse_proxy {$INVENTORY_HOST}:{$INVENTORY_PORT}
 }
 
+dozzle.{$CAMELDRIDGE_HOST_NAME} {
+	reverse_proxy {$DOZZLE_HOST}:{$DOZZLE_PORT}
+}
+
 {$COOKIEALYST_HOST_NAME} {
 	reverse_proxy {$COOKIEALYST_HOST}:{$COOKIEALYST_PORT}
 }

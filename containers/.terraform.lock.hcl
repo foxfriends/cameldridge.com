@@ -96,6 +96,7 @@ provider "registry.terraform.io/vancluever/acme" {
   constraints = "2.31.0"
   hashes = [
     "h1:AmgRhOeBy93n26O4cNS1qja9YPevAFMInbnw4SK9hAI=",
+    "h1:tAdnWa2mbO7E3I07vzzl6bNJomq8rTWfeSsVFlOaSbI=",
     "zh:05936481b0460d3f8dff588821a807143a95dc91649bb2e2fe073bf9c6a04803",
     "zh:3c75dffec3b4765c923d7618e7f98c20d174b1c7e99171327388d796217d53f9",
     "zh:4ff41a297847a0d9640dd17119d3eeac804e835bb5673aeef1fb36745ff887c9",

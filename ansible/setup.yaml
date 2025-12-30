@@ -12,6 +12,7 @@
           - software-properties-common
           - ca-certificates
           - curl
+          - wireguard
     - name: Install Hashicorp GPG key
       become: true
       ansible.builtin.shell: |
