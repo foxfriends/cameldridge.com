@@ -1,3 +1,9 @@
+resource "docker_network" "dozzle_ingress" {
+  name     = "dozzle-ingress"
+  driver   = "bridge"
+  internal = true
+}
+
 resource "docker_image" "dozzle" {
   name = "amir20/dozzle"
 }
@@ -15,7 +21,7 @@ resource "docker_container" "dozzle" {
   network_mode = "bridge"
 
   networks_advanced {
-    name = data.docker_network.bridge.id
+    name = docker_network.dozzle_ingress.id
   }
 
   env = [

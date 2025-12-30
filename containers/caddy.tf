@@ -73,6 +73,10 @@ resource "docker_container" "caddy" {
     name = docker_network.catan_ingress.id
   }
 
+  networks_advanced {
+    name = docker_network.dozzle_ingress.id
+  }
+
   env = [
     "COOKIEALYST_HOST_NAME=${var.cookiealyst_host_name}",
     "CONARTIST_HOST_NAME=${var.conartist_host_name}",
