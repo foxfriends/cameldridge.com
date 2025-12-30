@@ -92,7 +92,7 @@ resource "docker_container" "caddy" {
     "CATAN_HOST=${module.catan.name}",
     "CATAN_PORT=${module.catan.container_port}",
     "DOZZLE_HOST=${docker_container.dozzle.name}",
-    "DOZZLE_PORT=${docker_container.dozzle.ports[0].external}",
+    "DOZZLE_PORT=8080",
   ]
 
   lifecycle {
