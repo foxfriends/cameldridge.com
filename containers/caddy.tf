@@ -73,10 +73,6 @@ resource "docker_container" "caddy" {
     name = docker_network.catan_ingress.id
   }
 
-  networks_advanced {
-    name = docker_network.dozzle_ingress.id
-  }
-
   env = [
     "COOKIEALYST_HOST_NAME=${var.cookiealyst_host_name}",
     "CONARTIST_HOST_NAME=${var.conartist_host_name}",
@@ -95,8 +91,6 @@ resource "docker_container" "caddy" {
     "TOKAIDO_PORT=${module.tokaido.container_port}",
     "CATAN_HOST=${module.catan.name}",
     "CATAN_PORT=${module.catan.container_port}",
-    "DOZZLE_HOST=${docker_container.dozzle.name}",
-    "DOZZLE_PORT=8080",
   ]
 
   lifecycle {

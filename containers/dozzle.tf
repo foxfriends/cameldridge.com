@@ -12,16 +12,23 @@ resource "docker_container" "dozzle" {
   image   = docker_image.dozzle.image_id
   name    = "dozzle"
   restart = "unless-stopped"
+  command = ["agent"]
 
   volumes {
     container_path = "/var/run/docker.sock"
     host_path      = "/var/run/docker.sock"
+    read_only      = true
+  }
+
+  ports {
+    internal = 7007
+    external = 7007
   }
 
   network_mode = "bridge"
 
   networks_advanced {
-    name = docker_network.dozzle_ingress.id
+    name = data.docker_network.bridge.id
   }
 
   env = [
