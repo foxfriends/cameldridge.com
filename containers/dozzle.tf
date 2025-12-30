@@ -12,6 +12,10 @@ resource "docker_container" "dozzle" {
     host_path      = "/var/run/docker.sock"
   }
 
+  ports {
+    internal = "8080"
+  }
+
   network_mode = "bridge"
 
   networks_advanced {
