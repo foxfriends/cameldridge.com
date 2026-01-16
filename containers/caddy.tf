@@ -1,5 +1,5 @@
 resource "docker_image" "caddy" {
-  name = "caddy"
+  name = "caddy:latest"
 }
 
 resource "terraform_data" "caddy_config" {
@@ -8,7 +8,7 @@ resource "terraform_data" "caddy_config" {
 
 resource "docker_container" "caddy" {
   image   = docker_image.caddy.image_id
-  name    = "caddy:latest"
+  name    = "caddy"
   restart = "unless-stopped"
 
   ports {
