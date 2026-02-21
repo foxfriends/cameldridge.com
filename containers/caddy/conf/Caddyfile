@@ -37,11 +37,11 @@ inventory.{$CAMELDRIDGE_HOST_NAME} {
 }
 
 graph.{$CONARTIST_HOST_NAME} {
-    rewrite * /api/v2{url}
+	rewrite * /api/v2{uri}
 	reverse_proxy {$CONARTIST_HOST}:{$CONARTIST_PORT}
 }
 
 api.{$CONARTIST_HOST_NAME} {
-    rewrite * /api{url}
+	rewrite * /api{uri}
 	reverse_proxy {$CONARTIST_HOST}:{$CONARTIST_PORT}
 }
