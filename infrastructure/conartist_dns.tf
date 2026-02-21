@@ -12,10 +12,10 @@ resource "digitalocean_record" "mail_conartist_txt" {
 
 resource "digitalocean_record" "graph_conartist" {
   domain = "conartist.app"
-  type   = "CNAME"
+  type   = "A"
   name   = "graph"
-  value  = "@"
-  ttl    = 43200
+  value  = "159.203.22.112"
+  ttl    = 3600
 }
 
 resource "digitalocean_record" "smtp_domainkey_conartist" {
@@ -28,10 +28,10 @@ resource "digitalocean_record" "smtp_domainkey_conartist" {
 
 resource "digitalocean_record" "api_conartist" {
   domain = "conartist.app"
-  type   = "CNAME"
+  type   = "A"
   name   = "api"
-  value  = "@"
-  ttl    = 43200
+  value  = "159.203.22.112"
+  ttl    = 3600
 }
 
 resource "digitalocean_record" "conartist_ns2" {
