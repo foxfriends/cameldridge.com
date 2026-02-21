@@ -32,6 +32,16 @@ inventory.{$CAMELDRIDGE_HOST_NAME} {
 	reverse_proxy {$COOKIEALYST_HOST}:{$COOKIEALYST_PORT}
 }
 
-{$CONARTIST_HOST_NAME}, graph.{$CONARTIST_HOST_NAME}, api.{$CONARTIST_HOST_NAME} {
+{$CONARTIST_HOST_NAME} {
+	reverse_proxy {$CONARTIST_HOST}:{$CONARTIST_PORT}
+}
+
+graph.{$CONARTIST_HOST_NAME} {
+    rewrite * /api/v2{url}
+	reverse_proxy {$CONARTIST_HOST}:{$CONARTIST_PORT}
+}
+
+api.{$CONARTIST_HOST_NAME} {
+    rewrite * /api{url}
 	reverse_proxy {$CONARTIST_HOST}:{$CONARTIST_PORT}
 }
