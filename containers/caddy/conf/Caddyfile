@@ -8,6 +8,10 @@
 	file_server
 }
 
+card.kittyalyst.com, http://card.kittyalyst.com {
+    redir https://kittyalyst.carrd.co
+}
+
 catan.{$CAMELDRIDGE_HOST_NAME} {
 	reverse_proxy {$CATAN_HOST}:{$CATAN_PORT}
 }
