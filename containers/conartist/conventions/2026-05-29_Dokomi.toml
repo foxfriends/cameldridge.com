@@ -1,32 +1,36 @@
+id = 1028
 title = "Dokomi 2026"
 start_date = 2026-05-29
 end_date = 2026-05-31
 tags = ["anime", "manga", "cosplay"]
 
 [[hours]]
-start = 2026-05-29 13:00:00+02:00
-end   = 2026-05-29 20:00:00+02:00
+start = 2026-05-29T13:00:00+02:00
+end = 2026-05-29T20:00:00+02:00
+
 [[hours]]
-start = 2026-05-30 10:00:00+02:00
-end   = 2026-05-30 20:00:00+02:00
+start = 2026-05-30T10:00:00+02:00
+end = 2026-05-30T20:00:00+02:00
+
 [[hours]]
-start = 2026-05-31 10:00:00+02:00
-end   = 2026-05-31 18:00:00+02:00
+start = 2026-05-31T10:00:00+02:00
+end = 2026-05-31T18:00:00+02:00
 
 [website]
-url = "https://www.dokomi.de/"
 title = "dokomi.de"
+url = "https://www.dokomi.de/"
 
 [address]
-country = "Germany"
-city = "Düsseldorf, North Rhine-Westphalia"
 address = """
 Trade Fair Düsseldorf
 Stockumer Kirchstrasse 61
 40474 Düsseldorf
 Germany
 """
+city = "Düsseldorf, North Rhine-Westphalia"
+country = "Germany"
 
 [address.coordinates]
-lat = 51.2614606
-lon = 6.7359172
+lat = 51.26145935058594
+lon = 6.735917091369629
+
