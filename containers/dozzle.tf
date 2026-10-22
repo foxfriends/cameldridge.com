@@ -5,7 +5,7 @@ resource "docker_network" "dozzle_ingress" {
 }
 
 resource "docker_image" "dozzle" {
-  name = "amir20/dozzle:v11.3.2"
+  name = "amir20/dozzle:v11.3.4"
 }
 
 resource "docker_container" "dozzle" {
